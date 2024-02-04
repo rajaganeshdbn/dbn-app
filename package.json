@@ -13,6 +13,7 @@
     "install:plugin": "npm install --workspace=@databrainhq/plugin",
     "build:app": "npm run build --workspace=@databrainhq/frontend",
     "build:app:staging": "npm run build:staging --workspace=@databrainhq/frontend",
+    "build:azure": "npm run build:staging --workspace=@databrainhq/frontend",
     "build:plugin": "npm run build --workspace=@databrainhq/plugin",
     "start:demo": "npm run start --workspace=@databrainhq/demo",
     "start:plugin:repl": "npm run start --workspace=@databrainhq/plugin",
