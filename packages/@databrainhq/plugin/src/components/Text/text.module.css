@@ -1,0 +1,81 @@
+@import url('../../utils/getTextColor.css');
+
+.heading-xl {
+  @apply dbn-text-2xl dbn-leading-7 dbn-font-medium dbn-font-sans;
+}
+
+.heading-lg {
+  @apply dbn-text-lg dbn-leading-relaxed dbn-font-medium dbn-font-sans;
+}
+
+.heading {
+  @apply dbn-text-base dbn-leading-normal dbn-font-medium dbn-font-sans;
+}
+
+.body-text-lg {
+  @apply dbn-text-lg dbn-leading-normal dbn-font-normal dbn-font-sans;
+}
+
+.body-text {
+  @apply dbn-text-base dbn-leading-normal dbn-font-normal dbn-font-sans;
+}
+
+.body-text-sm {
+  @apply dbn-text-sm dbn-leading-normal dbn-font-normal dbn-font-sans;
+}
+
+.body-text-xs {
+  @apply dbn-text-xs dbn-leading-4 dbn-font-normal dbn-font-sans;
+}
+
+.btn {
+  @apply dbn-text-sm dbn-leading-5 dbn-font-medium dbn-inline-block dbn-font-sans;
+}
+
+.label {
+  @apply dbn-text-sm dbn-leading-6 dbn-font-medium dbn-inline-block dbn-font-sans;
+}
+
+.sub-label {
+  @apply dbn-text-xs dbn-leading-4 dbn-font-normal dbn-inline-block dbn-font-sans;
+}
+
+.display {
+  @apply dbn-text-3xl dbn-leading-9 dbn-font-extrabold dbn-font-sans;
+}
+
+.inline {
+  @apply dbn-inline-block;
+}
+
+.block {
+  display: block;
+}
+/* Text component storybook styling */
+.storyBookPrimary {
+  @apply dbn-mb-3;
+}
+
+.storyBookPrimary > *:not(.primaryStoryHeading, section) {
+  @apply dbn-border dbn-border-gray-200 dbn-rounded dbn-px-8 dbn-py-4;
+}
+
+.primaryStoryHeading {
+  @apply dbn-text-5xl dbn-leading-9 dbn-font-bold dbn-py-4 dbn-border-b dbn-border-gray-200 dbn-mb-8;
+}
+
+.primaryStorySection {
+  @apply dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.primaryStorySection > div {
+  @apply dbn-flex dbn-items-center;
+}
+
+.primaryStorySection > div > * {
+  @apply dbn-flex-1;
+}
+
+.primaryStoryTextInfo {
+  @apply dbn-text-xs dbn-text-[#717171];
+}

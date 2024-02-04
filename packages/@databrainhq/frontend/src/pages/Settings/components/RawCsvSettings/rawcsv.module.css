@@ -1,0 +1,7 @@
+.wrapper {
+  @apply dbn-w-full dbn-max-w-[600px] dbn-p-4;
+}
+
+.formContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-4;
+}

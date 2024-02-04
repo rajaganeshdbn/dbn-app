@@ -1,0 +1,5 @@
+mutation DeleteAPIToken ($id: uuid!) {
+  delete_apiTokens_by_pk (id: $id) {
+    name
+  }
+}

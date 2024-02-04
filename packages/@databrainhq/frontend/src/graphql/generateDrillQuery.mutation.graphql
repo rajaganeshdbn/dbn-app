@@ -1,0 +1,18 @@
+mutation GenerateDrillQuery(
+  $baseQuery: String = ""
+  $database: String = ""
+  $filters: json = ""
+  $drillType: String = ""
+) {
+  generateDrillQuery(
+    input: {
+      database: $database
+      filters: $filters
+      baseQuery: $baseQuery
+      drillType: $drillType
+    }
+  ) {
+    error
+    modifiedQuery
+  }
+}

@@ -1,0 +1,37 @@
+.form-container {
+  @apply dbn-w-full dbn-h-full dbn-p-10 dbn-pb-0;
+}
+.signup-container {
+  @apply dbn-flex dbn-mx-auto dbn-items-center dbn-justify-end;
+}
+.signup-text {
+  @apply dbn-not-italic dbn-font-normal !dbn-text-sm sm:dbn-text-base dbn-leading-[1.063rem] dbn-text-blue-h17;
+}
+
+.signin-container {
+  @apply dbn-max-w-[40rem] dbn-p-5  dbn-relative;
+}
+
+.signin-text {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-2xl dbn-leading-[1.813rem] dbn-text-blue-h7 dbn-mb-6;
+}
+
+.signin-button-container {
+  @apply dbn-flex dbn-flex-wrap sm:dbn-flex-nowrap dbn-gap-5 dbn-items-center dbn-justify-center sm:dbn-justify-between dbn-mt-4;
+}
+
+.forgot-password-text {
+  @apply dbn-not-italic dbn-font-normal dbn-text-sm dbn-leading-[1.063rem] dbn-underline dbn-text-blue-h4;
+}
+
+.signup-error-container {
+  @apply dbn-mt-3 dbn-bg-red-100 dbn-p-2 dbn-border-2 dbn-border-red-200;
+}
+
+.SignUpBtn {
+  @apply dbn-border dbn-border-[#2D2D2D80] dbn-shadow-[0px_4px_5px_rgba(0,0,0,0.15)] dbn-px-4 dbn-py-2 dbn-rounded-md dbn-text-sm dbn-font-semibold dbn-ml-2;
+}
+
+.headerTitle {
+  @apply dbn-text-lg dbn-font-semibold dbn-text-text-primary-color dbn-flex dbn-flex-row dbn-gap-2 dbn-items-center dbn-justify-center;
+}

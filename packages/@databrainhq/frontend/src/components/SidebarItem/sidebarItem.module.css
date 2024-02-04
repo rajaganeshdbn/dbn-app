@@ -1,0 +1,12 @@
+.tab-container {
+  @apply dbn-w-[12.75rem] dbn-mt-3 dbn-flex dbn-pl-3 dbn-py-3 dbn-items-center dbn-justify-start dbn-rounded-md dbn-bg-white hover:dbn-bg-blue-h9 dbn-text-blue-h7 hover:dbn-text-blue-h4 dbn-font-normal hover:dbn-font-medium dbn-cursor-pointer;
+}
+.tab-active {
+  @apply dbn-bg-blue-h9 dbn-text-blue-h4 dbn-font-medium;
+}
+.tab-notActive {
+  @apply dbn-bg-white hover:dbn-bg-blue-h9 dbn-text-blue-h7 hover:dbn-text-blue-h4 dbn-font-normal hover:dbn-font-medium;
+}
+.tab-text {
+  @apply dbn-not-italic dbn-text-sm dbn-leading-[1.063rem] dbn-tracking-ls-1 dbn-flex;
+}

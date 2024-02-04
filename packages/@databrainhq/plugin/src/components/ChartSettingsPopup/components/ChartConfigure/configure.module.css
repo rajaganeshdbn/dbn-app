@@ -1,0 +1,154 @@
+.container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-3;
+}
+.container-wrapper {
+  @apply dbn-w-full dbn-px-5 dbn-flex dbn-flex-col dbn-gap-4;
+}
+.wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center;
+}
+.marginContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-justify-center dbn-items-center;
+}
+.chartDemo {
+  @apply dbn-w-[100px] dbn-h-[100px] dbn-border dbn-border-primary dbn-rounded-md;
+}
+.chartDemoContainer {
+  @apply dbn-flex dbn-gap-3 dbn-items-center dbn-justify-center;
+}
+.marginWrapper {
+  @apply dbn-w-[80px];
+}
+.chartColors {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-bg-blue-50 dbn-rounded-md dbn-px-4 dbn-py-2;
+}
+.prefixSuffixContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-gap-4;
+}
+.header {
+  @apply dbn-flex dbn-w-full dbn-h-10 dbn-border-b dbn-divide-solid dbn-items-center dbn-px-4;
+}
+.tabContainer {
+  @apply dbn-border-b;
+}
+.tab {
+  @apply dbn-justify-center;
+}
+.tabText {
+  @apply dbn-text-sm;
+}
+.tabHeading {
+  @apply dbn-text-base dbn-mb-2;
+}
+.form {
+  @apply dbn-p-5 dbn-overflow-y-auto dbn-h-[90%];
+}
+.inputWrapper {
+  @apply dbn-w-[150px] dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+.positionContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-wrap dbn-gap-6 dbn-justify-center;
+}
+.positionWrapper {
+  @apply dbn-w-[150px] dbn-flex dbn-flex-row dbn-items-center dbn-gap-3;
+}
+.input {
+  @apply dbn-w-full;
+}
+.labelFormatTooltip {
+  @apply dbn-absolute dbn-top-0 dbn-right-0;
+}
+.checkboxTooltip {
+  @apply dbn-absolute dbn-right-0 dbn-top-1.5;
+}
+.checkboxTooltipWrapper {
+  @apply dbn-relative;
+}
+.series {
+  @apply dbn-flex dbn-gap-4 dbn-flex-col;
+}
+.legendWrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+.badgeDiv {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+.checkboxWrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-1;
+}
+.seriesWrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-3;
+}
+.valueLabelWrapper {
+  @apply dbn-w-full;
+}
+.singleCheckBox {
+  @apply dbn-flex dbn-gap-0;
+}
+.seriesCheck {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-items-center;
+}
+.seriesCheckContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col;
+}
+
+.fieldDescription {
+  @apply dbn-text-[0.7rem] dbn-pt-1 dbn-text-[#51649C] dbn-mb-4;
+}
+
+.xSmallFont {
+  @apply dbn-text-xs;
+}
+
+.addNewRuleBtn {
+  @apply dbn-flex dbn-gap-2 dbn-text-center dbn-justify-center dbn-items-center dbn-w-full !dbn-bg-background-light dbn-text-sm;
+}
+
+.formattingContainer {
+  @apply dbn-flex dbn-gap-1 dbn-border dbn-border-secondary dbn-py-1 dbn-px-4 dbn-rounded-md dbn-justify-start dbn-bg-gray;
+}
+.formattingGradient {
+  @apply dbn-flex dbn-flex-col dbn-gap-2 dbn-border dbn-border-secondary dbn-py-2 dbn-px-4 dbn-rounded-md dbn-justify-start dbn-bg-gray;
+}
+
+.condtionRule {
+  @apply dbn-flex dbn-gap-1 dbn-items-center  dbn-rounded-md dbn-p-1;
+}
+
+.ruleContainer {
+  @apply dbn-flex dbn-flex-col dbn-w-full dbn-gap-2;
+}
+
+.gradientContainer {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-flex-row dbn-px-3 dbn-bg-primary-light dbn-rounded;
+}
+
+.labelStyle {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-mt-6;
+}
+
+.accordionHeader {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-relative dbn-w-full;
+}
+
+.comparisonValueWrapper {
+  @apply dbn-w-full dbn-h-full dbn-p-4 dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.comparisonValueContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-h-full dbn-overflow-y-scroll dbn-p-3 dbn-border dbn-border-secondary dbn-rounded-md;
+}
+
+/* Position button div */
+.positionButtonContainer {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center;
+}
+.positionButtonAlt {
+  @apply dbn-w-[130px] dbn-h-[130px] dbn-p-4 dbn-border dbn-border-secondary dbn-rounded-md dbn-flex dbn-flex-col dbn-items-center dbn-justify-between;
+}
+.positionButtonWrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center;
+}
+.positionButton {
+  @apply dbn-w-2 dbn-h-2 dbn-bg-secondary dbn-rounded-full dbn-cursor-pointer;
+}

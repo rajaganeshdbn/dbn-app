@@ -1,0 +1,11 @@
+.chartSettingsButton {
+  @apply dbn-border dbn-rounded dbn-flex dbn-justify-between dbn-items-center dbn-border-gray-300 dbn-gap-2 dbn-h-10 dbn-px-2 dbn-font-semibold hover:dbn-bg-gray-200;
+}
+
+.popup {
+  @apply -dbn-top-4;
+}
+
+.popupMenu {
+  @apply dbn-w-80 dbn-h-[460px];
+}

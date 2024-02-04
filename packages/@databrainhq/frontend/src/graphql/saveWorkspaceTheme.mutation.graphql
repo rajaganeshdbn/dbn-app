@@ -1,0 +1,13 @@
+mutation SaveWorkspaceTheme($themeId: uuid = "", $workspaceId: uuid = "") {
+  insert_workspaceThemes_one(
+    object: { themeId: $themeId, workspaceId: $workspaceId }
+    on_conflict: {
+      constraint: workspaceThemes_workspaceId_key
+      update_columns: [themeId]
+    }
+  ) {
+    id
+    themeId
+    workspaceId
+  }
+}

@@ -1,0 +1,10 @@
+query CustomSqlColumns($companyIntegrationId: uuid = "") {
+  customSqlColumns(
+    where: { companyIntegrationId: { _eq: $companyIntegrationId } }
+  ) {
+    companyIntegrationId
+    id
+    sqlColumns
+    tableName
+  }
+}

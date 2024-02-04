@@ -1,0 +1,5 @@
+mutation DeleteCompanyRole($id: uuid! = "") {
+  delete_companyRoles_by_pk(id: $id) {
+    id
+  }
+}

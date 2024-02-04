@@ -1,0 +1,19 @@
+mutation UpdateExternalMetricRlsFilters(
+  $metricId: uuid!
+  $objects: [externalMetricsRlsFilters_insert_input!]!
+) {
+  delete_externalMetricsRlsFilters(
+    where: { externalMetricId: { _eq: $metricId } }
+  ) {
+    returning {
+      id
+    }
+  }
+  insert_externalMetricsRlsFilters(objects: $objects) {
+    returning {
+      companyRlsFilterId
+      externalMetricId
+      id
+    }
+  }
+}

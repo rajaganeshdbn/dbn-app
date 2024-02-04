@@ -1,0 +1,5 @@
+query GetDestinationList($workspaceId: String = "") {
+  getDestinationList(input: { workspaceId: $workspaceId }) {
+    data
+  }
+}

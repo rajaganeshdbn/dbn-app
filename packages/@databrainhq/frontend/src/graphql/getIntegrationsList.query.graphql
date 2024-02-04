@@ -1,0 +1,8 @@
+query IntegrationsList {
+  integrations {
+    description
+    icon
+    id
+    name
+  }
+}

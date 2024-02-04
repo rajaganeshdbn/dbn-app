@@ -1,0 +1,5 @@
+mutation CreateDestination($body: json = "") {
+  createDestination(input: { body: $body }) {
+    data
+  }
+}

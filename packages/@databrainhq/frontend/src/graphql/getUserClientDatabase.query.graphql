@@ -1,0 +1,6 @@
+query getUserClientDatabase($companyId: uuid = "") {
+  companyDatabases_by_pk(companyId: $companyId) {
+    databaseList
+    companyId
+  }
+}

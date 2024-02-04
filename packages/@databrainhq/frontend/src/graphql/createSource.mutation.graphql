@@ -1,0 +1,5 @@
+mutation CreateSource($body: json = "") {
+  createSource(input: { body: $body }) {
+    data
+  }
+}

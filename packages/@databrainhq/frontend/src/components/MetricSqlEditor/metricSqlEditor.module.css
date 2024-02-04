@@ -1,0 +1,50 @@
+.sqlWriter {
+  @apply dbn-w-full dbn-h-full dbn-relative dbn-flex dbn-flex-col;
+}
+
+.query {
+  @apply dbn-h-16 dbn-px-2.5  dbn-flex dbn-flex-row dbn-items-center dbn-justify-between;
+}
+
+.editor {
+  @apply dbn-w-full dbn-h-full dbn-p-2;
+}
+
+.editor2 {
+  @apply dbn-w-full dbn-h-full dbn-p-2;
+}
+.runQuery {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-px-3 dbn-py-1;
+}
+
+.btn[type='submit'] {
+  @apply dbn-mr-3 dbn-bg-blue-600 dbn-flex dbn-flex-row dbn-items-center dbn-text-white dbn-w-[110px] dbn-rounded-md dbn-text-sm disabled:dbn-cursor-not-allowed disabled:dbn-bg-blue-100 dbn-p-1.5 dbn-gap-1;
+}
+
+.btn2[type='submit'] {
+  @apply dbn-bg-gray-400 dbn-flex dbn-flex-row dbn-items-center dbn-justify-center dbn-text-white dbn-w-[110px] dbn-rounded-md dbn-text-sm disabled:dbn-cursor-not-allowed disabled:dbn-bg-blue-100 dbn-p-1.5;
+}
+
+.icon {
+  @apply dbn-flex dbn-flex-row;
+}
+
+.editorButton[type='button'] {
+  @apply dbn-absolute dbn-z-10 dbn-h-12 dbn-w-16 dbn-top-28 -dbn-left-1 dbn-flex dbn-flex-col dbn-items-center dbn-justify-center;
+}
+
+.fullQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-divide-solid dbn-rounded-[4px] dbn-flex dbn-items-center dbn-justify-center  hover:dbn-cursor-pointer;
+}
+
+.noQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-divide-solid dbn-rounded-[4px] dbn-flex dbn-items-center dbn-justify-center  hover:dbn-cursor-not-allowed;
+}
+
+.data {
+  @apply dbn-h-14 dbn-border-b-2 dbn-divide-solid;
+}
+
+.tableHead {
+  @apply dbn-sticky dbn-top-0 dbn-bg-gray-200 dbn-h-10;
+}

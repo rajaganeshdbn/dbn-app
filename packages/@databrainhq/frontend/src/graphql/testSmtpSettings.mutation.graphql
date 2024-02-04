@@ -1,0 +1,19 @@
+mutation TestSmtpSettings(
+  $host: String = ""
+  $password: String = ""
+  $port: Int = 10
+  $secure: Boolean = false
+  $username: String = ""
+) {
+  testSmtpSettings(
+    input: {
+      host: $host
+      password: $password
+      port: $port
+      secure: $secure
+      username: $username
+    }
+  ) {
+    success
+  }
+}

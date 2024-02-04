@@ -1,0 +1,8 @@
+query EndUserMetricAccess($companyId: uuid = "") {
+  companySubsetTables(where: { companyId: { _eq: $companyId } }) {
+    isAllowMetricCreation
+    isAllowMetricDeletion
+    isAllowMetricUpdation
+    isAllowChangeLayout
+  }
+}

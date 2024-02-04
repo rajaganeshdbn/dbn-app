@@ -1,0 +1,18 @@
+mutation CreateViewInDb(
+  $companyIntegrationId: String = ""
+  $dbName: String = ""
+  $viewName: String = ""
+  $query: String = ""
+) {
+  createViewInDb(
+    input: {
+      companyIntegrationId: $companyIntegrationId
+      dbName: $dbName
+      viewName: $viewName
+      query: $query
+    }
+  ) {
+    queryResponse
+    status
+  }
+}

@@ -1,0 +1,28 @@
+query ExternalDashboardMetricList(
+  $externalDashboardId: uuid = ""
+  $clientId: String = ""
+) {
+  externalDashboardMetrics(
+    where: {
+      externalDashboardId: { _eq: $externalDashboardId }
+      externalMetric: {
+        isArchived: { _eq: false }
+        isMarkedDeleted: { _eq: false }
+      }
+      _not: {
+        externalMetric: {
+          clientDeletedMetrics: { clientId: { _eq: $clientId } }
+        }
+      }
+    }
+  ) {
+    externalMetric {
+      description
+      id
+      metricId
+      name
+      clickActions
+      datasetMetricSettings
+    }
+  }
+}

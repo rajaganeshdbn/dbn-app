@@ -1,0 +1,5 @@
+mutation DeleteExternalDashboardTheme($id: uuid!) {
+  delete_externalDashboardThemes_by_pk(id: $id) {
+    id
+  }
+}

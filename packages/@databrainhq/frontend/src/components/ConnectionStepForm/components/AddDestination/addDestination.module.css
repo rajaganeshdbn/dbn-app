@@ -1,0 +1,19 @@
+.addDestination-container {
+  @apply dbn-w-[542px] dbn-h-full dbn-rounded dbn-border-[#E4E4E4] dbn-border dbn-relative;
+}
+
+.addDestination-header {
+  @apply dbn-w-full dbn-h-10  dbn-bg-blue-100 dbn-px-5 dbn-flex dbn-items-center;
+}
+
+.addDestination-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-pb-10;
+}
+
+.addDestination-destination-list {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-mt-5;
+}
+
+.addDestination-btn {
+  @apply dbn-p-2 dbn-border-[#E4E4E4] dbn-border-b;
+}

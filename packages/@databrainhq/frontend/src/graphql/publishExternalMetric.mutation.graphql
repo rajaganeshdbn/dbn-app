@@ -1,0 +1,10 @@
+mutation PublishExternalMetric(
+  $objects: [externalDashboardMetrics_insert_input!] = []
+) {
+  insert_externalDashboardMetrics(objects: $objects) {
+    affected_rows
+    returning {
+      externalMetricId
+    }
+  }
+}

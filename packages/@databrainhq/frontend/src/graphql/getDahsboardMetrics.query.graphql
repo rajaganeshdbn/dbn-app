@@ -1,0 +1,29 @@
+query GetDashboardMetrics($dashboardId: uuid!) {
+  dashboardMetrics(where: { dashboardId: { _eq: $dashboardId } }) {
+    id
+    dashboardId
+    metric {
+      actorId
+      createdAt
+      description
+      id
+      lock
+      name
+      publishType
+      query
+      trackLineage
+      updatedAt
+      companyId
+      verify
+      chartOption
+      dbName
+      inputFields
+      metricQuery
+      outputColumns
+    }
+    width
+    height
+    xAxis
+    yAxis
+  }
+}

@@ -1,0 +1,3 @@
+.scheduleEmailButton {
+  @apply dbn-py-[10px] dbn-rounded-md dbn-border dbn-divide-solid dbn-w-14 dbn-flex dbn-justify-center dbn-items-center dbn-mr-2;
+}

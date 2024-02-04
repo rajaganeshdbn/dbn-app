@@ -1,0 +1,8 @@
+mutation ResetCacheData($workspaceId: String = "") {
+  resetCompanyRedisData(input: { workspaceId: $workspaceId }) {
+    success
+    error {
+      message
+    }
+  }
+}

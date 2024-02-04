@@ -1,0 +1,19 @@
+mutation GenerateDatasetMetrics(
+  $userInputs: json = ""
+  $integrationName: String = ""
+  $integrationId: String = ""
+) {
+  generateDatasetMetrics(
+    input: {
+      userInputs: $userInputs
+      integrationName: $integrationName
+      integrationId: $integrationId
+    }
+  ) {
+    error
+    query
+    result
+    timeTaken
+    metaData
+  }
+}

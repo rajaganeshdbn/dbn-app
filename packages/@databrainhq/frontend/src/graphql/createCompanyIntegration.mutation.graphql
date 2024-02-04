@@ -1,0 +1,27 @@
+mutation CreateCompanyIntegration(
+  $companyId: uuid = ""
+  $credentials: jsonb = ""
+  $integrationId: uuid = ""
+  $name: String = ""
+  $workspaceId: uuid = ""
+  $createdAt: timestamptz = "now()"
+  $isEncrypted: Boolean = true
+  $updatedAt: timestamptz = "now()"
+  $isAuthenticated: Boolean = true
+) {
+  insert_companyIntegrations_one(
+    object: {
+      companyId: $companyId
+      credentials: $credentials
+      integrationId: $integrationId
+      name: $name
+      workspaceId: $workspaceId
+      createdAt: $createdAt
+      isEncrypted: $isEncrypted
+      updatedAt: $updatedAt
+      isAuthenticated: $isAuthenticated
+    }
+  ) {
+    id
+  }
+}

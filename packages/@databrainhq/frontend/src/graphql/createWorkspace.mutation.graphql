@@ -1,0 +1,14 @@
+mutation CreateWorkspace(
+  $companyId: uuid = ""
+  $description: String = ""
+  $name: String = ""
+) {
+  insert_companyWorkspaces_one(
+    object: { companyId: $companyId, description: $description, name: $name }
+  ) {
+    id
+    description
+    companyId
+    name
+  }
+}

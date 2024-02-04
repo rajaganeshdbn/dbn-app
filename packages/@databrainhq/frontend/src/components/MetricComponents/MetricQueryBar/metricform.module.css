@@ -1,0 +1,49 @@
+.container {
+  @apply dbn-w-full dbn-relative dbn-h-full dbn-grow dbn-flex dbn-flex-col;
+}
+
+.header {
+  @apply dbn-w-full dbn-h-8 dbn-flex dbn-gap-1 dbn-items-center dbn-text-lg dbn-p-3 dbn-border-b dbn-divide-solid;
+}
+
+.wrapper {
+  @apply dbn-relative dbn-grow  dbn-flex dbn-flex-col dbn-gap-2 dbn-px-3 dbn-overflow-y-auto dbn-py-3 dbn-border-b;
+}
+
+.addButton {
+  @apply dbn-text-xs dbn-h-10 dbn-border-2 dbn-border-dashed dbn-flex dbn-items-center dbn-justify-center dbn-gap-1 hover:dbn-text-[#5865F6] hover:dbn-bg-[#5865F6] hover:dbn-bg-opacity-[0.15] hover:dbn-border-[#5865F6] disabled:dbn-cursor-not-allowed;
+}
+
+.configModal {
+  @apply dbn-w-full dbn-h-full;
+}
+.configModalWrapper {
+  @apply dbn-w-[500px] dbn-h-[300px] dbn-overflow-y-auto dbn-p-5;
+}
+
+.joinConfig {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-items-center dbn-gap-2;
+}
+
+.dataConfigContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-items-center dbn-gap-2;
+}
+.selectedOptions {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.selectedOption {
+  @apply dbn-w-full dbn-px-1 dbn-bg-blue-h20 dbn-border dbn-rounded-md dbn-divide-solid dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.customConfigContainer {
+  @apply dbn-w-96 dbn-h-80 dbn-overflow-y-auto dbn-flex dbn-flex-col dbn-p-5 dbn-gap-[22px];
+}
+
+.customConfigEditor {
+  @apply dbn-w-full dbn-h-40 dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.saveConfigContainer {
+  @apply dbn-w-96 dbn-h-80 dbn-overflow-y-auto dbn-flex dbn-flex-col dbn-p-5 dbn-gap-[22px];
+}

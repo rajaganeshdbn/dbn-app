@@ -1,0 +1,11 @@
+.autoCompleteInput {
+  @apply dbn-w-full focus:dbn-outline-none;
+}
+
+.autoCompleteItem {
+  @apply dbn-w-full dbn-font-semibold dbn-text-sm dbn-flex dbn-gap-2 dbn-items-center dbn-px-3 dbn-py-2 hover:dbn-bg-gray;
+}
+
+.dropdownMenu {
+  @apply dbn-absolute dbn-max-h-[300px] dbn-overflow-y-auto dbn-rounded-md dbn-flex dbn-flex-col dbn-gap-0 dbn-w-[300px] dbn-bg-white dbn-z-[9999] dbn-left-0 dbn-top-8 dbn-border dbn-border-secondary dbn-shadow-lg;
+}

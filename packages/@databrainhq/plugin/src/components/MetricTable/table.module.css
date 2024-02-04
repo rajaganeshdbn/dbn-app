@@ -1,0 +1,39 @@
+.container {
+  @apply dbn-w-full dbn-h-full dbn-max-h-[300px] dbn-overflow-auto dbn-rounded-md dbn-divide-solid dbn-border dbn-border-separate dbn-border-spacing-0;
+}
+
+.table {
+  @apply dbn-w-full;
+}
+
+.tableHead {
+  @apply dbn-sticky dbn-top-0 dbn-bg-primary-light dbn-w-full dbn-h-10 dbn-rounded-t-md;
+}
+
+.tableRow {
+  @apply dbn-overflow-hidden dbn-bg-gray-50;
+}
+
+.tableHeadCol {
+  @apply dbn-w-64 dbn-px-3;
+}
+
+.tableHeadColText {
+  @apply dbn-w-56 dbn-h-12 dbn-flex dbn-justify-center dbn-items-center;
+}
+
+.tableRowCol {
+  @apply dbn-text-center dbn-border-t dbn-px-3;
+}
+
+.tableColText {
+  @apply dbn-w-56 dbn-h-16 dbn-flex dbn-justify-center dbn-items-center;
+}
+
+.empty {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-rounded-md dbn-divide-solid dbn-border;
+}
+
+.error {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-rounded-md dbn-divide-solid dbn-border dbn-text-error;
+}

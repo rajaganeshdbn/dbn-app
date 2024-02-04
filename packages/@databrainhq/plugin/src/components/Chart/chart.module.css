@@ -1,0 +1,58 @@
+.container {
+  @apply dbn-flex dbn-flex-col dbn-justify-center dbn-w-full dbn-h-full dbn-border-2 dbn-divide-solid dbn-items-center dbn-p-4 dbn-relative dbn-border-secondary;
+}
+.borderLessContainer {
+  @apply dbn-flex dbn-flex-col dbn-justify-center dbn-w-full dbn-h-full dbn-items-center dbn-p-4 dbn-pt-0;
+}
+.label {
+  @apply dbn-text-lg dbn-mb-2;
+}
+.sync {
+  @apply dbn-mt-2;
+}
+.chartClickAction {
+  @apply hover:dbn-cursor-pointer;
+}
+
+.comparisonDiv {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-h-[20%];
+}
+
+.comparisonValue {
+  @apply dbn-w-auto;
+}
+
+.positiveComparisonText {
+  @apply dbn-rounded-md dbn-bg-success-light dbn-text-success-text dbn-flex dbn-flex-row dbn-items-center dbn-justify-center dbn-p-1;
+}
+.negativeComparisonText {
+  @apply dbn-rounded-md dbn-bg-error-light dbn-text-no-text dbn-flex dbn-flex-row dbn-items-center dbn-justify-center dbn-p-1;
+}
+.comparisonPeriod {
+  @apply dbn-w-auto dbn-text-client-text dbn-text-xs;
+}
+.valueContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-items-center dbn-justify-center dbn-h-[80%];
+}
+.singleValue {
+  @apply hover:dbn-underline hover:dbn-text-client-text hover:dbn-cursor-pointer;
+}
+.subHeader {
+  @apply dbn-mb-1 dbn-text-secondary-dark;
+}
+.error {
+  @apply dbn-w-[90%] dbn-flex dbn-gap-1 dbn-items-center dbn-justify-center dbn-border dbn-border-error-medium dbn-m-6 dbn-p-4 dbn-text-error-medium dbn-bg-error-light;
+}
+.errorpara {
+  @apply dbn-text-error-medium dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.buttonText {
+  @apply dbn-text-dark-silver hover:dbn-text-primary;
+}
+
+/* Storybook */
+
+.chartDiv {
+  @apply dbn-w-full dbn-h-96;
+}

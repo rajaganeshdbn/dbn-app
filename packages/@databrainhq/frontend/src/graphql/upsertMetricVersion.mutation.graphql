@@ -1,0 +1,33 @@
+mutation UpsertMetricVersion(
+  $metricId: uuid!
+  $changes: String!
+  $version: Int!
+  $metric: jsonb!
+  $createdBy: String!
+  $updatedBy: String!
+) {
+  insert_metricVersions_one(
+    object: {
+      version: $version
+      metricId: $metricId
+      changes: $changes
+      metric: $metric
+      updatedBy: $updatedBy
+      createdBy: $createdBy
+    }
+    on_conflict: {
+      constraint: metricVersions_metricId_version_key
+      update_columns: [metric, updatedBy, changes]
+    }
+  ) {
+    id
+    metricId
+    version
+    changes
+    metric
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+  }
+}

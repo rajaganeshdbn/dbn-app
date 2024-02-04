@@ -1,0 +1,11 @@
+mutation SaveOrgDatabaseList($companyId: uuid = "", $databaseList: json = []) {
+  insert_companyDatabases(
+    objects: { companyId: $companyId, databaseList: $databaseList }
+    on_conflict: {
+      constraint: companyDatabases_pkey
+      update_columns: databaseList
+    }
+  ) {
+    affected_rows
+  }
+}

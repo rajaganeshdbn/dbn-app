@@ -1,0 +1,15 @@
+.settings-header {
+  @apply dbn-flex dbn-w-64 dbn-bg-white dbn-z-10 dbn-flex-col dbn-border-r dbn-items-end dbn-justify-between dbn-gap-1 dbn-border-secondary dbn-h-full dbn-py-10 dbn-px-2.5;
+}
+
+.active {
+  @apply dbn-text-primary dbn-rounded dbn-font-bold !important;
+}
+
+.link {
+  @apply dbn-flex dbn-text-secondary-dark dbn-font-medium dbn-gap-2 dbn-items-center dbn-justify-start dbn-p-2 dbn-w-full dbn-text-base;
+}
+
+.text {
+  @apply dbn-w-full;
+}

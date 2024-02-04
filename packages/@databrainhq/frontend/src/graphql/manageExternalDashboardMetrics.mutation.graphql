@@ -1,0 +1,13 @@
+mutation ManageExternalDashboardMetrics(
+  $externalDashboardId: uuid = ""
+  $externalMetricIds: [uuid!] = ""
+) {
+  delete_externalDashboardMetrics(
+    where: {
+      externalDashboardId: { _eq: $externalDashboardId }
+      externalMetricId: { _nin: $externalMetricIds }
+    }
+  ) {
+    affected_rows
+  }
+}

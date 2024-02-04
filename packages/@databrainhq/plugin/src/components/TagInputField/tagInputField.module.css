@@ -1,0 +1,21 @@
+.tag {
+  @apply dbn-bg-[#eaeefc] dbn-rounded-md;
+}
+.tag-text {
+  @apply dbn-text-xs;
+}
+.tagBtn {
+  @apply dbn-bg-[#eaeefc] dbn-rounded-md dbn-flex dbn-items-center dbn-w-fit dbn-p-1;
+}
+
+.inputFieldContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.tag-container {
+  @apply dbn-flex dbn-gap-1 dbn-flex-wrap;
+}
+
+.cross-icon {
+  @apply dbn-w-4 dbn-h-4;
+}

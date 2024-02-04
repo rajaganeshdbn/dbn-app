@@ -1,0 +1,24 @@
+.button {
+  @apply dbn-w-full dbn-relative;
+}
+.menu {
+  @apply dbn-p-3;
+}
+.inputLabel {
+  @apply dbn-not-italic dbn-font-normal dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-secondary-color dbn-capitalize;
+}
+.input {
+  @apply dbn-cursor-pointer dbn-w-full;
+}
+.label {
+  @apply dbn-my-2;
+}
+.menuContainer {
+  @apply dbn-w-full;
+}
+.icon {
+  @apply dbn-absolute dbn-right-2 dbn-top-1.5 dbn-text-lg dbn-text-gray-300 dbn-flex dbn-justify-center dbn-items-center active:dbn-opacity-80 dbn-p-1 dbn-rounded-full;
+}
+.container {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-flex-col dbn-gap-[22px];
+}

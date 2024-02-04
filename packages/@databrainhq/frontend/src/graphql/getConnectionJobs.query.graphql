@@ -1,0 +1,5 @@
+query GetConnectionJobs($connectionId: String = "") {
+  getJobs(input: { connectionId: $connectionId }) {
+    data
+  }
+}

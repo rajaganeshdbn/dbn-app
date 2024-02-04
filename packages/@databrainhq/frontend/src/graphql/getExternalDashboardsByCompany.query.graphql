@@ -1,0 +1,7 @@
+query ExternalDashboardsByCompany($companyId: uuid!) {
+  externalDashboards(where: { companyId: { _eq: $companyId } }) {
+    externalDashboardId
+    name
+    id
+  }
+}

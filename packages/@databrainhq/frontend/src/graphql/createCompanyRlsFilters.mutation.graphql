@@ -1,0 +1,25 @@
+mutation createCompanyRlsFilter(
+  $columnName: String = ""
+  $companyId: uuid = ""
+  $condition: String = ""
+  $createdAt: timestamptz = "now()"
+  $defaultValue: String = ""
+  $name: String = ""
+  $tableName: String = ""
+  $userId: uuid = ""
+) {
+  insert_companyRlsFilters_one(
+    object: {
+      columnName: $columnName
+      companyId: $companyId
+      condition: $condition
+      createdAt: $createdAt
+      defaultValue: $defaultValue
+      name: $name
+      tableName: $tableName
+      userId: $userId
+    }
+  ) {
+    id
+  }
+}

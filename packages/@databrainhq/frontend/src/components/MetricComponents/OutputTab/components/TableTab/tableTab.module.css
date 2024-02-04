@@ -1,0 +1,42 @@
+.container {
+  @apply dbn-w-full dbn-h-[90%] dbn-flex dbn-flex-col;
+}
+
+.header {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-between dbn-border dbn-divide-solid dbn-pr-5;
+}
+.tab {
+  @apply dbn-w-52;
+}
+
+.text-container {
+  @apply dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.btn-container {
+  @apply dbn-flex dbn-flex-row dbn-border dbn-divide-solid dbn-rounded-md dbn-h-8 dbn-overflow-hidden;
+}
+.tabButton {
+  @apply dbn-text-center dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-w-28;
+}
+.selectedTab {
+  @apply dbn-border-b-2 dbn-bg-gray-200;
+}
+.table {
+  @apply dbn-w-full dbn-overflow-hidden dbn-mb-6;
+}
+
+.tableContainer {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-overflow-y-auto dbn-flex-col dbn-gap-5;
+}
+
+/* .tableContainer.tableContainerEmpty {
+ @apply grid place-content-center
+} */
+
+.noDataFound {
+  @apply dbn-p-2 dbn-w-full dbn-grid dbn-place-content-center dbn-h-full dbn-border dbn-rounded dbn-shadow-sm;
+}
+.metricChartEmpty {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-justify-center dbn-items-center;
+}

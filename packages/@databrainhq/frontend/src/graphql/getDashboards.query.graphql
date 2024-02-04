@@ -1,0 +1,6 @@
+query GetDashboards($companyId: uuid!) {
+  dashboards(where: { companyId: { _eq: $companyId } }) {
+    id
+    name
+  }
+}

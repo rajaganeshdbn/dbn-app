@@ -1,0 +1,35 @@
+.btn-primary {
+  @apply dbn-whitespace-nowrap dbn-h-10 dbn-not-italic dbn-font-semibold dbn-font-lato dbn-flex dbn-gap-2 dbn-justify-center disabled:dbn-opacity-50 disabled:dbn-cursor-not-allowed dbn-items-center dbn-text-sm dbn-leading-[1.063rem] dbn-text-white dbn-px-3 dbn-py-2 dbn-min-w-[100px] !dbn-bg-gray-900 dbn-rounded dbn-shadow-bs-5;
+}
+
+.btn-secondary {
+  @apply dbn-whitespace-nowrap dbn-h-10 dbn-rounded dbn-px-3 dbn-py-2 dbn-font-lato dbn-bg-white dbn-flex dbn-gap-2 dbn-justify-center disabled:dbn-opacity-50 disabled:dbn-cursor-not-allowed dbn-items-center dbn-border dbn-border-gray-900 dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.063rem] dbn-text-text-primary-color dbn-shadow-bs-5 dbn-min-w-[100px];
+}
+
+.btn-tertiary {
+  @apply dbn-whitespace-nowrap dbn-h-10 dbn-not-italic dbn-font-lato dbn-flex dbn-gap-2 dbn-justify-center disabled:dbn-opacity-50 disabled:dbn-cursor-not-allowed dbn-items-center dbn-px-3 dbn-py-2 dbn-cursor-pointer dbn-text-sm dbn-text-text-primary-color dbn-font-semibold;
+}
+
+.btn-popover {
+  @apply dbn-whitespace-nowrap dbn-not-italic dbn-font-lato dbn-flex dbn-gap-2 dbn-justify-center disabled:dbn-opacity-50 disabled:dbn-cursor-not-allowed dbn-items-center dbn-cursor-pointer dbn-text-sm dbn-text-text-primary-color dbn-font-semibold;
+}
+
+.btn-tab {
+  @apply dbn-h-10 dbn-whitespace-nowrap dbn-font-lato dbn-border-secondary dbn-rounded dbn-px-3 dbn-py-2 dbn-bg-white dbn-flex dbn-gap-2 dbn-justify-center disabled:dbn-opacity-40 disabled:dbn-cursor-not-allowed dbn-items-center dbn-border dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.063rem] dbn-text-text-primary-color dbn-shadow-bs-5;
+}
+
+.storyBookButton {
+  @apply dbn-w-full dbn-flex dbn-gap-4;
+}
+
+.buttonContainer {
+  @apply dbn-w-auto;
+}
+
+.defaultWidth {
+  @apply dbn-w-auto;
+}
+
+.fitContainer {
+  @apply dbn-w-full;
+}

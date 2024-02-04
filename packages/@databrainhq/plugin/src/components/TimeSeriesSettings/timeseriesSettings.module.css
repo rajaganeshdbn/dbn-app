@@ -1,0 +1,21 @@
+.timeSeriesSettingsContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-4;
+}
+
+.timeSeriesSettingsType {
+  @apply dbn-flex dbn-items-center dbn-flex-row dbn-gap-10;
+}
+
+.label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize;
+}
+
+.dynamicFormat {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-4;
+}
+.wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center;
+}
+.inputWrapper {
+  @apply dbn-w-[200px] dbn-flex dbn-flex-col dbn-gap-[22px];
+}

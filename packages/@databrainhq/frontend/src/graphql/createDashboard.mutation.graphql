@@ -1,0 +1,6 @@
+mutation CreateDashboard($companyId: uuid!, $name: String!) {
+  insert_dashboards_one(object: { companyId: $companyId, name: $name }) {
+    id
+    name
+  }
+}

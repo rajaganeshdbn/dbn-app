@@ -1,0 +1,20 @@
+mutation UpdateDataset(
+  $id: uuid = ""
+  $type: String = ""
+  $query: String = ""
+  $columns: jsonb = ""
+  $clientColumn: String = ""
+) {
+  update_externalDatasets_by_pk(
+    pk_columns: { id: $id }
+    _set: {
+      updatedAt: "now()"
+      type: $type
+      query: $query
+      columns: $columns
+      clientColumn: $clientColumn
+    }
+  ) {
+    id
+  }
+}

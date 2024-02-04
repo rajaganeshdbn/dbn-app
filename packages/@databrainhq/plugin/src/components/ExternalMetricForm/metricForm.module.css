@@ -1,0 +1,23 @@
+.container {
+  @apply dbn-p-5 dbn-flex dbn-flex-col dbn-gap-[22px] dbn-w-[500px] dbn-overflow-y-auto dbn-h-96;
+}
+
+.field {
+  @apply dbn-mt-2;
+}
+
+.fieldLabel {
+  @apply dbn-mb-2 dbn-text-sm;
+}
+
+.save {
+  @apply disabled:dbn-cursor-not-allowed disabled:dbn-opacity-50;
+}
+
+.cancel {
+  @apply dbn-p-2 dbn-min-w-[60px] dbn-border dbn-flex dbn-justify-center dbn-items-center dbn-bg-gray-100;
+}
+
+.error {
+  @apply dbn-text-error dbn-px-5 dbn-pb-5;
+}

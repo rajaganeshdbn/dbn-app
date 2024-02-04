@@ -1,0 +1,79 @@
+.wrapper {
+  @apply dbn-p-5 dbn-pb-24 dbn-w-full dbn-flex dbn-justify-center;
+}
+
+.container {
+  @apply dbn-w-[50%] dbn-mt-12;
+}
+
+.header {
+  @apply dbn-flex dbn-justify-between;
+}
+
+.title {
+  @apply dbn-text-2xl dbn-font-bold;
+}
+
+.createBtn {
+  @apply dbn-bg-white dbn-cursor-pointer dbn-flex dbn-gap-3 dbn-justify-center dbn-items-center dbn-rounded-md dbn-shadow-sm dbn-border dbn-border-secondary dbn-text-primary dbn-px-3 dbn-py-2;
+}
+
+.createBtn > span:first-child {
+  @apply dbn-border dbn-border-primary dbn-rounded-sm;
+}
+
+.content {
+  @apply dbn-flex dbn-flex-col dbn-gap-3 dbn-mt-6;
+}
+
+.content > .header {
+  @apply dbn-flex dbn-px-3 dbn-gap-4;
+}
+
+.content > .header p {
+  @apply dbn-w-full;
+}
+
+.content > .header :last-child {
+  @apply dbn-w-[20%];
+}
+
+.datasources {
+  @apply dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.datasources .datasource {
+  @apply dbn-bg-white dbn-flex dbn-gap-4 dbn-items-center dbn-rounded-md dbn-shadow-sm dbn-border dbn-border-secondary dbn-px-3 dbn-py-4;
+}
+
+.datasourceItem {
+  @apply dbn-w-full dbn-cursor-pointer;
+}
+
+.datasource > :first-child {
+  @apply dbn-truncate;
+}
+
+.datasource > :last-child {
+  @apply dbn-w-[20%] dbn-flex dbn-justify-end;
+}
+
+.popoverButtons {
+  @apply dbn-flex dbn-flex-col dbn-p-2;
+}
+
+.popoverButtons > * {
+  @apply dbn-py-2 dbn-px-2;
+}
+
+.popoverButtons > *:hover {
+  @apply dbn-bg-gray-100 dbn-rounded-sm;
+}
+
+.successBadge {
+  @apply dbn-px-3 dbn-py-1 dbn-bg-success-light dbn-rounded-2xl dbn-flex dbn-items-center;
+}
+
+.dangerBadge {
+  @apply dbn-px-3 dbn-py-1 dbn-bg-alert-light dbn-rounded-2xl dbn-flex dbn-items-center;
+}

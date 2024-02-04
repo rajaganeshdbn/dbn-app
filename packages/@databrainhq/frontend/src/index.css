@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply dbn-font-lato;
+}
+
+#root {
+  @apply dbn-w-screen dbn-h-screen dbn-overflow-hidden;
+}
+
+.react-grid-item.react-grid-placeholder {
+  @apply dbn-bg-white;
+}
+.react-grid-item > .react-resizable-handle {
+  @apply dbn-z-[100] !important;
+}
+
+::-webkit-scrollbar {
+  @apply dbn-w-[10px] dbn-h-[10px];
+}
+
+::-webkit-scrollbar-track {
+  @apply dbn-bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply dbn-rounded-lg dbn-border dbn-bg-gray-300;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply dbn-bg-gray-400;
+}

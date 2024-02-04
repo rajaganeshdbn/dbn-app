@@ -1,0 +1,21 @@
+.integrationForm-container {
+  @apply dbn-flex dbn-justify-center dbn-flex-col dbn-overflow-hidden;
+}
+
+.integrationForm-alt-container {
+  @apply dbn-w-full dbn-flex dbn-justify-center dbn-px-10 dbn-py-8 dbn-overflow-auto dbn-h-[90vh];
+}
+
+.integrationForm-wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-pl-8;
+}
+
+.backArrow {
+  @apply dbn-flex dbn-flex-row dbn-bg-white dbn-items-center dbn-justify-center dbn-w-[30px] dbn-h-[30px] dbn-p-2 dbn-rounded-full dbn-border dbn-border-secondary hover:dbn-cursor-pointer;
+}
+.collapseButton {
+  @apply dbn-w-7 dbn-h-7 dbn-absolute dbn-z-40 dbn-top-10 -dbn-left-10 dbn-cursor-pointer dbn-bg-white dbn-rounded-full dbn-border dbn-border-secondary dbn-flex dbn-items-center dbn-justify-center dbn-shadow-bs-7;
+}
+.guideContainer {
+  @apply dbn-w-[50%] dbn-flex dbn-items-center dbn-justify-center dbn-pb-16 dbn-sticky dbn-top-0 dbn-h-screen;
+}

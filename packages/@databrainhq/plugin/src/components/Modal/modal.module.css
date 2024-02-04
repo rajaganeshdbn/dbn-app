@@ -1,0 +1,23 @@
+.modal {
+  @apply dbn-absolute dbn-top-0 dbn-right-0 dbn-left-0 dbn-w-full dbn-h-full dbn-bg-black dbn-bg-opacity-75 dbn-flex dbn-justify-center dbn-items-center dbn-z-overlay dbn-overflow-hidden dbn-p-5;
+}
+
+.popup {
+  @apply dbn-border dbn-border-gray-600 dbn-bg-white dbn-rounded dbn-overflow-hidden dbn-my-auto;
+}
+
+.header {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-py-3 dbn-px-5 dbn-border-b dbn-border-gray-300 dbn-font-semibold dbn-text-lg dbn-z-0 dbn-relative;
+}
+
+.headerTitle {
+  @apply dbn-text-lg dbn-font-semibold dbn-text-text-primary-color dbn-flex dbn-flex-row dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+
+.content {
+  @apply dbn-relative dbn-overflow-y-auto;
+}
+
+.footer {
+  @apply dbn-flex dbn-items-center dbn-justify-end dbn-gap-5 dbn-w-full dbn-py-3 dbn-px-5 dbn-bg-white dbn-border-t dbn-border-gray-300 dbn-font-semibold dbn-text-lg;
+}

@@ -1,0 +1,15 @@
+.configuration-container {
+  @apply dbn-w-full dbn-h-[90%] dbn-flex dbn-flex-col dbn-items-center dbn-justify-center dbn-overflow-auto;
+}
+.configHeader {
+    @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-[34px] dbn-items-center;
+}
+.congifHeader-wrapper {
+    @apply dbn-flex dbn-gap-[10px] dbn-items-center dbn-justify-center;
+}
+.badge {
+    @apply dbn-w-auto dbn-bg-success-light dbn-px-[10px] dbn-rounded-3xl dbn-text-xs dbn-font-lato dbn-font-bold dbn-h-[22px] dbn-flex dbn-items-center dbn-text-success-text;
+}
+.line {
+    @apply dbn-w-[145px] dbn-h-0 dbn-border-t dbn-border-[#CCC];
+}

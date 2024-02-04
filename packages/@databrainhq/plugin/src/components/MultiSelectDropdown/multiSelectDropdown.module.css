@@ -1,0 +1,147 @@
+.wrapper {
+  @apply dbn-bg-white dbn-flex dbn-flex-row dbn-px-2 dbn-py-[7px] dbn-cursor-pointer dbn-border dbn-border-gray-300 dbn-rounded dbn-items-center dbn-justify-between disabled:dbn-cursor-not-allowed dbn-text-gray-400 focus:dbn-outline-1 focus:dbn-ring-1 focus:dbn-ring-primary focus:dbn-outline-primary focus:dbn-border-primary;
+}
+
+.valueWrapper {
+  @apply dbn-w-[85%] dbn-flex dbn-flex-col dbn-justify-center dbn-items-start;
+}
+.label {
+  @apply dbn-not-italic dbn-font-semibold dbn-truncate dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-primary-color;
+}
+
+.value {
+  @apply dbn-w-full dbn-text-sm dbn-font-lato dbn-font-semibold dbn-leading-6 dbn-text-gray-900;
+}
+
+.noOptions {
+  @apply dbn-p-2 dbn-text-sm dbn-text-center;
+}
+
+.floatingLabel {
+  @apply dbn-flex dbn-gap-2 dbn-absolute dbn-text-[12px] dbn-text-primary !dbn-bg-white dbn-px-1 dbn-py-0 dbn-left-[11px] -dbn-top-2.5 dbn-truncate dbn-max-w-[90%];
+}
+
+.badge {
+  @apply dbn-px-[5px] dbn-py-[2px] dbn-text-xs dbn-font-lato dbn-font-semibold dbn-rounded-[10px] dbn-bg-primary-light dbn-mr-[5px] dbn-truncate dbn-w-auto dbn-max-w-[500px] dbn-flex-shrink-0;
+  width: fit-content;
+  max-width: 100px;
+  flex-shrink: 0;
+}
+
+.floatingLabel2 {
+  @apply dbn-absolute dbn-text-[11px] !dbn-bg-white dbn-px-1 dbn-py-0 dbn-left-[3px] -dbn-top-2.5 dbn-truncate dbn-max-w-[90%];
+}
+
+.floating2 {
+  @apply dbn-text-xs dbn-font-semibold;
+}
+
+.floatingText {
+  @apply dbn-mt-3 dbn-font-semibold dbn-truncate;
+}
+
+.staticText,
+.staticLabel,
+.InnerText {
+  @apply dbn-truncate;
+}
+
+.normalText {
+  @apply dbn-text-sm;
+}
+
+.staticValueWrapper {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-items-center dbn-justify-start;
+}
+
+.value p {
+  @apply dbn-truncate;
+}
+
+.selectedOption {
+  @apply dbn-border dbn-border-secondary dbn-rounded dbn-text-xs;
+}
+
+.dropdown {
+  @apply dbn-bg-white dbn-select-none dbn-flex dbn-flex-col dbn-gap-5 dbn-max-h-64 dbn-w-full dbn-rounded-md;
+}
+
+.options {
+  @apply dbn-w-full dbn-h-full dbn-overflow-y-auto dbn-flex dbn-flex-col dbn-gap-1 dbn-p-1;
+}
+
+.optionsWrapper {
+  @apply dbn-overflow-y-auto dbn-overflow-x-hidden dbn-flex dbn-flex-col dbn-gap-0.5;
+}
+
+.checkedOption {
+  @apply dbn-px-2 dbn-py-1.5 dbn-rounded dbn-text-sm dbn-font-bold dbn-flex dbn-gap-3 dbn-justify-start dbn-text-left dbn-w-full dbn-break-all hover:dbn-bg-gray-3;
+}
+
+.optionSelected {
+  @apply dbn-bg-primary-light !important;
+}
+
+.option {
+  @apply dbn-px-2 dbn-py-1.5  dbn-w-full dbn-text-sm dbn-flex dbn-gap-3 dbn-justify-start dbn-text-left hover:dbn-bg-gray-3 dbn-rounded;
+}
+
+.icon {
+  @apply dbn-text-text-primary-color dbn-text-lg;
+}
+
+.text {
+  @apply dbn-flex dbn-text-left dbn-gap-2 dbn-text-sm dbn-truncate;
+}
+
+.search {
+  @apply dbn-p-2 dbn-mb-3;
+}
+
+.loadMore {
+  @apply dbn-w-full dbn-text-primary dbn-flex dbn-justify-center dbn-items-center dbn-gap-2;
+}
+
+.loadMoreIcon {
+  @apply -dbn-rotate-90 dbn-w-4 dbn-h-4;
+}
+
+.optionDiv {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-cursor-pointer;
+}
+
+.optionWrapper1 {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-[6px];
+}
+
+.optionWrapper2 {
+  @apply dbn-w-[30%] dbn-flex dbn-flex-col dbn-items-end dbn-justify-end dbn-gap-[6px];
+}
+
+.dropContainer {
+  @apply dbn-w-full dbn-relative;
+}
+
+.label {
+  @apply dbn-font-normal dbn-text-gray-900 dbn-text-base dbn-font-lato;
+}
+
+.subValue {
+  @apply dbn-w-full hover:dbn-bg-gray-3 dbn-text-sm dbn-font-lato dbn-font-normal dbn-text-gray-900 dbn-flex dbn-gap-2 dbn-items-center dbn-justify-start dbn-px-8 dbn-py-1 dbn-overflow-hidden dbn-text-ellipsis dbn-truncate;
+}
+
+.labelWithIcon {
+  @apply dbn-w-full  dbn-flex dbn-items-center dbn-justify-start dbn-gap-2;
+}
+
+.tableDiv {
+  @apply dbn-flex dbn-items-center dbn-justify-start dbn-gap-1;
+}
+
+.searchDiv {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-items-center dbn-justify-center dbn-p-2 dbn-px-1.5;
+}
+
+.rotate {
+  @apply -dbn-rotate-90;
+}

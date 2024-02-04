@@ -1,0 +1,5 @@
+query GetOnboardingStatus($companyId: uuid!) {
+  companies_by_pk(id: $companyId) {
+    isOnboarded
+  }
+}

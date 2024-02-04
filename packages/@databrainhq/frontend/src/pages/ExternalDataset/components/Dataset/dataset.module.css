@@ -1,0 +1,19 @@
+.dataset-header {
+  @apply dbn-w-full dbn-h-16 dbn-px-5 dbn-flex dbn-justify-between dbn-border-b dbn-border-secondary dbn-items-center;
+}
+
+.datasetContainer {
+  @apply dbn-w-full dbn-h-[calc(100%-4rem)] dbn-grid dbn-grid-cols-5;
+}
+
+.query {
+  @apply dbn-p-2 dbn-pl-10 dbn-pr-5 dbn-border-b dbn-divide-solid dbn-h-[10%] dbn-flex dbn-flex-row dbn-items-center dbn-justify-between;
+}
+
+.formatQueryBtn {
+  @apply !dbn-bg-gray-200 dbn-border dbn-border-gray-300 dbn-rounded dbn-px-3;
+}
+
+.runQueryBtn {
+  @apply dbn-flex dbn-items-center dbn-gap-1 dbn-px-3 dbn-py-1.5;
+}

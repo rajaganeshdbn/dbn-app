@@ -1,0 +1,7 @@
+.connection-body-tab {
+  @apply dbn-flex dbn-items-center dbn-justify-between dbn-p-5 dbn-border-b-2 dbn-border-blue-200 dbn-w-full;
+}
+
+.connection-log-container {
+  @apply dbn-w-full dbn-h-60 dbn-overflow-y-scroll dbn-mt-5;
+}

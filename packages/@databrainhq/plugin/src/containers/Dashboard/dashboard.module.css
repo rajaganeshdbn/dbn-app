@@ -1,0 +1,45 @@
+@import url('../../index.css');
+
+.embedDashboard-container {
+  @apply dbn-w-full dbn-h-full dbn-overflow-hidden dbn-mx-auto dbn-flex dbn-flex-col dbn-overflow-y-auto dbn-font-lato dbn-relative dbn-bg-background;
+}
+
+.embedDashboard-header {
+  @apply dbn-w-full dbn-py-2.5 dbn-flex dbn-px-5 dbn-items-center dbn-justify-between dbn-sticky dbn-top-0 dbn-bg-inherit dbn-z-[100] dbn-border-b dbn-border-secondary;
+}
+
+.embedDashboard-header-buttons {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-gap-2.5 dbn-h-[44px];
+}
+
+.dashboardName {
+  @apply dbn-font-semibold dbn-text-lg dbn-leading-none;
+}
+
+.dashboardHeaderRight {
+  @apply dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.embedDashboard-wrapper {
+  @apply dbn-w-full dbn-h-[calc(100%-4rem)] dbn-p-5 dbn-mx-auto dbn-flex dbn-flex-col dbn-mb-10;
+}
+
+.alt-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.filter {
+  @apply dbn-p-2 dbn-border dbn-rounded-md dbn-text-xl hover:dbn-bg-gray-100 active:dbn-bg-transparent dbn-mr-5;
+}
+
+.filterButton {
+  @apply dbn-py-2 dbn-px-6 dbn-border dbn-rounded-md dbn-flex dbn-gap-2 dbn-border-blue-600 dbn-bg-[#5865F6]/[10%] dbn-ml-2.5;
+}
+
+.filterText {
+  @apply dbn-flex dbn-gap-1 dbn-items-center dbn-justify-center dbn-text-sm dbn-font-semibold;
+}
+
+.filterLength {
+  @apply dbn-w-5 dbn-h-5 dbn-border dbn-rounded-full dbn-text-xs dbn-text-white dbn-bg-text-primary-color dbn-flex dbn-items-center dbn-justify-center dbn-p-1 dbn-font-semibold;
+}

@@ -1,0 +1,5 @@
+mutation SyncConnection($connectionId: String = "") {
+  syncConnection(input: { connectionId: $connectionId }) {
+    data
+  }
+}

@@ -1,0 +1,9 @@
+mutation deleteMetricVersion($id: String!, $version: Float!) {
+  deleteMetricVersion(input: { id: $id, version: $version }) {
+    metricVersion {
+      id
+      version
+    }
+    error
+  }
+}

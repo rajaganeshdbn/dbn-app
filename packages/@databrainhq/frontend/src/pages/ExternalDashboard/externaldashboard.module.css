@@ -1,0 +1,31 @@
+.externaldashboard-header {
+  @apply dbn-sticky dbn-top-0 dbn-flex dbn-w-full dbn-h-16 dbn-px-5 dbn-justify-between dbn-items-center dbn-gap-3 dbn-border-b dbn-bg-white dbn-z-40;
+}
+
+.externaldashboard-header .clientDropDown {
+  @apply dbn-border dbn-rounded-md focus:dbn-border-error-medium dbn-border-error-medium;
+}
+
+.externaldashboard-header .clientDropDown > button[class*='wrapper'] {
+  @apply dbn-border-none;
+}
+
+.header {
+  @apply dbn-w-full dbn-h-[70px] dbn-border-b dbn-border-b-secondary dbn-bg-white dbn-flex dbn-flex-col;
+}
+
+.headerContainer {
+  @apply dbn-px-5 dbn-grow dbn-w-full dbn-h-full dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.headerContent {
+  @apply dbn-flex dbn-items-center dbn-gap-3;
+}
+
+.headerIcon {
+  @apply dbn-w-10 dbn-h-10 dbn-border dbn-border-secondary dbn-rounded-md dbn-flex dbn-justify-center dbn-items-center dbn-cursor-pointer;
+}
+
+.alertContainer {
+  @apply dbn-my-2 dbn-mb-4;
+}

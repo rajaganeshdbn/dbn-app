@@ -1,0 +1,10 @@
+mutation OnboardingWithDemoDatabase(
+  $companyId: String!
+  $workspaceId: String = ""
+) {
+  onboardingWithDemoDatabase(
+    input: { companyId: $companyId, workspaceId: $workspaceId }
+  ) {
+    status
+  }
+}

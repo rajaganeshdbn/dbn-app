@@ -1,0 +1,21 @@
+mutation GenerateEmbeddedMetic(
+  $clientId: String = ""
+  $companyId: String = ""
+  $queryPrompt: String = ""
+  $timeGrain: String = ""
+) {
+  generateEmbeddedMetic(
+    input: {
+      clientId: $clientId
+      companyId: $companyId
+      queryPrompt: $queryPrompt
+      timeGrain: $timeGrain
+    }
+  ) {
+    query
+    result
+    error {
+      message
+    }
+  }
+}

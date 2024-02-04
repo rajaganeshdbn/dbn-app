@@ -1,0 +1,11 @@
+query CompanySubsetTableList($workspaceId: uuid = "") {
+  companySubsetTables(where: { workspaceId: { _eq: $workspaceId } }) {
+    tableList
+    isAllowMetricCreation
+    isAllowMetricDeletion
+    isAllowMetricUpdation
+    isAllowChangeLayout
+    isAllowEmailReports
+    workspaceId
+  }
+}

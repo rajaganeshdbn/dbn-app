@@ -1,0 +1,13 @@
+query GetExternalDashboardThemes($companyId: uuid!) {
+  externalDashboardThemes(where: { companyId: { _eq: $companyId } }) {
+    colors
+    createdAt
+    id
+    name
+    externalDashboardThemeClients {
+      id
+      clientId
+      clientName
+    }
+  }
+}

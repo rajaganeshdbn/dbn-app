@@ -1,0 +1,6 @@
+.metricFilter {
+  @apply dbn-w-48 !important;
+}
+.customContainer {
+  @apply dbn-p-1;
+}

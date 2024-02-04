@@ -1,0 +1,28 @@
+mutation CompanySubsetTableData(
+  $clientId: String = ""
+  $companyId: String = ""
+  $workspaceId: String = ""
+) {
+  companySubsetTableData(
+    input: {
+      clientId: $clientId
+      companyId: $companyId
+      workspaceId: $workspaceId
+    }
+  ) {
+    companyIntegrationId
+    dbName
+    error {
+      message
+    }
+    tableList {
+      tableName
+      columns {
+        datatype
+        name
+        as
+      }
+      clientColumn
+    }
+  }
+}

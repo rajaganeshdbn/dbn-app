@@ -1,0 +1,8 @@
+mutation DeleteDefaultClient($companyId: uuid = "") {
+  update_externalDashboards(
+    where: { companyId: { _eq: $companyId } }
+    _set: { defaultClientId: "" }
+  ) {
+    affected_rows
+  }
+}

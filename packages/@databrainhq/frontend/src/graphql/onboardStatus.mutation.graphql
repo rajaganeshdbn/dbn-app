@@ -1,0 +1,8 @@
+mutation UpdateOnboardStatus($id: uuid = "", $isOnboarded: Boolean = false) {
+  update_companies_by_pk(
+    pk_columns: { id: $id }
+    _set: { isOnboarded: $isOnboarded }
+  ) {
+    isOnboarded
+  }
+}

@@ -1,0 +1,6 @@
+query RawCsvSettings($id: uuid = "") {
+  companyWorkspaces_by_pk(id: $id) {
+    rawCsvSettings
+    id
+  }
+}

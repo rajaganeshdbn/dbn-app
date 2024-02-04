@@ -1,0 +1,5 @@
+mutation Forecast($inputData: json = "") {
+  forecast(input: { inputData: $inputData }) {
+    forecastData
+  }
+}

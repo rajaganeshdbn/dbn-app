@@ -1,0 +1,40 @@
+.group {
+  @apply dbn-inline-flex dbn-gap-1 dbn-flex-col;
+}
+
+.button {
+  @apply dbn-flex dbn-flex-row-reverse dbn-gap-2 dbn-justify-center dbn-items-center dbn-cursor-pointer dbn-w-fit;
+}
+
+.checkbox {
+  @apply dbn-hidden;
+}
+
+.switch {
+  @apply dbn-inline-flex dbn-h-5 dbn-w-[33px] dbn-items-center dbn-rounded-[62.5px];
+}
+
+.switch::before {
+  content: '';
+  @apply dbn-h-[15px] dbn-w-[15px] dbn-bg-white dbn-transform dbn-transition dbn-rounded-full;
+}
+
+.enabled {
+  @apply dbn-bg-gray-800;
+}
+
+.enabled::before {
+  @apply dbn-translate-x-4;
+}
+
+.notenabled {
+  @apply dbn-bg-bright-gray;
+}
+
+.notenabled::before {
+  @apply dbn-translate-x-1;
+}
+
+.label {
+  @apply dbn-font-bold dbn-font-lato dbn-not-italic dbn-text-sm dbn-text-gray-900;
+}

@@ -1,0 +1,5 @@
+query GetJobInformation($jobId: String = "") {
+  getJobInformation(input: { jobId: $jobId }) {
+    data
+  }
+}

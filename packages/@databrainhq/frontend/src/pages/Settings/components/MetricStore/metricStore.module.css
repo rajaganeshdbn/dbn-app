@@ -1,0 +1,7 @@
+.metricStore {
+  @apply dbn-p-4;
+}
+
+.header {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-mb-8 dbn-py-3 dbn-border-b dbn-border-secondary;
+}

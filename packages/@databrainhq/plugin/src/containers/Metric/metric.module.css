@@ -1,0 +1,6 @@
+.metric {
+  @apply dbn-bg-white dbn-w-full dbn-h-full dbn-flex dbn-justify-center dbn-items-center dbn-relative dbn-flex-col dbn-gap-2.5 dbn-py-2;
+}
+.loader {
+  @apply dbn-absolute dbn-bg-white dbn-top-0 dbn-bottom-0 dbn-left-0 dbn-right-0;
+}

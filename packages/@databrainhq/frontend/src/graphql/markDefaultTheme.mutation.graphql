@@ -1,0 +1,8 @@
+mutation MarkDefaultTheme($companyId: uuid!, $themeId: uuid!) {
+  update_companies_by_pk(
+    pk_columns: { id: $companyId }
+    _set: { defaultTheme: $themeId }
+  ) {
+    defaultTheme
+  }
+}

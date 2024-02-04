@@ -1,0 +1,5 @@
+query UsersId($id: uuid = "") {
+  users(where: { companyId: { _eq: $id } }) {
+    id
+  }
+}

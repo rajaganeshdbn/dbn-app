@@ -1,0 +1,47 @@
+.schemaSideBar-container {
+  @apply dbn-w-full dbn-h-full dbn-overflow-hidden dbn-p-4 dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.schemaSideBar-header {
+  @apply dbn-h-16 dbn-border-b dbn-divide-solid dbn-flex dbn-items-center dbn-pl-5 dbn-w-full dbn-gap-2 dbn-text-lg;
+}
+
+.schemaSideBar-wrapper {
+  @apply dbn-w-full dbn-h-[calc(100%-4rem)] dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.schemaTab-container {
+  @apply dbn-flex  dbn-w-full dbn-items-center dbn-gap-10 dbn-overflow-hidden;
+}
+
+.tableTab-container {
+  @apply dbn-flex dbn-w-full dbn-items-center;
+}
+
+.columnTab-container {
+  @apply dbn-gap-1 dbn-flex dbn-items-center dbn-w-full;
+}
+
+.heading {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-pr-4;
+}
+
+.listVal {
+  @apply dbn-max-w-[60px] dbn-truncate dbn-px-2 dbn-py-0.5 dbn-inline-block dbn-font-semibold dbn-bg-gray dbn-rounded-lg dbn-text-xs;
+}
+
+.column {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-gap-2 dbn-rounded dbn-items-center dbn-justify-between dbn-border dbn-border-secondary dbn-px-3 dbn-select-none;
+}
+
+.handleIcon {
+  @apply dbn-flex dbn-relative dbn-w-[5%] dbn-items-center;
+}
+
+.handleIcon > :last-child {
+  @apply dbn-absolute dbn-left-1.5;
+}
+
+.deleteModal {
+  @apply dbn-p-5 dbn-flex dbn-items-center dbn-flex-col dbn-gap-2;
+}

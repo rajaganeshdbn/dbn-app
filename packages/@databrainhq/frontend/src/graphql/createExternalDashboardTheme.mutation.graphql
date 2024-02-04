@@ -1,0 +1,25 @@
+mutation CreateExternalDashboardTheme(
+  $companyId: uuid!
+  $name: String!
+  $colors: jsonb!
+  $clients: [externalDashboardThemeClients_insert_input!]!
+) {
+  insert_externalDashboardThemes_one(
+    object: {
+      colors: $colors
+      name: $name
+      companyId: $companyId
+      externalDashboardThemeClients: { data: $clients }
+    }
+  ) {
+    id
+    name
+    colors
+    externalDashboardThemeClients {
+      clientId
+      clientName
+      id
+    }
+    createdAt
+  }
+}

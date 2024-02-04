@@ -1,0 +1,13 @@
+query GetDemoConfig($companyId: uuid! = "") {
+  demoTheme(where: { companyId: { _eq: $companyId } }) {
+    id
+    companyId
+    primaryColor
+    dashboardTitle
+    textColor
+    logoUrl
+    navbarColor
+    highlightColor
+    settings
+  }
+}

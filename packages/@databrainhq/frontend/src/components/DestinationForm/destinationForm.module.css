@@ -1,0 +1,19 @@
+.destination-container {
+  @apply dbn-w-[657px] dbn-h-full dbn-rounded dbn-border-[#E4E4E4] dbn-border-2 dbn-relative;
+}
+
+.destination-header {
+  @apply dbn-sticky dbn-w-full dbn-h-10  dbn-bg-blue-100 dbn-px-5 dbn-flex dbn-items-center;
+}
+
+.destinationForm {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-p-5;
+}
+
+.testDestinationButton {
+  @apply dbn-flex dbn-gap-5 dbn-items-center dbn-h-full dbn-pb-5 dbn-mt-4;
+}
+
+.destination-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}

@@ -1,0 +1,12 @@
+.dialog {
+  @apply dbn-absolute dbn-left-0 dbn-right-0 dbn-top-0 dbn-bottom-0 dbn-w-screen dbn-h-screen dbn-z-[99999] dbn-flex dbn-justify-center dbn-items-center dbn-bg-dark dbn-bg-opacity-40 !important;
+}
+.container {
+  @apply dbn-border dbn-rounded dbn-max-w-xs dbn-aspect-square dbn-p-5 dbn-bg-light dbn-flex dbn-flex-col dbn-justify-center dbn-items-center dbn-text-center dbn-gap-5 dbn-relative;
+}
+.pluginIcon {
+  @apply dbn-text-9xl;
+}
+.closeButton {
+  @apply dbn-absolute dbn-right-5 dbn-top-5;
+}

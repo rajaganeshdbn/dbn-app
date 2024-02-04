@@ -1,0 +1,23 @@
+.imgDiv {
+  @apply dbn-border dbn-border-secondary dbn-p-4;
+}
+
+.chartOptions {
+  @apply dbn-w-full dbn-h-full dbn-grid dbn-grid-cols-2 dbn-gap-x-5 dbn-gap-y-6 dbn-p-5;
+}
+
+.chartOption {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+
+.chartOptionBtn {
+  @apply dbn-flex dbn-justify-center dbn-items-center dbn-w-full dbn-border dbn-border-solid dbn-p-2 dbn-rounded hover:dbn-border-primary disabled:dbn-cursor-not-allowed;
+}
+
+.chartOptionText {
+  @apply dbn-text-xs dbn-text-center dbn-text-black;
+}
+
+.chartOptionBtnSelected {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center dbn-border dbn-border-primary dbn-p-2 dbn-rounded disabled:dbn-cursor-not-allowed;
+}

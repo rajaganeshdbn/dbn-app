@@ -1,0 +1,5 @@
+query GetConnectionsList($workspaceId: String = "") {
+  getConnectionsList(input: { workspaceId: $workspaceId }) {
+    data
+  }
+}

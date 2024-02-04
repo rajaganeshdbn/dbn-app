@@ -1,0 +1,18 @@
+query ExternalDatasetList($companyId: uuid = "", $workspaceId: uuid = "") {
+  externalDatasets(
+    where: {
+      companyId: { _eq: $companyId }
+      workpspaceId: { _eq: $workspaceId }
+    }
+  ) {
+    clientColumn
+    columns
+    companyId
+    createdAt
+    id
+    tableName
+    type
+    updatedAt
+    query
+  }
+}

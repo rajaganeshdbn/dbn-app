@@ -1,0 +1,11 @@
+mutation UpdateCacheEnable(
+  $isEnabled: Boolean = false
+  $workspaceId: uuid = ""
+) {
+  update_companyRedis_by_pk(
+    pk_columns: { workspaceId: $workspaceId }
+    _set: { isEnabled: $isEnabled }
+  ) {
+    isEnabled
+  }
+}

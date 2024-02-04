@@ -1,0 +1,10 @@
+.tab {
+  @apply dbn-w-full dbn-h-10 dbn-flex dbn-items-end dbn-divide-solid;
+}
+.button {
+  @apply dbn-px-3 dbn-py-2 dbn-capitalize dbn-w-1/2;
+}
+
+.activeTab {
+  @apply dbn-border-b-2 dbn-border-primary dbn-text-text-tertiary-color;
+}

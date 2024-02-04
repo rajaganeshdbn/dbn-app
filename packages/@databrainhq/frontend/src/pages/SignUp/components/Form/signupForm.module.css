@@ -1,0 +1,17 @@
+.signup-container {
+  @apply sm:dbn-w-[448px] dbn-shadow-bs-8 dbn-border dbn-flex dbn-flex-col dbn-gap-6 dbn-border-gray-300 dbn-rounded-lg dbn-h-auto;
+}
+
+.signup-error-container{
+  @apply dbn-mt-3 dbn-bg-red-100 dbn-p-2 dbn-border-2 dbn-border-red-200 dbn-flex dbn-gap-1 dbn-items-center dbn-justify-start dbn-px-6;
+}
+
+.formLabel {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center dbn-px-8 dbn-pt-8;
+}
+.formLabelWrapper {
+  @apply dbn-w-full dbn-h-5 dbn-flex dbn-flex-row dbn-gap-1 dbn-items-center dbn-justify-center;
+}
+.logoContainer {
+  @apply dbn-h-[10%] dbn-py-5 dbn-w-full;
+}

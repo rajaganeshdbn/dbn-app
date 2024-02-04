@@ -1,0 +1,7 @@
+mutation DeleteMultiExternalDashboardTheme($ids: [uuid!]!) {
+  delete_externalDashboardThemes(where: { id: { _in: $ids } }) {
+    returning {
+      id
+    }
+  }
+}

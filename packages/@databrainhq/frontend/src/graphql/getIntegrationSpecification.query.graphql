@@ -1,0 +1,8 @@
+query GetIntegrationSpecification($integrationId: uuid = "") {
+  integrationSpecifications(where: { integrationId: { _eq: $integrationId } }) {
+    id
+    integrationId
+    integrationName
+    fields
+  }
+}

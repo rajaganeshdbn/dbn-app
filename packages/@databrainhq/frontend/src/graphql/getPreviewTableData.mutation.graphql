@@ -1,0 +1,15 @@
+mutation GetPreviewTableData(
+  $dbName: String = ""
+  $destinationId: String = ""
+  $selectedSchemaList: json = ""
+) {
+  getPreviewTableData(
+    input: {
+      dbName: $dbName
+      destinationId: $destinationId
+      selectedSchemaList: $selectedSchemaList
+    }
+  ) {
+    dataList
+  }
+}

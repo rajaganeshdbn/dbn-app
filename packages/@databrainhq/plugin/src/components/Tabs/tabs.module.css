@@ -1,0 +1,45 @@
+.tabList {
+  @apply dbn-flex dbn-mb-2 dbn-select-none;
+}
+
+.tabListPrimary {
+  @apply dbn-border-b dbn-border-b-secondary/60 dbn-gap-4;
+}
+
+.tabListPopoverTab {
+  @apply dbn-py-1.5 dbn-bg-[#F4F4F7] dbn-p-2 dbn-rounded-[6px];
+}
+
+.tab {
+  @apply dbn-cursor-pointer dbn-text-secondary-dark/70 dbn-font-normal dbn-flex dbn-px-2;
+}
+
+.tabGrow {
+  @apply dbn-grow-0 dbn-px-4 dbn-justify-center;
+}
+
+.tabPrimary {
+  @apply dbn-truncate dbn-py-2;
+}
+
+.activeTabPrimary {
+  @apply dbn-border-b-2 dbn-text-primary dbn-border-b-secondary-dark/90 dbn-font-medium;
+}
+
+.activePopoverTab {
+  @apply dbn-bg-white;
+}
+
+.tabPopoverTab {
+  @apply dbn-py-1.5 dbn-px-5 dbn-rounded-[6px] dbn-justify-center dbn-text-sm;
+}
+
+/* storybook styles */
+
+.popOption {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-items-center dbn-justify-between hover:dbn-bg-gray-3 dbn-font-lato dbn-font-normal dbn-text-base dbn-text-gray-700;
+}
+
+.popOption2 {
+  @apply dbn-w-full dbn-h-full dbn-p-2 dbn-flex dbn-items-center dbn-justify-start hover:dbn-bg-gray-3 dbn-gap-2 dbn-font-lato dbn-font-normal dbn-text-base dbn-text-gray-700;
+}

@@ -1,0 +1,23 @@
+.integrationFormConfig-container {
+  @apply dbn-w-[600px] dbn-h-full dbn-relative;
+}
+
+.integrationFormConfig-header {
+  @apply dbn-sticky dbn-w-full dbn-px-5 dbn-flex dbn-items-center dbn-gap-5;
+}
+
+.integrationFormConfig-btn-container {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-py-5;
+}
+
+.deleteButton {
+  @apply dbn-w-fit dbn-px-2 dbn-py-1 dbn-text-red-h5;
+}
+
+.integrationCard {
+  @apply dbn-w-[60px] dbn-bg-white dbn-h-[60px] dbn-p-3 dbn-rounded-sm dbn-border dbn-border-secondary dbn-flex dbn-items-center dbn-justify-center dbn-flex-col dbn-text-xxs dbn-text-primary dbn-gap-0.5;
+}
+
+.badge {
+  @apply dbn-w-fit dbn-h-[27px] dbn-border dbn-border-[#CCC] dbn-px-[10px] dbn-rounded-3xl dbn-text-xs dbn-font-lato dbn-font-normal dbn-text-[#0D0D0D] dbn-flex dbn-items-center;
+}

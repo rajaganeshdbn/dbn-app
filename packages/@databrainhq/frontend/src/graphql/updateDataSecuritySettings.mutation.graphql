@@ -1,0 +1,11 @@
+mutation UpdateDataSecuritySettings(
+  $id: uuid = ""
+  $dataSecuritySettings: jsonb = ""
+) {
+  update_externalMetrics_by_pk(
+    pk_columns: { id: $id }
+    _set: { dataSecuritySettings: $dataSecuritySettings }
+  ) {
+    id
+  }
+}

@@ -1,0 +1,62 @@
+/* unused css */
+/* .connections-container {
+  @apply dbn-w-full dbn-h-full;
+}
+.connections-container {
+  @apply dbn-w-full dbn-h-full;
+}
+.connections-alt-container {
+  @apply dbn-w-full dbn-h-[600px] dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.connections-alt-wrapper {
+  @apply dbn-w-80 dbn-h-full dbn-flex dbn-items-center dbn-flex-col dbn-gap-2;
+}
+
+.connections-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.connections-list-container {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-start dbn-flex-col dbn-relative;
+}
+
+.connections-list-header {
+  @apply dbn-w-full dbn-h-10 dbn-grid dbn-grid-cols-5 dbn-bg-[#F9FAFB] dbn-text-center dbn-items-center;
+}
+
+.connections-list-wrapper {
+  @apply dbn-w-full dbn-h-16 dbn-grid dbn-grid-cols-5 dbn-items-center dbn-justify-items-center dbn-p-2 dbn-border-t dbn-border-[#EAEEFC];
+}
+
+.connections-list-source {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-between dbn-gap-2;
+}
+
+.connections-list-destination {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-gap-2;
+}
+
+.connections-item-status-inprogress {
+  @apply dbn-flex dbn-rounded-2xl dbn-bg-[#5865F6]/[10%] dbn-px-2 dbn-items-center dbn-justify-center dbn-border dbn-border-[#5865F6] dbn-gap-1;
+}
+
+.connections-item-status-active {
+  @apply dbn-flex dbn-rounded-2xl dbn-bg-[#0CBE69]/[10%] dbn-px-2 dbn-items-center dbn-justify-center dbn-border dbn-border-[#0CBE69] dbn-gap-1;
+}
+
+.connections-item-status-pause {
+  @apply dbn-flex dbn-rounded-2xl dbn-bg-[#FDB915]/[10%] dbn-px-2 dbn-items-center dbn-justify-center dbn-border dbn-border-[#FDB915] dbn-gap-1;
+}
+
+.connections-item-status-failed {
+  @apply dbn-flex dbn-rounded-2xl dbn-bg-[#9C3F0F]/[10%] dbn-px-2 dbn-items-center dbn-justify-center dbn-border dbn-border-[#9C3F0F] dbn-gap-1;
+}
+
+.connections-btn {
+  @apply dbn-absolute dbn-top-[75px] dbn-right-5;
+}
+
+.connections-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+} */

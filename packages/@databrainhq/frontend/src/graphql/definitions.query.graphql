@@ -1,0 +1,5 @@
+query Definitions($definitionType: String!) {
+  definitions(input: { definitionType: $definitionType }) {
+    data
+  }
+}

@@ -1,0 +1,28 @@
+mutation UpdateAPIToken(
+  $id: uuid!
+  $name: String!
+  $description: String
+  $scope: String!
+  $isExpired: Boolean!
+  $updatedBy: uuid!
+) {
+  update_apiTokens_by_pk(
+    pk_columns: { id: $id }
+    _set: {
+      name: $name
+      description: $description
+      isExpired: $isExpired
+      scope: $scope
+      updatedBy: $updatedBy
+    }
+  ) {
+    id
+    name
+    description
+    scope
+    isExpired
+    companyId
+    createdAt
+    updatedBy
+  }
+}

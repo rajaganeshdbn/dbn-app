@@ -1,0 +1,27 @@
+mutation CreateViewDataModel(
+  $companyId: String = ""
+  $description: String = ""
+  $destinationId: String = ""
+  $lineageData: jsonb = ""
+  $query: String = ""
+  $viewName: String = ""
+  $dbName: String = ""
+  $databaseName: String = ""
+  $workspaceId: String = ""
+) {
+  createViewDataModel(
+    input: {
+      companyId: $companyId
+      destinationId: $destinationId
+      lineageData: $lineageData
+      query: $query
+      viewName: $viewName
+      description: $description
+      dbName: $dbName
+      databaseName: $databaseName
+      workspaceId: $workspaceId
+    }
+  ) {
+    result
+  }
+}

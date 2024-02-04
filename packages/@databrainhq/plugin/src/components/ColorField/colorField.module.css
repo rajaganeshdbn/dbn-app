@@ -1,0 +1,15 @@
+.colorField {
+  @apply dbn-relative;
+}
+
+.label {
+  @apply dbn-absolute dbn-bottom-[5px] dbn-left-[5px] dbn-w-7 dbn-h-7 dbn-border dbn-border-gray-300 dbn-rounded dbn-z-10;
+}
+
+.field {
+  @apply dbn-opacity-0 dbn-cursor-pointer;
+}
+
+.textField {
+  @apply dbn-pl-10;
+}

@@ -1,0 +1,86 @@
+.main-container {
+  @apply dbn-w-[75%] dbn-h-full dbn-flex dbn-flex-col dbn-overflow-auto;
+}
+.mainContainerUpdate {
+  @apply dbn-w-full;
+}
+
+.outputTab-header {
+  @apply dbn-h-12 dbn-flex dbn-items-center dbn-w-full;
+}
+
+.selection {
+  @apply dbn-w-full dbn-h-[15%] dbn-flex dbn-flex-col;
+}
+
+.selectionContainer {
+  @apply dbn-w-full dbn-border-b dbn-border-secondary dbn-pl-2 dbn-flex;
+}
+
+.listContainer {
+  @apply dbn-flex dbn-gap-4;
+}
+
+.listVal {
+  @apply dbn-w-auto dbn-px-2 dbn-pl-2.5 dbn-h-[20px] dbn-flex dbn-gap-1 dbn-items-center dbn-justify-center dbn-font-semibold dbn-bg-secondary-dark/20 dbn-rounded-[250px] dbn-text-xs;
+}
+
+.removeColumn {
+  @apply dbn-border-l-[0.6px] dbn-pl-1.5 dbn-h-full dbn-hidden dbn-items-center dbn-justify-center dbn-border-secondary-dark/60;
+}
+
+.listVal:hover .removeColumn {
+  @apply dbn-flex;
+}
+
+.columnContainer {
+  @apply dbn-flex dbn-p-3 dbn-w-full dbn-items-center dbn-border dbn-border-transparent;
+}
+
+.selectedCol {
+  @apply dbn-w-[15%] dbn-flex dbn-border-r dbn-border-secondary dbn-py-3 dbn-px-3;
+}
+
+.wrapper {
+  @apply dbn-w-full dbn-h-[85%] dbn-border-b dbn-border-secondary;
+}
+
+.visualization {
+  @apply dbn-h-[96%] dbn-grow dbn-w-full;
+}
+
+.visualizationTabCollapsed {
+  @apply dbn-hidden;
+}
+
+.tableTab {
+  @apply dbn-min-h-[500px] dbn-h-[95%] dbn-w-full;
+}
+
+.noCursor {
+  @apply hover:dbn-cursor-not-allowed;
+}
+
+.tableTabExpanded {
+  @apply dbn-h-full;
+}
+.searchCommand {
+  @apply dbn-fixed dbn-inset-0 dbn-bg-gray-500 dbn-bg-opacity-50 dbn-z-10 dbn-flex dbn-items-center dbn-justify-center;
+}
+.tabButton {
+  @apply dbn-px-8 dbn-text-center dbn-h-full dbn-flex dbn-items-center dbn-gap-2 dbn-overflow-hidden;
+}
+.tabActive {
+  @apply dbn-border-b-2 dbn-border-primary dbn-bg-primary-light dbn-bg-opacity-10 dbn-text-primary dbn-rounded-t;
+}
+.dynamicGroupFormat {
+  @apply dbn-w-52;
+}
+
+.wrapperHead {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-p-4;
+}
+
+.features {
+  @apply dbn-flex dbn-gap-4;
+}

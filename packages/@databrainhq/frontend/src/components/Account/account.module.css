@@ -1,0 +1,9 @@
+.account-container {
+  @apply dbn-relative dbn-flex dbn-gap-2 dbn-bg-white dbn-bg-opacity-10 dbn-px-2 dbn-py-4 dbn-items-center;
+}
+.account-profile-icon {
+  @apply dbn-bg-blue-h11 dbn-rounded-full dbn-flex dbn-justify-center dbn-items-center dbn-font-semibold dbn-text-xs dbn-text-blue-h12;
+}
+.account-profile-name {
+  @apply dbn-w-full dbn-text-white dbn-flex dbn-flex-col dbn-font-normal dbn-text-xs dbn-whitespace-nowrap dbn-text-ellipsis dbn-overflow-hidden;
+}

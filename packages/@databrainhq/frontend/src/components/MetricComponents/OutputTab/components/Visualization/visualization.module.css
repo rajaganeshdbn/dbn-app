@@ -1,0 +1,103 @@
+.searchCommand {
+  @apply dbn-fixed dbn-inset-0 dbn-bg-gray-500 dbn-bg-opacity-50 dbn-z-10 dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.chartTab-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-p-5;
+}
+
+.chartText {
+  @apply dbn-w-full dbn-h-[13%] dbn-p-2 dbn-pl-10 dbn-border-b dbn-divide-solid;
+}
+
+.charts {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-pb-7;
+}
+
+.metricChart {
+  @apply dbn-w-full dbn-h-[80%] dbn-mb-4 dbn-flex dbn-flex-col dbn-relative dbn-justify-between dbn-px-5;
+}
+
+.metricChartHeader {
+  @apply dbn-h-[70px] dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.chartTab-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-relative;
+}
+
+.chartTab-wrapper-head {
+  @apply dbn-px-2 dbn-w-full dbn-h-auto dbn-flex dbn-items-center dbn-justify-between dbn-gap-2.5;
+}
+
+/* .fullQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-divide-solid dbn-border dbn-text-primary dbn-rounded dbn-flex dbn-items-center dbn-justify-center hover:dbn-cursor-pointer;
+} */
+
+.fullQueryIcon {
+  @apply dbn-w-4 dbn-h-4;
+}
+
+.noQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-divide-solid dbn-rounded dbn-flex dbn-items-center dbn-justify-center hover:dbn-cursor-not-allowed;
+}
+
+.tableTab-header {
+  @apply dbn-border-b dbn-divide-solid dbn-flex dbn-flex-col dbn-w-full dbn-px-6 dbn-relative dbn-py-4;
+}
+
+.chartButton-header {
+  @apply dbn-flex dbn-flex-row dbn-w-full dbn-h-11 dbn-mb-4 dbn-border-b dbn-divide-solid dbn-bg-gray-200 dbn-items-center dbn-px-4 dbn-relative;
+}
+
+.chartButtonContainer {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-full dbn-border dbn-divide-solid dbn-overflow-y-auto;
+}
+
+.searchWrapper {
+  @apply dbn-w-14 dbn-h-14 dbn-mb-4;
+}
+
+.searchIcon {
+  @apply dbn-w-full dbn-h-full dbn-text-blue-50;
+}
+
+.chartConfigure {
+  @apply dbn-absolute dbn-right-0 -dbn-top-10 dbn-bg-white dbn-z-10 dbn-w-[340px] dbn-h-[410px] dbn-shadow-xl;
+}
+
+.labels {
+  @apply dbn-w-full dbn-h-full dbn-relative;
+}
+
+.chartButtons {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-px-5;
+}
+
+.chartButton {
+  @apply dbn-text-blue-700;
+}
+
+.loader-container {
+  @apply dbn-w-full dbn-min-h-[400px] dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.time-container {
+  @apply dbn-flex dbn-flex-row dbn-items-center dbn-gap-1;
+}
+
+.popupIcon {
+  @apply dbn-w-6 dbn-h-6 dbn-text-[#182c60];
+}
+
+.popupMenu {
+  @apply dbn-p-2 dbn-w-max dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.popupItem {
+  @apply dbn-p-2 dbn-w-max dbn-flex dbn-gap-1 dbn-items-center dbn-text-xs dbn-text-text-primary-color dbn-font-normal hover:dbn-bg-gray-200 dbn-rounded;
+}
+
+.metricChartEmpty {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-justify-center dbn-items-center;
+}

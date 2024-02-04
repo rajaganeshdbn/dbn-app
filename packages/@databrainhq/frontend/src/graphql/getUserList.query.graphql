@@ -1,0 +1,26 @@
+query UserList($companyId: uuid = "") {
+  companies_by_pk(id: $companyId) {
+    users {
+      firstName
+      lastName
+      id
+      email
+      createdAt
+      invitedBy
+      isAcceptedInvite
+      acceptedInviteAt
+      isAdmin
+      invitationToken
+      userRoles {
+        id
+        workspaces
+        applyOn
+        companyRole {
+          id
+          name
+          permissions
+        }
+      }
+    }
+  }
+}

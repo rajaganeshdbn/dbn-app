@@ -1,0 +1,27 @@
+.header-container {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.header-container > :nth-child(2) {
+  @apply dbn-justify-center;
+}
+
+.header-container > :nth-child(3) {
+  @apply dbn-justify-end;
+}
+
+.headingText {
+  @apply dbn-font-semibold dbn-text-xl;
+}
+
+.btn-container {
+  @apply dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.back-btn {
+  @apply dbn-flex dbn-items-center dbn-justify-between dbn-gap-2 !dbn-bg-[#e5e7eb] dbn-text-dark dbn-border dbn-rounded-md dbn-py-2 dbn-px-3;
+}
+
+.save-btn {
+  @apply disabled:dbn-cursor-not-allowed !dbn-bg-primary dbn-text-white dbn-rounded-md dbn-p-2 dbn-w-fit dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center;
+}

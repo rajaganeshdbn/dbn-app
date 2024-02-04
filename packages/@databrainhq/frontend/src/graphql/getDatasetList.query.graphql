@@ -1,0 +1,16 @@
+query DatasetList($companyIntegrationId: String = "") {
+  dataModels(where: { destinationId: { _eq: $companyIntegrationId } }) {
+    companyId
+    createdAt
+    databaseName
+    dbName
+    description
+    destinationId
+    id
+    lineageData
+    modelType
+    name
+    query
+    workspaceId
+  }
+}

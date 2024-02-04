@@ -1,0 +1,27 @@
+.sidebarContainer {
+  @apply h-screen flex flex-col bg-background z-50 pt-5 border-r border-r-[#D0D4DA] w-72 relative;
+}
+
+.companyLogo {
+  @apply flex items-center justify-center px-3 my-4;
+}
+
+.navlistContainer {
+  @apply h-full mt-4 px-3 overflow-y-auto;
+}
+
+.active {
+  @apply !font-medium text-[#0D0D0D];
+}
+
+.link {
+  @apply hover:bg-highlight font-light flex p-2 rounded items-center text-sm text-primary-text cursor-pointer;
+}
+
+.text {
+  @apply leading-[1.063rem] flex items-center text-primary-text;
+}
+
+.formInput {
+  @apply w-full mb-5 !rounded p-2 !text-sm !ring-0 focus:!border-gray-700 outline-none !border !border-gray-300 !text-black;
+}

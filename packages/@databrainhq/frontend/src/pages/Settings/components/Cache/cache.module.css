@@ -1,0 +1,3 @@
+.container {
+  @apply dbn-w-full dbn-h-full dbn-overflow-auto dbn-flex dbn-flex-col dbn-gap-3 dbn-p-10;
+}

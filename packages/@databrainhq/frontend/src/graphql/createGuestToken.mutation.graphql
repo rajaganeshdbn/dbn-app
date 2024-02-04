@@ -1,0 +1,21 @@
+mutation CreateGuestToken(
+  $companyId: uuid!
+  $params: jsonb!
+  $clientId: String!
+  $expire: String = ""
+) {
+  insert_guestTokens_one(
+    object: {
+      clientId: $clientId
+      companyId: $companyId
+      params: $params
+      expire: $expire
+    }
+  ) {
+    id
+    clientId
+    params
+    companyId
+    expire
+  }
+}

@@ -1,0 +1,7 @@
+.token-alt-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+
+.token-alt-wrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-3 dbn-items-center;
+}

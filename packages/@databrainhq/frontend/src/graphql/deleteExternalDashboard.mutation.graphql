@@ -1,0 +1,8 @@
+mutation DeleteExternalDashboard($id: uuid = "") {
+  delete_externalDashboards_by_pk(id: $id) {
+    companyId
+    externalDashboardId
+    id
+    name
+  }
+}

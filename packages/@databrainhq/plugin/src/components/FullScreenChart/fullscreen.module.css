@@ -1,0 +1,3 @@
+.fullscreen {
+  @apply dbn-w-[90vw] dbn-h-[80vh] dbn-p-8;
+}

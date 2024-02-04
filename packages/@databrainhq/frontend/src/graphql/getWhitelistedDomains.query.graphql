@@ -1,0 +1,6 @@
+query GetWhitelistedDomains($companyId: uuid!) {
+  whitelistedDomains_by_pk(companyId: $companyId) {
+    companyId
+    domains
+  }
+}

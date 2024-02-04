@@ -1,0 +1,8 @@
+mutation CreateCompanyRoles($objects: [companyRoles_insert_input!]!) {
+  insert_companyRoles(objects: $objects) {
+    returning {
+      id
+      name
+    }
+  }
+}

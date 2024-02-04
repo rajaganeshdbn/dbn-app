@@ -1,0 +1,22 @@
+query QueryExternalMetric(
+  $id: String = ""
+  $clientId: String = ""
+  $globalFilters: json = ""
+  $rlsConditions: json = []
+  $tenancyLevel: String = "TABLE"
+  $filterValues: json = ""
+) {
+  externalMetricQuery(
+    input: {
+      externalMetricId: $id
+      clientId: $clientId
+      globalFilters: $globalFilters
+      rlsConditions: $rlsConditions
+      tenancyLevel: $tenancyLevel
+      filterValues: $filterValues
+    }
+  ) {
+    data
+    timeTaken
+  }
+}

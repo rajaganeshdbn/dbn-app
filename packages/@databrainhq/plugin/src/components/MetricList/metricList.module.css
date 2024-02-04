@@ -1,0 +1,27 @@
+.MetricList-container {
+  @apply dbn-w-full dbn-mb-4 dbn-flex dbn-flex-col dbn-gap-2.5 dbn-pb-5;
+}
+
+.MetricList-wrapper {
+  @apply dbn-bg-white dbn-flex dbn-flex-col dbn-gap-2.5 dbn-rounded;
+}
+
+.MetricList-wrapper [class*='react-resizable-handle'] {
+  @apply dbn-z-[1000];
+}
+
+.MetricList-wrapper-move {
+  @apply hover:dbn-cursor-move;
+}
+
+.noMetric-container {
+  @apply dbn-w-full dbn-h-[400px] dbn-flex dbn-items-center dbn-justify-center dbn-mt-8;
+}
+
+.noMetric-wrapper {
+  @apply dbn-w-80 dbn-h-40 dbn-flex dbn-items-center dbn-justify-center dbn-flex-col dbn-gap-2;
+}
+
+.alt-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center;
+}

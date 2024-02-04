@@ -1,0 +1,13 @@
+query GetAPITokens($companyId: uuid!) {
+  apiTokens(where: { companyId: { _eq: $companyId } }) {
+    id
+    companyId
+    name
+    description
+    scope
+    isExpired
+    updatedBy
+    createdAt
+    isTest
+  }
+}

@@ -1,0 +1,5 @@
+mutation DeleteDestination($destinationId: String = "") {
+  deleteDestination(input: { destinationId: $destinationId }) {
+    data
+  }
+}

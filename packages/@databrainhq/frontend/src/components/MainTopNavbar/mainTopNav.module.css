@@ -1,0 +1,3 @@
+.navContainer {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-flex-row dbn-h-16 dbn-px-5 dbn-shadow-sm dbn-border-b dbn-border-b-secondary dbn-bg-white;
+}

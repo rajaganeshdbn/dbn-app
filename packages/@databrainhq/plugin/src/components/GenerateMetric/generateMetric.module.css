@@ -1,0 +1,32 @@
+.generateMetricModal {
+  @apply dbn-fixed dbn-top-0 dbn-left-0 dbn-w-full dbn-h-full dbn-z-[9999] dbn-bg-white dbn-overflow-hidden;
+}
+
+.generateMetricModalHeader {
+  @apply dbn-h-[10%] dbn-px-5 dbn-border-b dbn-border-b-secondary dbn-flex dbn-items-center;
+}
+
+.generateMetricQuery {
+  @apply dbn-flex dbn-w-full dbn-p-5 dbn-items-center dbn-justify-center dbn-h-[10%];
+}
+.generateMetricQueryForm {
+  @apply dbn-flex  dbn-items-center dbn-gap-0 dbn-mr-6;
+}
+.generateMetricChart {
+  @apply dbn-flex dbn-w-full dbn-p-5 dbn-items-center dbn-justify-center dbn-h-[80%];
+}
+.metricChartEmpty {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-items-center dbn-justify-center;
+}
+
+.loaderContainer {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.chartWrapper {
+  @apply dbn-w-full dbn-h-full dbn-rounded dbn-divide-solid dbn-relative dbn-p-5;
+}
+
+.sqlPopUp {
+  @apply dbn-p-5;
+}

@@ -1,0 +1,7 @@
+query GetUserClientData($companyId: String = "", $workspaceId: String = "") {
+  getUserClientData(
+    input: { companyId: $companyId, workspaceId: $workspaceId }
+  ) {
+    data
+  }
+}

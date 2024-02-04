@@ -1,0 +1,31 @@
+.badge {
+  @apply dbn-rounded-3xl dbn-px-2 dbn-py-1;
+}
+
+.primary {
+  @apply dbn-bg-primary;
+}
+
+.secondary {
+  @apply dbn-bg-secondary;
+}
+
+.success {
+  @apply dbn-bg-success;
+}
+
+.danger {
+  @apply dbn-bg-alert;
+}
+
+.warning {
+  @apply dbn-bg-warning;
+}
+
+.info {
+  @apply dbn-bg-info;
+}
+
+.xs {
+  @apply dbn-w-5 dbn-h-5 dbn-flex dbn-items-center dbn-justify-center dbn-rounded-full;
+}

@@ -1,0 +1,20 @@
+mutation ExecutePython(
+  $code: String!
+  $clientId: String
+  $rlsConditions: json
+  $isUat: Boolean
+  $companyId: String!
+) {
+  executePython(
+    input: {
+      code: $code
+      clientId: $clientId
+      metricFilters: $rlsConditions
+      companyId: $companyId
+      isUat: $isUat
+    }
+  ) {
+    result
+    error
+  }
+}

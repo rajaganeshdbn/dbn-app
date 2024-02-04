@@ -1,0 +1,17 @@
+mutation ResizeDashboardMetric(
+  $id: uuid!
+  $width: Int!
+  $height: Int!
+  $xAxis: Int!
+  $yAxis: Int!
+) {
+  update_dashboardMetrics_by_pk(
+    pk_columns: { id: $id }
+    _set: { width: $width, height: $height, xAxis: $xAxis, yAxis: $yAxis }
+  ) {
+    width
+    height
+    xAxis
+    yAxis
+  }
+}

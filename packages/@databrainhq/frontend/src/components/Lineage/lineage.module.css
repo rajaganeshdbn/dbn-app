@@ -1,0 +1,11 @@
+.lineage-container {
+  @apply dbn-w-full dbn-h-full dbn-min-h-[500px] dbn-relative dbn-border dbn-divide-solid dbn-rounded-lg;
+}
+
+.lineage-header {
+  @apply dbn-w-full dbn-h-10 dbn-relative dbn-border-b dbn-divide-solid dbn-px-5 dbn-flex dbn-items-center;
+}
+
+.lineage-wrapper {
+  @apply dbn-p-5;
+}

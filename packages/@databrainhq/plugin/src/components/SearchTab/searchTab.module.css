@@ -1,0 +1,11 @@
+.searchTab-container {
+  @apply dbn-w-full dbn-h-10 dbn-relative;
+}
+
+.searchTab-input {
+  @apply dbn-w-full dbn-h-10 dbn-relative dbn-border dbn-border-secondary dbn-rounded-md dbn-box-border dbn-not-italic dbn-font-normal dbn-font-lato dbn-leading-6 placeholder:dbn-text-gray-500 focus:dbn-outline-focus focus:dbn-shadow-bs-12 dbn-px-3 dbn-py-2 dbn-text-text-primary-color dbn-text-base dbn-bg-white;
+}
+
+.search {
+  @apply dbn-absolute dbn-right-2 dbn-top-1/2 -dbn-translate-y-1/2;
+}

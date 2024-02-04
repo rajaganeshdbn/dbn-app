@@ -1,0 +1,15 @@
+mutation CacheIntegrationSchema(
+  $companyId: String = ""
+  $companyIntegrationId: String = ""
+  $workspaceId: String = ""
+) {
+  cacheIntegrationSchema(
+    input: {
+      companyId: $companyId
+      companyIntegrationId: $companyIntegrationId
+      workspaceId: $workspaceId
+    }
+  ) {
+    data
+  }
+}

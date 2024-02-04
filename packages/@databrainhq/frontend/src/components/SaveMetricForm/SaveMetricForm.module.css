@@ -1,0 +1,15 @@
+.saveMetric-container{
+    @apply dbn-fixed dbn-inset-0 dbn-z-10 dbn-w-full dbn-h-full dbn-bg-slate-500/50 dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.saveMetric-wrapper{
+    @apply dbn-bg-white dbn-w-[500px] dbn-rounded-lg dbn-m-auto dbn-p-5;
+}
+
+.buttons-container{
+    @apply dbn-flex dbn-items-center dbn-gap-5 dbn-justify-end dbn-border-t dbn-divide-solid dbn-pt-4 dbn-mt-4;
+}
+
+.saveMetric-header {
+    @apply dbn-flex dbn-flex-row dbn-border-b dbn-divide-solid dbn-pb-2 dbn-relative dbn-mb-3;
+}

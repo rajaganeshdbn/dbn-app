@@ -1,0 +1,43 @@
+.container {
+  @apply dbn-w-[25%] dbn-h-full dbn-border-r dbn-border-r-secondary dbn-flex dbn-flex-col dbn-gap-3 dbn-overflow-hidden dbn-pl-5 dbn-pt-4;
+}
+
+.header {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-pr-5 dbn-items-center dbn-text-lg;
+}
+
+.wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-h-[78%] dbn-pr-3;
+}
+
+.col-container {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-pr-2 dbn-overflow-auto;
+}
+
+.column {
+  @apply dbn-w-full dbn-px-2.5 dbn-py-2 dbn-flex dbn-gap-2 dbn-rounded dbn-items-center dbn-border dbn-border-secondary dbn-select-none;
+}
+
+.columnText {
+  @apply dbn-truncate;
+}
+
+.heading {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.customButton {
+  @apply dbn-w-full dbn-truncate dbn-flex dbn-gap-2 dbn-items-center dbn-justify-start;
+}
+
+.listVal {
+  @apply dbn-w-auto dbn-px-2 dbn-py-0.5 dbn-flex dbn-items-center dbn-justify-center dbn-font-semibold dbn-bg-gray dbn-rounded-lg dbn-text-xs;
+}
+
+.handleIcon {
+  @apply dbn-flex dbn-relative;
+}
+
+.handleIcon > :last-child {
+  @apply dbn-absolute dbn-left-1.5;
+}

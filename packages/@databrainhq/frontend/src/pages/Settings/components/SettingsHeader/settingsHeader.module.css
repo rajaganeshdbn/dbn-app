@@ -1,0 +1,19 @@
+.settings-header {
+  @apply dbn-w-full dbn-px-5 dbn-bg-white dbn-sticky dbn-top-0 dbn-z-10;
+}
+
+.settings-links {
+  @apply dbn-flex dbn-w-full dbn-flex-row dbn-border-b dbn-border-secondary dbn-items-end dbn-gap-1 dbn-divide-solid dbn-h-12 dbn-px-5;
+}
+
+.active {
+  @apply dbn-border-b-2 dbn-border-primary dbn-text-primary dbn-py-1 dbn-font-medium;
+}
+
+.link {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-p-2 dbn-w-fit;
+}
+
+.text {
+  @apply dbn-w-full dbn-text-sm;
+}

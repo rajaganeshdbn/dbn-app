@@ -1,0 +1,3 @@
+.selectDatabase-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-2;
+}

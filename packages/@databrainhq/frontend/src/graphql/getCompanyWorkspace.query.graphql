@@ -1,0 +1,15 @@
+query CompanyWorkspaces {
+  getCompanyWorkspaces {
+    companyWorkspaces {
+      companyId
+      description
+      id
+      name
+      tenancyLevel
+      creatorMode
+      companyIntegrations {
+        id
+      }
+    }
+  }
+}

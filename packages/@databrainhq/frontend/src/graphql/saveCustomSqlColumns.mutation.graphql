@@ -1,0 +1,22 @@
+mutation SaveCustomSqlColumn(
+  $companyIntegrationId: uuid = ""
+  $sqlColumns: jsonb = []
+  $tableName: String = ""
+) {
+  insert_customSqlColumns_one(
+    object: {
+      companyIntegrationId: $companyIntegrationId
+      sqlColumns: $sqlColumns
+      tableName: $tableName
+    }
+    on_conflict: {
+      constraint: customSqlColumns_companyIntegrationId_tableName_key
+      update_columns: [sqlColumns]
+    }
+  ) {
+    companyIntegrationId
+    id
+    sqlColumns
+    tableName
+  }
+}

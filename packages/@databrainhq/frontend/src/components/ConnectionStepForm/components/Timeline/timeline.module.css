@@ -1,0 +1,31 @@
+.step-container {
+  @apply dbn-h-[1.875rem] dbn-flex dbn-items-center;
+}
+
+.number {
+  @apply dbn-not-italic dbn-font-medium dbn-text-sm dbn-leading-[1.063rem] dbn-rounded-full dbn-h-[1.875rem] dbn-w-[1.875rem] dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.number-active {
+  @apply dbn-text-white dbn-bg-blue-h4;
+}
+
+.number-notActive {
+  @apply dbn-text-blue-h7 dbn-bg-blue-h14;
+}
+
+.text {
+  @apply dbn-not-italic dbn-text-base dbn-leading-[1.188rem] dbn-text-blue-h7 dbn-ml-2;
+}
+
+.text-active {
+  @apply dbn-font-medium;
+}
+
+.text-notActive {
+  @apply dbn-font-normal;
+}
+
+.line {
+  @apply dbn-w-[9.375rem] dbn-border dbn-border-blue-h14 dbn-mx-3;
+}

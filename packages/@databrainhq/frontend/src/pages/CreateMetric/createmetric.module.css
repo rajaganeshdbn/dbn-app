@@ -1,0 +1,24 @@
+.main-container {
+  @apply dbn-w-full dbn-h-screen dbn-overflow-hidden dbn-bg-white dbn-flex dbn-flex-col dbn-relative;
+}
+
+.main-wrapper {
+  @apply dbn-w-full dbn-h-[calc(100%-64px)] dbn-flex;
+}
+
+.loader-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-overflow-hidden;
+}
+
+.alt-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+.alt-wrapper {
+  @apply dbn-w-96 dbn-h-40 dbn-flex dbn-flex-col dbn-gap-5 dbn-text-center;
+}
+.collapseButton {
+  @apply dbn-bg-white dbn-cursor-pointer dbn-border dbn-border-secondary dbn-absolute -dbn-right-4 dbn-w-7 dbn-h-7 dbn-flex dbn-justify-center dbn-items-center dbn-top-[6.5rem] dbn-rounded-md dbn-z-10 dbn-transition-all dbn-duration-200;
+}
+.manageCol-container {
+  @apply dbn-absolute dbn-right-0 dbn-top-0 dbn-w-[28%] dbn-h-screen dbn-bg-white dbn-border-l dbn-border-secondary;
+}

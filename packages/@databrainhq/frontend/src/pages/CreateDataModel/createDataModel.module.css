@@ -1,0 +1,50 @@
+.createDataModel-container {
+  @apply dbn-w-full dbn-h-full;
+}
+
+.createDataModel-header {
+  @apply dbn-w-full dbn-h-16 dbn-p-5 dbn-flex dbn-justify-between dbn-border-b dbn-border-[#EAEEFC] dbn-items-center;
+}
+
+.createDataModel-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-5 dbn-p-5;
+}
+
+.createDataModel-top-container {
+  @apply dbn-w-full dbn-h-[300px] dbn-flex dbn-gap-5;
+}
+
+.createDataModel-bottom-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-gap-5;
+}
+
+.saveform-container {
+  @apply dbn-fixed dbn-inset-0 dbn-bg-[#000]/[20%] dbn-flex dbn-items-center dbn-justify-center dbn-h-full dbn-z-50;
+}
+
+.saveform-wrapper {
+  @apply dbn-w-[500px] dbn-h-[400px] dbn-bg-white dbn-border dbn-divide-solid dbn-rounded-lg;
+}
+
+.saveform-header {
+  @apply dbn-flex dbn-w-full dbn-py-3 dbn-items-center dbn-px-4 dbn-border-b dbn-divide-solid dbn-justify-between;
+}
+
+.saveform-form {
+  @apply dbn-px-5 dbn-h-full dbn-flex dbn-flex-col dbn-relative;
+}
+
+.saveform-form-btn {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-w-full dbn-justify-end dbn-border-t dbn-divide-solid dbn-py-3 dbn-absolute dbn-bottom-10 dbn-right-0 dbn-px-5;
+}
+
+.dataModel-loader-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-overflow-hidden;
+}
+
+.dataModel-alt-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+.dataModel-alt-wrapper {
+  @apply dbn-w-96 dbn-h-40 dbn-flex dbn-flex-col dbn-gap-5 dbn-text-center;
+}

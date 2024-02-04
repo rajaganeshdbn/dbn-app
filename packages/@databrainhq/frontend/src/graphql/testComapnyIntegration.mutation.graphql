@@ -1,0 +1,11 @@
+mutation TestCompanyIntegration(
+  $credentials: json = ""
+  $dbName: String = "Snowflake"
+) {
+  testIntegration(input: { credentials: $credentials, dbName: $dbName }) {
+    result {
+      message
+      status
+    }
+  }
+}

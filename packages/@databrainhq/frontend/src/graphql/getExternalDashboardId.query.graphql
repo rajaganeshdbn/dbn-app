@@ -1,0 +1,8 @@
+query GetExternalDashboardId($externalDashboardId: String = "") {
+  externalDashboards(
+    where: { externalDashboardId: { _eq: $externalDashboardId } }
+  ) {
+    id
+    filters
+  }
+}

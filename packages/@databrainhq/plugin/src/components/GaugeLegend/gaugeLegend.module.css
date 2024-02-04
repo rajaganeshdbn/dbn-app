@@ -1,0 +1,15 @@
+.mainContainer {
+  @apply dbn-w-full dbn-absolute dbn-top-0 dbn-z-50 dbn-h-12 dbn-flex dbn-gap-4 dbn-overflow-x-scroll;
+}
+
+.content {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-w-auto;
+}
+
+.contentValue {
+  @apply dbn-px-2 dbn-py-1 dbn-rounded-md dbn-text-xs dbn-font-bold;
+}
+
+.contentText {
+  @apply dbn-w-max dbn-text-xs dbn-font-semibold;
+}

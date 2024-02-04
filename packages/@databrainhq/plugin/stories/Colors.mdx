@@ -1,0 +1,78 @@
+import React from 'react';
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+
+<Meta title="Elements/Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="Primary"
+    subtitle="Includes shades of blue"
+    colors={{ Primary: '#222C3A', 'Primary Dark': '#1F2937' }}
+  />
+  <ColorItem
+    title="Secondary"
+    subtitle="Includes shades of gray"
+    colors={{ Secondary: '#D0D4DA', 'Secondary Dark': '#717171' }}
+  />
+  <ColorItem
+    title="Greyscale"
+    subtitle="Some of the greys"
+    colors={{ White: '#FFFFFF', Gray: '#FBFBFB', 'Gray Dark': '#F4F4F4' }}
+  />
+  <ColorItem
+    title="Red"
+    subtitle="Some of the reds"
+    colors={{
+      'Alert Light': '#FEF2F2',
+      Alert: '#DC2626',
+      'Alert Dark': '#991B1B',
+    }}
+  />
+  <ColorItem
+    title="Green"
+    subtitle="Some of the greens"
+    colors={{
+      'success Light': '#D1FAE5',
+      success: '#219653',
+      'Success Dark': '#065F46',
+    }}
+  />
+  <ColorItem
+    title="Blue"
+    subtitle="Some of the blues"
+    colors={{ 'Info Light': '#DBEAFE', info: '#0027F4' }}
+  />
+  <ColorItem
+    title="Yellow"
+    subtitle="Some of the yellows"
+    colors={{ 'warning': '#FEF3C7', 'warning-dark': '#92400E' }}
+  />
+</ColorPalette>
+
+##
+
+# Usage
+
+All color values are attached to root element as CSS variables and made availabe through tailwind classes. <br />
+**Availabe values:** <br />
+`primary` `primary-dark` `secondary` `secondary-dark` `white` `gray` `gray-dark` `alert-light` `alert` `alert-dark` `success` `success-dark` `info` `info-light`
+
+**Example:**
+
+```css
+div {
+  @apply bg-primary-dark text-primary;
+}
+
+.alert {
+  @apply bg-alert text-alert-dark;
+}
+```
+
+```html
+<div className="bg-gray text-primary">Hello world</div>
+```
+
+**Note** For text color please use `text-primary` or `text-secondary-dark` and for other color values use `bg-primary-dark` or `bg-secondary`.
+
+##

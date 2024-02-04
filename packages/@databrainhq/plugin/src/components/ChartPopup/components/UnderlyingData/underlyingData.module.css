@@ -1,0 +1,7 @@
+.fullscreen {
+  @apply dbn-w-[90vw] dbn-h-[70vh] dbn-p-5;
+}
+
+.loading {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-justify-center dbn-items-center;
+}

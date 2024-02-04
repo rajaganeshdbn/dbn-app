@@ -1,0 +1,67 @@
+.tableData {
+  @apply dbn-w-[100%] dbn-h-full dbn-overflow-hidden;
+}
+.tableScroll {
+  @apply dbn-w-[100%] dbn-h-full dbn-overflow-auto dbn-visible dbn-border dbn-border-secondary;
+}
+.tableSet {
+  @apply dbn-w-auto dbn-flex dbn-flex-row;
+}
+.tableHeadCol {
+  @apply dbn-w-64 !dbn-min-w-[32px] dbn-py-3 dbn-border-r dbn-border-secondary dbn-px-6 dbn-text-[#6B7280] dbn-bg-gray-50 dbn-truncate dbn-relative dbn-text-xs !dbn-font-semibold;
+}
+.table {
+  @apply dbn-table-fixed dbn-visible;
+}
+.row {
+  @apply dbn-sticky dbn-top-0 dbn-bg-gray-50 dbn-overflow-hidden dbn-border-b dbn-border-secondary;
+}
+.tableRow {
+  @apply dbn-border-b dbn-border-secondary;
+}
+.tableRowCol {
+  @apply dbn-w-64 !dbn-min-w-[32px] dbn-h-full dbn-truncate dbn-py-4 dbn-px-6 dbn-border-r dbn-border-secondary dbn-text-sm dbn-font-semibold dbn-text-text-primary-color;
+}
+.tableMetricHeadCol {
+  @apply dbn-w-56 !dbn-min-w-[32px] dbn-h-full dbn-px-6 dbn-truncate dbn-text-xs !dbn-font-medium dbn-border-r dbn-border-secondary dbn-text-left dbn-text-[#6B7280];
+}
+.tableValCol {
+  @apply dbn-w-56 !dbn-min-w-[32px] dbn-h-full dbn-px-4 dbn-truncate dbn-border-r dbn-border-secondary dbn-text-center;
+}
+.tableHeadUpper {
+  @apply dbn-w-auto dbn-px-4 dbn-border-r dbn-border-secondary dbn-truncate dbn-relative dbn-text-center;
+}
+.noData {
+  @apply dbn-w-full dbn-h-[300px] dbn-flex dbn-items-center dbn-justify-center;
+}
+.tableMain {
+  @apply dbn-flex dbn-flex-col;
+}
+.tableBodyMain {
+  @apply dbn-w-full dbn-flex dbn-flex-row;
+}
+.tableDiv {
+  @apply dbn-w-auto dbn-px-4 dbn-border-r dbn-border-secondary dbn-truncate dbn-relative dbn-text-left;
+}
+
+.headerClassNames {
+  @apply dbn-py-3 dbn-px-6 dbn-w-auto dbn-text-left dbn-capitalize dbn-text-[#6B7280] dbn-text-xs dbn-truncate !dbn-font-semibold;
+}
+
+.rowP2 {
+  @apply dbn-sticky dbn-top-0 dbn-bg-gray-50 dbn-overflow-hidden dbn-border-b dbn-border-secondary;
+}
+.tableHeadColP2 {
+  @apply dbn-w-auto dbn-text-left !dbn-min-w-[32px] dbn-border-r dbn-border-secondary dbn-py-3 dbn-px-2 dbn-text-gray-500 dbn-bg-white dbn-truncate dbn-relative dbn-text-sm !dbn-font-semibold  dbn-capitalize hover:dbn-bg-gray;
+}
+
+.tableRowColP2 {
+  @apply dbn-w-auto dbn-text-left !dbn-min-w-[32px] dbn-h-full dbn-truncate dbn-py-4 dbn-px-2 dbn-font-semibold dbn-text-text-primary-color;
+}
+
+.rowHoverP2 {
+  @apply hover:dbn-bg-gray-100 dbn-transition-all dbn-duration-200;
+}
+.rowBorderP2 {
+  @apply dbn-border-b dbn-border-secondary;
+}

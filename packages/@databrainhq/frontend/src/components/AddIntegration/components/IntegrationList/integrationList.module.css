@@ -1,0 +1,21 @@
+.integrationList-container {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-flex-col dbn-gap-4;
+}
+.integrationList-wrapper {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-flex-col dbn-gap-5 dbn-pt-2;
+}
+
+.integrationList-header {
+  @apply dbn-w-full dbn-h-10;
+}
+.integrationList-card-container {
+  @apply dbn-w-full dbn-grid dbn-grid-cols-4 dbn-gap-4 dbn-overflow-y-auto dbn-py-2;
+}
+
+.integrationCard-container {
+  @apply dbn-w-[130px] dbn-h-[130px] dbn-bg-white hover:dbn-shadow-bs-13 dbn-rounded-md dbn-border dbn-border-secondary dbn-shadow-bs-7 dbn-flex dbn-flex-col dbn-justify-center dbn-cursor-pointer;
+}
+
+.integrationCard-inner-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-items-start;
+}

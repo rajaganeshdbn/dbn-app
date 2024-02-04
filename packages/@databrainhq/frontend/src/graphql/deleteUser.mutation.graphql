@@ -1,0 +1,7 @@
+mutation DeleteUser($id: uuid = "") {
+  delete_users(where: { id: { _eq: $id }, invitedBy: { _is_null: false } }) {
+    returning {
+      id
+    }
+  }
+}

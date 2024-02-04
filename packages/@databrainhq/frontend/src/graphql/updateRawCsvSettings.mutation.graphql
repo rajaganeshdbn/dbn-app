@@ -1,0 +1,9 @@
+mutation UpdateRawCsvSettings($id: uuid = "", $rawCsvSettings: jsonb = {}) {
+  update_companyWorkspaces_by_pk(
+    pk_columns: { id: $id }
+    _set: { rawCsvSettings: $rawCsvSettings }
+  ) {
+    rawCsvSettings
+    id
+  }
+}

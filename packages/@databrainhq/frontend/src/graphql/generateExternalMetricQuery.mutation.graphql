@@ -1,0 +1,5 @@
+mutation GenerateExternalMetricQuery($inputData: json = "") {
+  generateExternalMetricQuery(input: { inputData: $inputData }) {
+    query
+  }
+}

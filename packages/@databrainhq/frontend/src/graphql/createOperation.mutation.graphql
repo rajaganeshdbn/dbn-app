@@ -1,0 +1,5 @@
+mutation CreateOperation($body: json = "") {
+  createOperation(input: { body: $body }) {
+    data
+  }
+}

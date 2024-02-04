@@ -1,0 +1,22 @@
+query ExternalDashboardList($workspaceId: uuid = "") {
+  externalDashboards(where: { workspaceId: { _eq: $workspaceId } }) {
+    externalDashboardId
+    name
+    id
+    filters
+    defaultClientId
+    layout
+    workspaceId
+    updatedAt
+    externalDashboardMetrics {
+      externalMetricId
+      externalMetric {
+        id
+        metricId
+        name
+        updatedAt
+        clientId
+      }
+    }
+  }
+}

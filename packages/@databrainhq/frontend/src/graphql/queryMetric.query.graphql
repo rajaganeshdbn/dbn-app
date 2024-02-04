@@ -1,0 +1,6 @@
+query QueryMetric($id: String = "") {
+  queryMetric(input: { id: $id }) {
+    data
+    timeTaken
+  }
+}

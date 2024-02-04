@@ -1,0 +1,16 @@
+mutation UpdateUser(
+  $userId: uuid!
+  $isAdmin: Boolean!
+  $firstName: String!
+  $lastName: String!
+) {
+  update_users_by_pk(
+    pk_columns: { id: $userId }
+    _set: { isAdmin: $isAdmin, firstName: $firstName, lastName: $lastName }
+  ) {
+    id
+    firstName
+    lastName
+    isAdmin
+  }
+}

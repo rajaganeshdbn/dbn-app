@@ -1,0 +1,25 @@
+mutation AcceptInvitation($password: String = "", $token: String = "") {
+  acceptInvitation(input: { password: $password, token: $token }) {
+    error
+    user {
+      companyId
+      email
+      error
+      firstName
+      id
+      lastName
+      token
+      workspaceId
+      userRoles {
+        id
+        applyOn
+        workspaces
+        companyRole {
+          id
+          name
+          permissions
+        }
+      }
+    }
+  }
+}

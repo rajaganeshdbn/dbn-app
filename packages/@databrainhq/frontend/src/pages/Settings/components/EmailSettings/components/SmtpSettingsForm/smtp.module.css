@@ -1,0 +1,7 @@
+.form-container {
+  @apply dbn-w-full dbn-max-w-[600px] dbn-h-full dbn-flex dbn-flex-col dbn-gap-5 dbn-p-10;
+}
+
+.form-wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-[22px];
+}

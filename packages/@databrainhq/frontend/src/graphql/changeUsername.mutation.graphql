@@ -1,0 +1,14 @@
+mutation ChangeUsername(
+  $id: String = ""
+  $firstName: String = ""
+  $lastName: String = ""
+) {
+  changeUserName(
+    input: { id: $id, firstName: $firstName, lastName: $lastName }
+  ) {
+    token
+    error {
+      message
+    }
+  }
+}

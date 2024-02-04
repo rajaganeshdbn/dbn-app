@@ -1,0 +1,82 @@
+.chartTab-container {
+  @apply dbn-w-full dbn-h-[95%] dbn-border dbn-divide-solid dbn-flex dbn-flex-col dbn-p-6;
+}
+
+.chartText {
+  @apply dbn-w-full dbn-h-[13%] dbn-p-2 dbn-pl-10 dbn-border-b dbn-divide-solid;
+}
+
+.charts {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-pb-7;
+}
+
+.metricChart {
+  @apply dbn-w-full dbn-h-[95%] dbn-flex dbn-flex-col dbn-gap-3 dbn-relative;
+}
+
+.metricChartEmpty {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-3 dbn-items-center dbn-justify-center;
+}
+
+.chartButtons {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-full dbn-py-4;
+}
+
+.metricChartEmpty {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-7 dbn-items-center dbn-justify-center;
+}
+.chartButton {
+  @apply dbn-text-blue-700;
+}
+
+.button {
+  @apply dbn-mt-4 dbn-mb-4 dbn-w-[90%] dbn-max-h-fit dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.propertyButton {
+  @apply dbn-p-2 dbn-w-full dbn-flex dbn-flex-row dbn-border dbn-divide-solid dbn-rounded-md dbn-text-sm dbn-justify-between dbn-items-center;
+}
+
+.chartTab-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-rounded dbn-border dbn-divide-solid;
+}
+
+.chartTab-wrapper-head {
+  @apply dbn-bg-[#EAECF0] dbn-p-3 dbn-w-full dbn-h-10 dbn-flex dbn-items-center dbn-justify-between dbn-relative;
+}
+
+.fullQuery {
+  @apply dbn-w-5 dbn-h-5 dbn-flex dbn-items-center dbn-justify-center  hover:dbn-cursor-pointer dbn-text-sm dbn-mr-2;
+}
+
+.settingsTab-header-control {
+  @apply dbn-flex dbn-flex-row dbn-border dbn-divide-solid dbn-rounded-md;
+}
+
+.noQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-divide-solid dbn-rounded-[4px] dbn-flex dbn-items-center dbn-justify-center  hover:dbn-cursor-not-allowed;
+}
+
+.tableTab-header {
+  @apply dbn-border-b dbn-divide-solid dbn-flex dbn-flex-col dbn-w-full dbn-px-6 dbn-relative dbn-py-4;
+}
+
+.chartButton-header {
+  @apply dbn-flex dbn-flex-row dbn-w-full dbn-h-11 dbn-border-b dbn-divide-solid dbn-bg-slate-200 dbn-items-center dbn-px-4 dbn-py-5 dbn-relative;
+}
+
+.chartButtonContainer {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-full dbn-border dbn-divide-solid;
+}
+
+.loader-container {
+  @apply dbn-h-full dbn-w-full dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.message {
+  @apply -dbn-mt-[150px];
+}
+
+.arithmeticPopupBtn {
+  @apply dbn-bg-white dbn-text-primary dbn-text-xs dbn-px-3 dbn-py-1 dbn-rounded-xl dbn-flex dbn-gap-0.5 dbn-border dbn-border-secondary-light;
+}

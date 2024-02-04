@@ -1,0 +1,18 @@
+query ListMetricVersions($metricId: uuid!, $limit: Int = 10, $offset: Int) {
+  metricVersions(
+    where: { metricId: { _eq: $metricId } }
+    limit: $limit
+    offset: $offset
+    order_by: { version: desc }
+  ) {
+    id
+    metric
+    metricId
+    version
+    changes
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+  }
+}

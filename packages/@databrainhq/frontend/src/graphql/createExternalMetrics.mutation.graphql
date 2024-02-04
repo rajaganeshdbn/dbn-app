@@ -1,0 +1,7 @@
+mutation CreateExternalMetrics($objects: [externalMetrics_insert_input!] = []) {
+  insert_externalMetrics(objects: $objects) {
+    returning {
+      id
+    }
+  }
+}

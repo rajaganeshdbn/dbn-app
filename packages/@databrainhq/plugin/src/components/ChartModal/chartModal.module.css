@@ -1,0 +1,56 @@
+.chartOptions {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-gap-8 dbn-flex-wrap dbn-px-6 dbn-py-2;
+}
+.chartOption {
+  @apply dbn-flex dbn-flex-col dbn-gap-2 dbn-w-[45%] dbn-items-center dbn-justify-center;
+}
+.chartOptionBtn {
+  @apply dbn-flex dbn-justify-center dbn-items-center dbn-w-full dbn-border dbn-border-solid dbn-p-2 dbn-rounded hover:dbn-border-primary disabled:dbn-cursor-not-allowed;
+}
+.chartOptionText {
+  @apply dbn-text-xs dbn-text-center dbn-text-black;
+}
+.chartOptionBtnSelected {
+  @apply dbn-flex dbn-justify-center dbn-items-center dbn-w-full dbn-border dbn-border-primary dbn-p-2 dbn-rounded dbn-bg-gray-100 disabled:dbn-cursor-not-allowed;
+}
+.container {
+  @apply dbn-p-3 dbn-flex dbn-flex-col dbn-gap-[22px] dbn-w-full;
+}
+.field {
+  @apply dbn-mb-3;
+}
+.fieldText {
+  @apply dbn-mb-2;
+}
+.selectFieldContainer {
+  @apply dbn-flex dbn-items-center;
+}
+.selectField {
+  @apply dbn-w-full;
+}
+.doneBtn {
+  @apply dbn-mt-4 dbn-w-full dbn-h-8;
+}
+.measureText {
+  @apply dbn-pt-3;
+}
+.singleValueMeasure {
+  @apply dbn-mt-3 dbn-mb-2;
+}
+.plus {
+  @apply dbn-flex dbn-flex-row dbn-items-center dbn-relative;
+}
+.plusIcon {
+  @apply dbn-w-4 dbn-h-4;
+}
+.chartType {
+  @apply dbn-flex dbn-flex-row dbn-items-center dbn-relative;
+}
+
+.selectedOption {
+  @apply dbn-border-blue-700 dbn-text-blue-700;
+}
+
+.imgDiv {
+  @apply dbn-w-[200px] dbn-h-[150px] dbn-flex dbn-items-center dbn-justify-center dbn-border dbn-border-secondary dbn-rounded-md;
+}

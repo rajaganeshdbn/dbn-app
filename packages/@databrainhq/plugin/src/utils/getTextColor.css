@@ -1,0 +1,145 @@
+.primary {
+  @apply dbn-text-primary;
+}
+
+.primary-dark {
+  @apply dbn-text-primary-dark;
+}
+
+.secondary {
+  @apply dbn-text-secondary;
+}
+
+.secondary-dark {
+  @apply dbn-text-secondary-dark;
+}
+
+.infoAlert {
+  @apply dbn-text-infoAlert;
+}
+
+.white {
+  @apply dbn-text-white;
+}
+
+.gray {
+  @apply dbn-text-gray;
+}
+
+.gray-dark {
+  @apply dbn-text-gray-dark;
+}
+
+.alert {
+  @apply dbn-text-alert;
+}
+
+.alert-light {
+  @apply dbn-text-alert-light;
+}
+
+.alert-dark {
+  @apply dbn-text-alert-dark;
+}
+
+.success {
+  @apply dbn-text-success;
+}
+
+.success-dark {
+  @apply dbn-text-success-dark;
+}
+
+.success-light {
+  @apply dbn-text-success-light;
+}
+
+.warning {
+  @apply dbn-text-warning;
+}
+
+.warning-dark {
+  @apply dbn-text-warning-dark;
+}
+
+.info {
+  @apply dbn-text-info;
+}
+
+.info-light {
+  @apply dbn-text-info-light;
+}
+
+.cta {
+  @apply dbn-text-[#1479F6];
+}
+
+/* bg colors */
+
+.bg-primary {
+  @apply dbn-bg-primary;
+}
+
+.bg-primary-dark {
+  @apply dbn-bg-primary-dark;
+}
+
+.bg-secondary {
+  @apply dbn-bg-secondary;
+}
+
+.bg-secondary-dark {
+  @apply dbn-bg-secondary-dark;
+}
+
+.bg-white {
+  @apply dbn-bg-white;
+}
+
+.bg-gray {
+  @apply dbn-bg-gray;
+}
+
+.bg-gray-dark {
+  @apply dbn-bg-gray-dark;
+}
+
+.bg-alert {
+  @apply dbn-bg-alert;
+}
+
+.bg-alert-light {
+  @apply dbn-bg-alert-light;
+}
+
+.bg-alert-dark {
+  @apply dbn-bg-alert-dark;
+}
+
+.bg-success {
+  @apply dbn-bg-success;
+}
+
+.bg-success-dark {
+  @apply dbn-bg-success-dark;
+}
+
+.bg-success-light {
+  @apply dbn-bg-success-light;
+}
+
+.bg-warning {
+  @apply dbn-bg-warning;
+}
+
+.bg-warning-dark {
+  @apply dbn-bg-warning-dark;
+}
+
+.bg-info {
+  @apply dbn-bg-info;
+}
+
+.bg-info-light {
+  @apply dbn-bg-info-light;
+}

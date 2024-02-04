@@ -1,0 +1,57 @@
+query ExternalDashboardMetrics(
+  $externalDashboardId: uuid = ""
+  $clientId: String = ""
+) {
+  externalDashboardMetrics(
+    where: {
+      externalDashboardId: { _eq: $externalDashboardId }
+      externalMetric: {
+        isArchived: { _eq: false }
+        isMarkedDeleted: { _eq: false }
+      }
+      _not: {
+        externalMetric: {
+          clientDeletedMetrics: { clientId: { _eq: $clientId } }
+        }
+      }
+    }
+  ) {
+    externalMetricId
+    externalDashboardId
+    externalMetric {
+      chartOptions
+      clientId
+      companyId
+      companyIntegrationId
+      createdAt
+      createdBy
+      description
+      id
+      inputFields
+      integrationName
+      isCreatedByClient
+      isLive
+      metricId
+      metricQuery
+      name
+      outputColumns
+      query
+      resizeAttributes
+      timeGrain
+      updatedAt
+      isEnableGroupBy
+      groupBy
+      selectedGroupBy
+      rlsConditions
+      companyIntegration {
+        name
+        workspaceId
+      }
+      clickActions
+      drillDownSettings
+      limit
+      datasetMetricSettings
+      dataSecuritySettings
+    }
+  }
+}

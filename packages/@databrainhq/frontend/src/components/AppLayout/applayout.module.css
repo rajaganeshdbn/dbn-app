@@ -1,0 +1,11 @@
+.app-layout {
+  @apply dbn-h-screen dbn-w-screen dbn-overflow-hidden;
+}
+
+.sidebar-layout {
+  @apply dbn-w-64;
+}
+
+.content-layout {
+  @apply dbn-w-full dbn-h-full dbn-justify-center dbn-flex-col;
+}

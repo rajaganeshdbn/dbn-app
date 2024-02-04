@@ -1,0 +1,48 @@
+@import url('../../utils/getTextColor.css');
+
+.xxs {
+  @apply dbn-w-2.5 dbn-h-2.5;
+}
+.xs {
+  @apply dbn-w-4 dbn-h-4;
+}
+
+.sm {
+  @apply dbn-w-[18px] dbn-h-[18px];
+}
+
+.md {
+  @apply dbn-w-5 dbn-h-5;
+}
+
+.lg {
+  @apply dbn-w-[22px] dbn-h-[22px];
+}
+
+.xl {
+  @apply dbn-w-6 dbn-h-6;
+}
+
+.dark {
+  @apply dbn-text-black;
+}
+
+.light {
+  @apply dbn-text-white;
+}
+
+.storyContainer {
+  @apply dbn-flex dbn-flex-wrap dbn-gap-4 dbn-p-5;
+}
+
+.Icon {
+  @apply dbn-border dbn-p-2 dbn-rounded-md dbn-flex dbn-gap-2 dbn-items-center dbn-cursor-pointer;
+}
+
+.IconName {
+  @apply dbn-text-center dbn-text-xs;
+}
+
+.iconSvgSpriteHidden {
+  @apply dbn-hidden dbn-fixed dbn-left-[-1000px];
+}

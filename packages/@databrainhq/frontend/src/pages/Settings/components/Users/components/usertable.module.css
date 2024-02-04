@@ -1,0 +1,31 @@
+.settings-container {
+  @apply dbn-w-full dbn-h-full;
+}
+
+.buttons-container {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-border-t dbn-divide-solid dbn-py-2 dbn-mt-4 dbn-h-16;
+}
+
+.tokenModal-body {
+  @apply dbn-px-5;
+}
+
+.tableDiv {
+  @apply dbn-w-full dbn-border dbn-divide-solid dbn-rounded-lg dbn-mb-8;
+}
+
+.table {
+  @apply dbn-w-full;
+}
+
+.tableHead {
+  @apply dbn-bg-[#F9FAFB] dbn-h-10;
+}
+
+.invite-user-container {
+  @apply dbn-w-full dbn-border dbn-border-secondary dbn-rounded-lg dbn-flex dbn-items-center dbn-justify-between dbn-p-5;
+}
+
+.invite-user-text {
+  @apply dbn-flex dbn-flex-col dbn-gap-1;
+}

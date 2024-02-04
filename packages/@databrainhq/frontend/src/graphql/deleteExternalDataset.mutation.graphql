@@ -1,0 +1,5 @@
+mutation DeleteExternalDataset($id: uuid = "") {
+  delete_externalDatasets_by_pk(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,29 @@
+mutation CreateAPIToken(
+  $name: String!
+  $description: String
+  $companyId: uuid!
+  $scope: String!
+  $updatedBy: uuid!
+  $isTest: Boolean = true
+) {
+  insert_apiTokens_one(
+    object: {
+      name: $name
+      description: $description
+      companyId: $companyId
+      scope: $scope
+      updatedBy: $updatedBy
+      isTest: $isTest
+    }
+  ) {
+    id
+    name
+    description
+    scope
+    isExpired
+    companyId
+    updatedBy
+    createdAt
+    isTest
+  }
+}

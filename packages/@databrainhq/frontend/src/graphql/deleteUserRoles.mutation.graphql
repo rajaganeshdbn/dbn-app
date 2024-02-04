@@ -1,0 +1,7 @@
+mutation deleteUserRoles($userId: uuid!) {
+  delete_userRoles(where: { userId: { _eq: $userId } }) {
+    returning {
+      id
+    }
+  }
+}

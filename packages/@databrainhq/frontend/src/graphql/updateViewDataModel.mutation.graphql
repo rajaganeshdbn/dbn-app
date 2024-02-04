@@ -1,0 +1,27 @@
+mutation UpdateViewDataModel(
+  $id: String = ""
+  $destinationId: String = ""
+  $description: String = ""
+  $companyId: String = ""
+  $lineageData: jsonb = ""
+  $query: String = ""
+  $viewName: String = ""
+  $dbName: String = ""
+  $databaseName: String = ""
+) {
+  updateViewDataModel(
+    input: {
+      companyId: $companyId
+      description: $description
+      destinationId: $destinationId
+      id: $id
+      lineageData: $lineageData
+      query: $query
+      viewName: $viewName
+      dbName: $dbName
+      databaseName: $databaseName
+    }
+  ) {
+    result
+  }
+}

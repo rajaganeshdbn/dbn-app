@@ -1,0 +1,27 @@
+mutation SaveWorkspaceThemeForAll(
+  $objects: [workspaceThemes_insert_input!] = []
+) {
+  insert_workspaceThemes(
+    objects: $objects
+    on_conflict: {
+      constraint: workspaceThemes_workspaceId_key
+      update_columns: [themeId]
+    }
+  ) {
+    returning {
+      id
+      themeId
+      workspaceId
+      theme {
+        cardCustomization
+        cardDescription
+        cardTitle
+        chart
+        companyId
+        dashboard
+        general
+        id
+      }
+    }
+  }
+}

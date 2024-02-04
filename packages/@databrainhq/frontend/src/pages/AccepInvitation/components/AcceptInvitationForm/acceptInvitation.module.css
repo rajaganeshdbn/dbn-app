@@ -1,0 +1,35 @@
+.form-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-p-10;
+}
+
+.password-text {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-2xl dbn-leading-[1.813rem] dbn-text-blue-h7;
+}
+
+.form-wrapper {
+  @apply dbn-mt-4 dbn-flex dbn-flex-col dbn-gap-4;
+}
+
+.accept-button-container {
+  @apply dbn-flex dbn-items-center dbn-justify-between;
+}
+
+.error-container {
+  @apply dbn-mt-3 dbn-bg-red-100 dbn-p-2 dbn-border-2 dbn-border-red-200;
+}
+
+.signin-btn-container {
+  @apply dbn-flex dbn-mx-auto dbn-items-center dbn-justify-end sm:dbn-w-[40rem];
+}
+
+.signInBtn {
+  @apply dbn-border dbn-border-[#2D2D2D80] dbn-shadow-[0px_4px_5px_rgba(0,0,0,0.15)] dbn-px-4 dbn-py-2 dbn-rounded-md dbn-text-sm dbn-font-semibold dbn-ml-2;
+}
+
+.signin-text {
+  @apply dbn-not-italic dbn-font-normal !dbn-text-sm sm:dbn-text-base dbn-leading-[1.063rem] dbn-text-blue-h17;
+}
+
+.acceptInvitation {
+  @apply dbn-max-w-[40rem] sm:dbn-w-[40rem] dbn-mx-auto dbn-border dbn-border-gray-300 dbn-p-8 dbn-rounded-lg dbn-shadow-[0px_20px_50px_0px_#00000026] dbn-relative;
+}

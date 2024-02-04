@@ -1,0 +1,3 @@
+.logo-container {
+  @apply dbn-w-full dbn-h-12 dbn-border-b dbn-border-blue-h1 dbn-flex dbn-justify-center dbn-items-center dbn-p-5;
+}

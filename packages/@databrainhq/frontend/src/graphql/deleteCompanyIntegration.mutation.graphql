@@ -1,0 +1,5 @@
+mutation DeleteCompanyIntegration($companyIntegrationId: uuid = "") {
+  delete_companyIntegrations_by_pk(id: $companyIntegrationId) {
+    id
+  }
+}

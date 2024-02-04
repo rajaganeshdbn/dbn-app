@@ -1,0 +1,34 @@
+query EmbeddedDashboardMetrics($where: externalDashboardMetrics_bool_exp) {
+  externalDashboardMetrics(where: $where) {
+    externalMetricId
+    externalDashboardId
+    externalMetric {
+      chartOptions
+      clientId
+      companyId
+      companyIntegrationId
+      createdAt
+      createdBy
+      description
+      id
+      inputFields
+      integrationName
+      isCreatedByClient
+      isLive
+      metricId
+      metricQuery
+      name
+      outputColumns
+      query
+      timeGrain
+      updatedAt
+      selectedGroupBy
+      isEnableGroupBy
+      groupBy
+      rlsConditions
+      companyIntegration {
+        name
+      }
+    }
+  }
+}

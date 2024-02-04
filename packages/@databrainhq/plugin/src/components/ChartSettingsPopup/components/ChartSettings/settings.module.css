@@ -1,0 +1,58 @@
+.chartButtonContainer {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-full dbn-overflow-hidden;
+}
+
+.settingsTab-header-control {
+  @apply dbn-flex dbn-flex-row dbn-gap-2 dbn-h-[12%] dbn-p-2;
+}
+
+.tabContainer {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-border-b;
+}
+
+.tab {
+  @apply dbn-justify-center;
+}
+
+.tabText {
+  @apply dbn-text-sm;
+}
+
+.chartButtons {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-[90%] dbn-overflow-hidden;
+}
+
+.chartButton {
+  @apply dbn-w-32 dbn-h-full dbn-flex dbn-justify-center dbn-items-center dbn-text-sm dbn-border dbn-rounded;
+}
+
+.chartButton:first-of-type {
+  @apply dbn-rounded-tr-none dbn-rounded-br-none;
+}
+
+.chartButton:last-of-type {
+  @apply dbn-rounded-tl-none dbn-rounded-tr-none;
+}
+
+.chartButtonSelected {
+  @apply dbn-border-b-2;
+}
+
+.chartTypesButton {
+  @apply dbn-border dbn-divide-solid dbn-p-2 dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.button {
+  @apply dbn-h-[90%] dbn-p-2 dbn-w-full dbn-overflow-y-auto;
+}
+
+.propertyButton {
+  @apply dbn-p-2 dbn-w-full dbn-flex dbn-flex-row dbn-border dbn-divide-solid dbn-rounded-md dbn-text-sm dbn-justify-between dbn-items-center;
+}
+
+.settings {
+  @apply dbn-flex dbn-flex-row;
+}
+.disable {
+  @apply dbn-cursor-not-allowed;
+}

@@ -1,0 +1,189 @@
+.manageCol-wrapper {
+  @apply dbn-w-full dbn-h-full;
+}
+.columnContainer {
+  @apply dbn-h-[90%] dbn-p-5 dbn-flex dbn-flex-col dbn-gap-5;
+}
+.heading {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-relative;
+}
+.columns {
+  @apply dbn-w-full dbn-h-[88%] dbn-flex dbn-flex-col dbn-gap-3;
+}
+.groups {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-3 dbn-p-5;
+}
+.column-head {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center;
+}
+.column-popover {
+  @apply dbn-flex dbn-items-center;
+}
+.select-column {
+  @apply dbn-w-full dbn-h-[88%] dbn-overflow-y-auto dbn-overflow-x-hidden dbn-flex dbn-flex-col dbn-gap-3 dbn-pr-2;
+}
+.buttonContainer {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-justify-between dbn-items-center dbn-p-5 dbn-h-[10%];
+}
+.popOption {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-cursor-pointer dbn-items-center dbn-text-sm dbn-justify-between hover:dbn-bg-gray-3 dbn-font-lato dbn-font-normal dbn-text-gray-700;
+}
+.metric-container {
+  @apply dbn-w-full dbn-border dbn-border-secondary dbn-h-fit dbn-min-h-[308px] dbn-p-5 dbn-bg-gray-50 dbn-rounded-md dbn-flex dbn-flex-col dbn-justify-between;
+}
+
+.columnNameTab {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-border dbn-border-secondary dbn-px-3 dbn-py-2 dbn-rounded-md;
+}
+
+.resetColumnPopBtn {
+  @apply dbn-w-24 dbn-flex dbn-flex-row dbn-gap-1;
+}
+
+.customConfigEditor {
+  @apply dbn-w-full dbn-h-[150px] dbn-overflow-y-auto;
+}
+
+.createSqlTab {
+  @apply dbn-flex dbn-flex-col dbn-gap-[10px];
+}
+.resultsContainer {
+  @apply dbn-w-full dbn-h-[70%] dbn-overflow-y-hidden dbn-flex dbn-grow dbn-flex-col dbn-p-5;
+}
+
+.chartsContainer {
+  @apply dbn-w-full dbn-h-[85%];
+}
+
+.imgDiv {
+  @apply dbn-border dbn-p-4;
+}
+
+.chartOptions {
+  @apply dbn-w-full dbn-h-full dbn-grid dbn-grid-cols-2 dbn-gap-x-6 dbn-gap-y-6 dbn-p-6;
+}
+
+.chartOption {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+
+.chartOptionBtn {
+  @apply dbn-flex dbn-justify-center dbn-items-center dbn-w-full dbn-border dbn-border-solid dbn-p-2 dbn-rounded hover:dbn-border-primary disabled:dbn-cursor-not-allowed;
+}
+.chartOptionText {
+  @apply dbn-text-xs dbn-text-center dbn-text-black;
+}
+.chartOptionBtnSelected {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center dbn-border dbn-border-primary dbn-p-2 dbn-rounded disabled:dbn-cursor-not-allowed;
+}
+
+.chartPropertiesPanel {
+  @apply dbn-w-full dbn-mt-4;
+}
+
+.accordionHeader {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-relative dbn-w-full;
+}
+
+.chartActionPanel {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.accordionContent {
+  @apply dbn-flex-col dbn-flex dbn-gap-2 dbn-w-full dbn-px-6 -dbn-mt-3;
+}
+
+.metricFilterContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2  dbn-p-5;
+}
+
+.metricFilterWrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-p-2 dbn-border dbn-border-secondary dbn-rounded;
+}
+
+.label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.5rem] dbn-text-text-primary-color dbn-font-lato;
+}
+
+.manualOptionSwitch {
+  @apply dbn-flex dbn-gap-2 dbn-w-full dbn-items-center dbn-justify-between;
+}
+.manualOptionSwitchOne {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-justify-end;
+}
+
+.savedFilterOption {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-justify-between dbn-p-2;
+}
+
+.savedFilterOptionActions {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-gap-5;
+}
+
+.timeOption {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-border-secondary dbn-border dbn-rounded dbn-p-2;
+}
+
+.timeOptionRange {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.appliedCount {
+  @apply dbn-w-5 dbn-h-5 dbn-rounded-full dbn-bg-primary dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.chartFilterContent {
+  @apply dbn-w-full dbn-h-full;
+}
+.chartFilterFormContainer {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.manualOptionContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-3 dbn-p-2 dbn-border dbn-border-secondary dbn-rounded-md dbn-w-full;
+}
+
+.manualOptions {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-gap-3;
+}
+
+.savedFilterContainer {
+  @apply dbn-flex dbn-border dbn-border-secondary dbn-rounded-md dbn-p-2 dbn-justify-between dbn-items-center;
+}
+
+.metricChartEmpty {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-justify-center dbn-items-center;
+}
+
+.metricFilterBtnContainer {
+  @apply dbn-flex dbn-justify-between dbn-pt-4 dbn-border-t dbn-border-secondary dbn-mt-4 dbn-px-4;
+}
+.metricFilterBtnWrapper {
+  @apply dbn-w-full dbn-flex dbn-justify-end;
+}
+.metricFilterUpdateTabContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.metricFilterUpdateTabWrapper {
+  @apply dbn-w-full dbn-flex dbn-gap-0 dbn-border-b dbn-border-secondary;
+}
+
+.metricFilterUpdateContainer {
+  @apply dbn-w-full dbn-px-4 dbn-flex dbn-flex-col dbn-gap-3 dbn-max-h-[350px] dbn-overflow-y-scroll;
+}
+.metricFilterCreateContainer {
+  @apply dbn-w-full dbn-px-4 dbn-flex dbn-flex-col dbn-gap-3 dbn-max-h-[430px] dbn-overflow-y-scroll;
+}
+
+.metricFilterConfigContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-4 dbn-pt-4;
+}
+
+.metricFilterPopUpTitle {
+  @apply dbn-w-full dbn-text-sm dbn-text-secondary dbn-px-3 dbn-py-1;
+}
+
+.metricFilterPopUpBtn {
+  @apply dbn-justify-start dbn-w-full hover:dbn-bg-gray-3;
+}

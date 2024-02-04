@@ -1,0 +1,6 @@
+.container {
+  @apply dbn-h-full dbn-w-full dbn-max-h-screen dbn-flex dbn-justify-center dbn-items-center dbn-flex-col dbn-gap-5;
+}
+.windowIcon {
+  @apply dbn-max-w-xs dbn-text-5xl dbn-aspect-square;
+}

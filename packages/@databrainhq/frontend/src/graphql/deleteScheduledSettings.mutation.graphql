@@ -1,0 +1,5 @@
+mutation DeleteScheduledSettings($id: uuid = "") {
+  delete_sharingSettings_by_pk(id: $id) {
+    id
+  }
+}

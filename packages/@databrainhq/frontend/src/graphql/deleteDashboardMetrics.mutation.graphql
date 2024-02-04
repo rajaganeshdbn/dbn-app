@@ -1,0 +1,7 @@
+mutation DeleteDashboardMetrics($metricId: uuid!) {
+  delete_dashboardMetrics(where: { metricId: { _eq: $metricId } }) {
+    returning {
+      id
+    }
+  }
+}

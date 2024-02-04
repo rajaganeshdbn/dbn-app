@@ -1,0 +1,19 @@
+.addSource-container {
+  @apply dbn-w-[542px] dbn-h-full dbn-rounded dbn-border-[#E4E4E4] dbn-border dbn-relative;
+}
+
+.addSource-header {
+  @apply dbn-w-full dbn-h-10  dbn-bg-blue-100 dbn-px-5 dbn-flex dbn-items-center;
+}
+
+.addSource-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-pb-10;
+}
+
+.addSource-source-list {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-mt-5;
+}
+
+.addSource-btn {
+  @apply dbn-p-2 dbn-border-[#E4E4E4] dbn-border-b;
+}

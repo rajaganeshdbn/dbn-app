@@ -1,0 +1,13 @@
+query DataModelList($companyId: uuid = "") {
+  dataModels(where: { companyId: { _eq: $companyId } }) {
+    companyId
+    createdAt
+    description
+    destinationId
+    id
+    lineageData
+    modelType
+    name
+    query
+  }
+}

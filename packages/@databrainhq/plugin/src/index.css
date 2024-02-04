@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* inter-regular - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+      url('./fonts/inter-v12-latin-regular.eot?#iefix')
+        format('embedded-opentype'),
+      /* IE6-IE8 */ url('./fonts/inter-v12-latin-regular.woff2') format('woff2'),
+      /* Super Modern Browsers */ url('./fonts/inter-v12-latin-regular.woff')
+        format('woff'),
+      /* Modern Browsers */ url('./fonts/inter-v12-latin-regular.ttf')
+        format('truetype'),
+      /* Safari, Android, iOS */
+        url('./fonts/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('./fonts/inter-v12-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+      url('./fonts/inter-v12-latin-500.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */ url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+      /* Super Modern Browsers */ url('./fonts/inter-v12-latin-500.woff')
+        format('woff'),
+      /* Modern Browsers */ url('./fonts/inter-v12-latin-500.ttf')
+        format('truetype'),
+      /* Safari, Android, iOS */ url('./fonts/inter-v12-latin-500.svg#Inter')
+        format('svg'); /* Legacy iOS */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('./fonts/inter-v12-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+      url('./fonts/inter-v12-latin-600.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */ url('./fonts/inter-v12-latin-600.woff2') format('woff2'),
+      /* Super Modern Browsers */ url('./fonts/inter-v12-latin-600.woff')
+        format('woff'),
+      /* Modern Browsers */ url('./fonts/inter-v12-latin-600.ttf')
+        format('truetype'),
+      /* Safari, Android, iOS */ url('./fonts/inter-v12-latin-600.svg#Inter')
+        format('svg'); /* Legacy iOS */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./fonts/inter-v12-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+      url('./fonts/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */ url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+      /* Super Modern Browsers */ url('./fonts/inter-v12-latin-700.woff')
+        format('woff'),
+      /* Modern Browsers */ url('./fonts/inter-v12-latin-700.ttf')
+        format('truetype'),
+      /* Safari, Android, iOS */ url('./fonts/inter-v12-latin-700.svg#Inter')
+        format('svg'); /* Legacy iOS */
+  }
+}
+
+.getChartOptions-tooltip {
+  @apply !dbn-max-w-[500px] dbn-truncate !dbn-max-h-[300px] !dbn-overflow-auto;
+}
+
+#CustomDragPreviewContainer {
+  @apply dbn-fixed dbn-z-[-9999] dbn-top-[-1000px] dbn-left-[-1000px];
+}
+
+[aria-grabbed='true'] {
+  @apply dbn-opacity-60 dbn-border dbn-border-primary;
+}
+
+[droppable='true'] {
+  @apply dbn-border dbn-border-transparent;
+}
+
+[draggable='true'] {
+  @apply dbn-cursor-grab;
+}
+
+.dnd-droppable-highlight {
+  @apply !dbn-transition-none !dbn-border !dbn-border-dashed !dbn-bg-[#f8f8ff] !dbn-rounded-[4px] !dbn-border-spacing-60 !dbn-border-[#5865F6];
+}
+
+.droppable-not-allowed {
+  @apply dbn-cursor-not-allowed;
+}
+
+:root {
+  /* New design colors */
+  --dbn-color-primary: 13, 13, 13; /* #0D0D0D */
+  --dbn-color-primaryDark: 31, 41, 55; /* #1F2937 */
+  --dbn-color-secondary: 208, 212, 218; /* #D0D4DA */
+  --dbn-color-secondaryDark: 113, 113, 113; /* #717171 */
+  --dbn-color-alertLight: 254, 242, 242; /* #FEF2F2 */
+  --dbn-color-alert: 220, 38, 38; /* #DC2626 */
+  --dbn-color-alertDark: 153, 27, 27; /* #991B1B */
+  --dbn-color-success: 33, 150, 83; /* #219653 */
+  --dbn-color-successDark: 6, 95, 79; /* #065F4F */
+  --dbn-color-successLight: 209, 250, 229; /* #D1FAE5 */
+  --dbn-color-info: 0, 39, 244; /* #0027F4 */
+  --dbn-color-infoLight: 219, 234, 254; /* #DBEAFF */
+  --dbn-color-white: 255, 255, 255; /* #FFFFFF */
+  --dbn-color-gray: 244, 244, 244; /* #F4F4F4 */
+  --dbn-color-grayDark: 251, 251, 251; /* #FBFBFB */
+  --dbn-color-warning: 254, 243, 199; /* #FEF3C7 */
+  --dbn-color-warningDark: 146, 64, 14; /* #92400E */
+  --dbn-color-infoAlert: #5865f6;
+  --dbn-color-infoAlertLight: rgba(88, 101, 246, 0.1);
+
+  --dbn-zIndex-background: -10;
+  --dbn-zIndex-base: 1;
+  --dbn-zIndex-foreground: 10;
+  --dbn-zIndex-elevated: 99;
+  --dbn-zIndex-portal: 999;
+  --dbn-zIndex-overlay: 9999;
+
+  --dbn-color-background: #ffffff;
+  --dbn-color-backgroundLight: #eaeefc;
+  --dbn-color-red: #ff0000;
+
+  /* --dbn-color-primary: #5865f6;
+  --dbn-color-primaryDark: #373f9a; */
+  --dbn-color-primaryLight: #e4e6ff;
+
+  /* --dbn-color-secondary: #6e7382;
+  --dbn-color-secondaryDark: #50535e; */
+  --dbn-color-secondaryLight: #a8a8a8;
+
+  --dbn-color-tertiary: #6e7382;
+  --dbn-color-tertiaryDark: #50535e;
+  --dbn-color-tertiaryLight: #a8a8a8;
+
+  --dbn-color-brightGray: #e5e7eb;
+  /* --dbn-color-gray: #D0D4DA; */
+  --dbn-color-gray50: #f9fafb;
+  --dbn-color-gray100: #f3f4f6;
+  --dbn-color-gray200: #e5e7eb;
+  --dbn-color-gray300: #d1d5db;
+  --dbn-color-gray400: #9ca3af;
+  --dbn-color-gray500: #6b7280;
+  --dbn-color-gray600: #4b5563;
+  --dbn-color-gray700: #374151;
+  --dbn-color-gray800: #1f2937;
+  --dbn-color-gray900: #111827;
+  --dbn-color-graySearch: #c7c7c7;
+  --dbn-color-disabled: #cccccc;
+  --dbn-color-darkSilver: #717171;
+  --dbn-color-focus: #868686;
+
+  --dbn-color-error: #ef4444;
+  --dbn-color-errorMedium: #ff100f;
+  --dbn-color-errorDark: #991b1b;
+  --dbn-color-errorLight: #fecaca;
+
+  /* --dbn-color-success: #22c55e;
+  --dbn-color-successDark: #166534; */
+  /* --dbn-color-successLight: #bbf7d0; */
+  --dbn-color-successText: #0cbe69;
+
+  /* --dbn-color-warning: #eab308; */
+  /* --dbn-color-warningDark: #854d0e; */
+  --dbn-color-warningLight: #fef08a;
+
+  --dbn-color-dark: #000000ca;
+  --dbn-color-light: #f4f6fc;
+
+  --dbn-typography-colorPrimary: #222c3a;
+  --dbn-typography-colorSecondary: #223771;
+  --dbn-typography-colorLight: #c0ccf5;
+  --dbn-typography-colorTertiary: #5865f6;
+  --dbn-color-h5: #51649c;
+  --dbn-color-h6: #667085;
+  --dbn-color-h7: #898989;
+  --dbn-color-h8: #f4f4f4;
+
+  --dbn-typography-fontFamily: 'Inter', sans-serif;
+  --dbn-typography-fontFamily-lato: 'Lato', sans-serif;
+  --dbn-typography-fontSize: 0.563rem;
+
+  --dbn-typography-fontWeightThin: 200;
+  --dbn-typography-fontWeightLight: 300;
+  --dbn-typography-fontWeightRegular: 400;
+  --dbn-typography-fontWeightSemibold: 500;
+  --dbn-typography-fontWeightBold: 600;
+  --dbn-typography-fontWeightExtraBold: 800;
+
+  --dbn-border-radiusNone: 0;
+  --dbn-border-radiusSm: 2px;
+  --dbn-border-radiusDefault: 4px;
+  --dbn-border-radiusMd: 6px;
+  --dbn-border-radiusLg: 8px;
+  --dbn-border-radiusXl: 12px;
+  --dbn-border-radius2xl: 16px;
+  --dbn-border-radius3xl: 24px;
+  --dbn-border-radiusFull: 50%;
+
+  --dbn-shadow-primary: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  --dbn-shadow-secondary: -4px 4px 10px rgba(0, 0, 0, 0.3);
+  --dbn-shadow-tertiary: 0px 4px 14px rgba(0, 0, 0, 0.3);
+  --dbn-shadow-dropDown: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+  --dbn-shadow-input: 0px 10px 10px 0px rgba(13, 13, 13, 0.05);
+
+  --dbn-breakpoint-xs: 360px;
+  --dbn-breakpoint-sm: 640px;
+  --dbn-breakpoint-md: 768px;
+  --dbn-breakpoint-lg: 1024px;
+  --dbn-breakpoint-xl: 1280px;
+}

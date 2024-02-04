@@ -1,0 +1,23 @@
+.schemaTable-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.schemaTable-table-container {
+  @apply dbn-w-full dbn-border dbn-divide-solid dbn-h-[400px];
+}
+
+.schemaTable-table-head {
+  @apply dbn-p-2 dbn-bg-[#EAEEFC] dbn-flex dbn-flex-row dbn-gap-1;
+}
+
+.schemaTable-table {
+  @apply dbn-h-[250px] dbn-overflow-y-auto dbn-overflow-x-hidden;
+}
+
+.tableTab-container {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-gap-2;
+}
+
+.columnTab-container {
+  @apply dbn-gap-1 dbn-flex dbn-items-center dbn-w-full;
+}

@@ -1,0 +1,69 @@
+.container-primary {
+  @apply dbn-border dbn-w-full dbn-h-full dbn-border-secondary dbn-rounded-md dbn-overflow-auto dbn-relative;
+}
+
+.container-secondary {
+  @apply dbn-w-full dbn-h-full dbn-relative dbn-overflow-auto;
+}
+
+.table {
+  @apply dbn-w-full dbn-h-full dbn-border-collapse;
+}
+.body {
+  @apply dbn-w-full;
+}
+.headers-primary {
+  @apply dbn-border-b dbn-border-secondary dbn-bg-gray-100 dbn-uppercase dbn-text-xs dbn-text-[#717171] dbn-font-medium dbn-sticky dbn-top-0;
+}
+
+.headers-secondary {
+  @apply dbn-uppercase dbn-text-xs dbn-border-secondary dbn-text-[#717171] dbn-font-medium dbn-sticky dbn-top-0;
+}
+
+.headers-secondary-nodata {
+  @apply dbn-border-b;
+}
+
+.headerCol {
+  @apply dbn-text-left dbn-py-4 dbn-px-6;
+}
+
+.row-primary:not(:last-of-type) {
+  @apply dbn-border-b dbn-border-secondary;
+}
+
+.col {
+  @apply dbn-p-0;
+}
+
+.col-primary-cell {
+  @apply dbn-w-full dbn-h-full dbn-py-4 dbn-px-6 dbn-text-left dbn-flex dbn-items-center dbn-text-sm;
+}
+
+.col-primary {
+  @apply dbn-border-b dbn-border-secondary;
+}
+
+.row-secondary:not(:first-of-type) > .col-secondary {
+  @apply dbn-pt-2.5;
+}
+
+.col-secondary-cell {
+  @apply dbn-border-t dbn-border-b dbn-gap-2 dbn-bg-white dbn-border-secondary dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-py-4 dbn-px-6 dbn-text-left dbn-text-sm;
+}
+
+.col-secondary:first-of-type > .col-secondary-cell {
+  @apply dbn-border-l dbn-rounded-tl-lg dbn-rounded-bl-lg;
+}
+
+.col-secondary:last-of-type > .col-secondary-cell {
+  @apply dbn-border-r dbn-rounded-tr-lg dbn-rounded-br-lg;
+}
+
+.noData {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-4 dbn-items-center dbn-justify-center dbn-p-[20px];
+}
+
+.loadMore {
+  @apply dbn-w-full dbn-flex dbn-justify-center dbn-items-center;
+}

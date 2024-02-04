@@ -1,0 +1,24 @@
+.dbc-container {
+  @apply dbn-flex dbn-flex-wrap dbn-gap-1 dbn-px-1 dbn-pb-1;
+}
+.dbcLastCardLevel {
+  @apply dbn-z-[5000] dbn-absolute dbn-top-4;
+}
+.dbcLastMetricCardLevel {
+  @apply dbn-z-[5000] dbn-absolute dbn-top-16;
+}
+.dbcLastLevel {
+  @apply dbn-z-50;
+}
+.active-dimension {
+  @apply dbn-text-text-tertiary-color dbn-text-xs dbn-font-semibold;
+}
+.otherLevels {
+  @apply dbn-text-xs dbn-text-text-primary-color dbn-font-normal;
+}
+.clickableLevels {
+  @apply dbn-cursor-pointer hover:dbn-text-primary;
+}
+.disabledLevel {
+  @apply dbn-cursor-not-allowed dbn-opacity-50;
+}

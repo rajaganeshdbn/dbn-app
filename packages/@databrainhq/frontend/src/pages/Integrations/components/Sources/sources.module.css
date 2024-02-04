@@ -1,0 +1,40 @@
+/* unused css */
+/* .sources-container {
+  @apply dbn-w-full dbn-h-full dbn-p-5;
+}
+
+.sources-list-container {
+  @apply dbn-w-full dbn-h-fit dbn-flex dbn-flex-wrap dbn-gap-5 dbn-py-5;
+}
+
+.sources-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.sourceCard-container {
+  @apply dbn-w-60 dbn-h-40 dbn-rounded-md dbn-border-[0.5px] dbn-overflow-hidden dbn-border-[#EAEEFC] hover:dbn-border-blue-h4 dbn-flex dbn-flex-col dbn-justify-between;
+}
+
+.sourceCard-wrapper {
+  @apply dbn-flex dbn-flex-col dbn-justify-between dbn-h-24;
+}
+
+.sourceCard-inner-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-py-2 dbn-flex-col dbn-items-center dbn-justify-center dbn-px-4;
+}
+
+.source-filter-container {
+  @apply dbn-absolute dbn-top-[83px] dbn-right-64;
+}
+
+.source-filter-btn {
+  @apply dbn-border dbn-border-[#EAEEFC] dbn-rounded dbn-relative dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.source-search-container {
+  @apply dbn-absolute dbn-top-[77px] dbn-right-5;
+}
+
+.source-filter-warapper {
+  @apply dbn-absolute dbn-right-0 dbn-bg-white dbn-p-2 dbn-w-52 dbn-rounded dbn-flex dbn-flex-col dbn-shadow-md;
+} */

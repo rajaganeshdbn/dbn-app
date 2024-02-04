@@ -1,0 +1,13 @@
+mutation SaveTheme($object: themes_insert_input!) {
+  insert_themes_one(object: $object) {
+    id
+    companyId
+    general
+    dashboard
+    cardTitle
+    cardDescription
+    chart
+    cardCustomization
+    chartCustomization
+  }
+}

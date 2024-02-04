@@ -1,0 +1,21 @@
+.checkbox-Label {
+  @apply dbn-not-italic dbn-text-sm dbn-font-lato dbn-font-normal dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-text-gray-900;
+}
+.checkboxField {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-w-fit;
+}
+.checkbox {
+  @apply dbn-hidden;
+}
+.checkbox-custom {
+  @apply dbn-w-3.5 dbn-h-3.5 dbn-p-[3px] dbn-rounded dbn-border dbn-flex dbn-items-center dbn-justify-center dbn-bg-white dbn-cursor-pointer dbn-border-gray-300 disabled:dbn-bg-disabled;
+}
+.checkbox:checked + .checkbox-custom {
+  @apply dbn-bg-gray-900;
+}
+.checkIcon {
+  @apply dbn-w-1 dbn-h-2 dbn-border-t-0 dbn-border-r dbn-border-b dbn-border-l-0 dbn-border-white dbn-rotate-45 dbn-mb-0.5;
+}
+.disabled {
+  @apply dbn-bg-gray-100 dbn-cursor-not-allowed;
+}

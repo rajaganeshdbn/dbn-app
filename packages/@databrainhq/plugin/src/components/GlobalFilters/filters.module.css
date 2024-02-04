@@ -1,0 +1,192 @@
+.container {
+  @apply dbn-rounded dbn-w-full dbn-max-w-[1000px] dbn-pb-2 dbn-border dbn-border-secondary dbn-divide-solid;
+}
+.form {
+  @apply dbn-w-full;
+}
+
+.form > * + * {
+  @apply dbn-mt-5;
+}
+
+.filterHeader {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-flex-wrap dbn-pt-4 dbn-px-6;
+}
+.titleContent {
+  @apply dbn-flex dbn-flex-wrap dbn-items-center dbn-justify-center dbn-gap-1;
+}
+.title {
+  @apply dbn-font-semibold;
+}
+.buttons {
+  @apply dbn-w-full dbn-px-4 dbn-pt-2 dbn-flex dbn-border-t dbn-border-secondary dbn-items-center dbn-justify-between dbn-flex-wrap;
+}
+.apply {
+  @apply dbn-text-sm dbn-px-3.5 dbn-py-1.5 dbn-flex dbn-justify-center dbn-font-normal dbn-items-center dbn-border dbn-gap-1 hover:dbn-bg-gray-100 active:dbn-bg-transparent;
+}
+.applyIcon {
+  @apply dbn-w-5 dbn-h-5;
+}
+.reset {
+  @apply dbn-text-client-text active:dbn-bg-transparent dbn-flex dbn-justify-center dbn-items-center dbn-gap-2 dbn-py-2 dbn-rounded-lg dbn-px-2.5 dbn-text-sm;
+}
+
+.filterFieldsContainer {
+  @apply dbn-px-6;
+}
+
+.filterFields {
+  @apply dbn-w-auto dbn-flex dbn-gap-5 dbn-items-center;
+}
+
+.filterFields > * {
+  flex: 0 0 auto;
+}
+
+.filterContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-wrap dbn-gap-2 dbn-pl-2 dbn-items-center dbn-z-[19];
+}
+.AddFilter {
+  @apply dbn-flex dbn-flex-wrap dbn-gap-5;
+}
+.filterDropdown {
+  @apply dbn-w-fit dbn-flex dbn-items-center;
+}
+
+.filterDropdowns .noFilters {
+  @apply dbn-border dbn-border-gray-300 dbn-h-10 dbn-grid dbn-place-content-center dbn-rounded dbn-text-sm;
+}
+
+.filterDropdowns {
+  @apply dbn-grow dbn-h-full dbn-grid dbn-gap-5 dbn-grid-cols-[repeat(1,minmax(200px,1fr))];
+}
+
+.filterDropdowns.gridColAndRow {
+  @apply dbn-grid-cols-[repeat(3,minmax(200px,1fr))];
+}
+
+.filterDropdowns.gridCol1 {
+  @apply dbn-grid-cols-[repeat(1,minmax(200px,1fr))];
+}
+
+.filterDropdowns.gridCol2 {
+  @apply dbn-grid-cols-[repeat(2,minmax(200px,1fr))];
+}
+
+.filterDropdowns.gridCol3 {
+  @apply dbn-grid-cols-[repeat(3,minmax(200px,1fr))];
+}
+
+.filters {
+  @apply dbn-flex dbn-flex-wrap dbn-gap-2 dbn-mb-2 dbn-px-5;
+}
+.filterItem {
+  @apply dbn-bg-gray-100 dbn-rounded-3xl dbn-font-semibold dbn-py-2 dbn-px-5 dbn-flex dbn-items-center dbn-justify-evenly dbn-gap-1 dbn-text-sm;
+}
+.filterItemOperator {
+  @apply dbn-font-light dbn-text-sm;
+}
+.remove {
+  @apply dbn-text-lg dbn-w-[5%] dbn-h-full dbn-p-1 dbn-font-light;
+}
+.filterCol {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-gap-2;
+}
+.filterText {
+  @apply dbn-text-base dbn-w-[30%];
+}
+.smallText {
+  @apply dbn-text-sm dbn-w-[8%] dbn-text-left;
+}
+
+.numberFieldPopup {
+  @apply dbn-h-10;
+}
+
+.numberField {
+  @apply dbn-border dbn-border-gray-300 dbn-rounded dbn-w-full dbn-flex dbn-gap-1 dbn-items-center dbn-py-[7px] dbn-justify-between disabled:dbn-cursor-not-allowed dbn-px-2 dbn-text-gray-400;
+}
+
+.numberFieldWrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-[22px] dbn-w-full dbn-p-2;
+}
+
+.numberFieldLabel {
+  @apply dbn-not-italic dbn-font-semibold dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize dbn-text-xs dbn-opacity-80 dbn-text-left;
+}
+
+.selectedLabel {
+  @apply dbn-absolute !dbn-bg-white dbn-px-1 dbn-py-0 dbn-left-[11px] -dbn-top-2.5 dbn-truncate dbn-max-w-[90%] dbn-opacity-100;
+}
+
+.numberFieldLabelText {
+  @apply dbn-flex dbn-grow dbn-flex-1 dbn-overflow-hidden dbn-flex-col dbn-truncate dbn-w-[90%];
+}
+
+.numberFieldLabelText > p {
+  @apply dbn-truncate;
+}
+
+.numberFieldLabelSelectText {
+  @apply dbn-text-sm dbn-text-left dbn-truncate;
+}
+
+.numberFieldButtonClass {
+  @apply dbn-w-full dbn-border dbn-border-gray-300 dbn-h-10 dbn-rounded dbn-m-0 dbn-relative;
+}
+
+.numberFieldLabelMenuClass {
+  @apply dbn-w-[200px] dbn-p-2;
+}
+
+.numberFieldClearButton {
+  @apply dbn-text-primary dbn-w-fit;
+}
+
+.numberFieldFooter {
+  @apply dbn-flex dbn-justify-between;
+}
+
+.checkedOption {
+  @apply dbn-p-2 dbn-w-full dbn-text-primary hover:dbn-bg-[#E7EAED] dbn-text-sm dbn-font-bold dbn-flex dbn-items-center dbn-gap-3 dbn-justify-start;
+}
+
+.option {
+  @apply dbn-p-2 dbn-w-full hover:dbn-bg-[#E7EAED] dbn-text-sm dbn-flex dbn-items-center dbn-gap-3 dbn-justify-start;
+}
+
+.addFilterMenu {
+  @apply dbn-w-[200px];
+}
+
+.appliedFilterTag {
+  @apply dbn-rounded-3xl dbn-bg-background-light dbn-w-fit dbn-p-1 dbn-px-2 dbn-flex dbn-items-center dbn-justify-center dbn-text-sm dbn-gap-1;
+}
+
+.appliedfilters {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-p-2 dbn-flex-wrap;
+}
+
+.textBold {
+  @apply dbn-font-bold;
+}
+
+.filterButton {
+  @apply dbn-py-[0.55rem] dbn-px-2 dbn-border dbn-border-secondary-dark dbn-shadow-sm dbn-rounded-md dbn-flex dbn-gap-2;
+}
+
+.filterBtnText {
+  @apply dbn-flex dbn-gap-1 dbn-items-center dbn-justify-center dbn-text-sm dbn-font-semibold;
+}
+
+.filterLength {
+  @apply dbn-w-5 dbn-h-5 dbn-border dbn-rounded-full dbn-text-xs dbn-text-white dbn-bg-text-primary-color dbn-flex dbn-items-center dbn-justify-center dbn-p-1 dbn-font-semibold;
+}
+
+.addfilter {
+  @apply dbn-border dbn-rounded-full dbn-p-2 dbn-bg-gray-200;
+}
+
+.alertContainer {
+  @apply dbn-fixed dbn-top-3.5 dbn-left-1/2 -dbn-translate-x-2/4 dbn-z-[999];
+}

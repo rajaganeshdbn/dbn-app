@@ -1,0 +1,112 @@
+.fullScreen {
+  @apply dbn-absolute dbn-top-0 dbn-bottom-0 dbn-left-0 dbn-right-0 dbn-z-[9999] dbn-bg-background dbn-w-screen dbn-h-screen dbn-overflow-x-hidden dbn-overflow-y-auto dbn-flex dbn-flex-col dbn-p-0;
+}
+
+.header {
+  @apply dbn-border-b dbn-border-secondary dbn-sticky dbn-top-0 dbn-left-0 dbn-right-0 dbn-bg-background dbn-z-[100] dbn-flex dbn-justify-between dbn-items-center dbn-px-5 dbn-py-4 dbn-gap-4;
+}
+
+.backButton {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-p-1.5 dbn-h-10 dbn-w-10 dbn-text-client-text dbn-text-xs hover:dbn-bg-gray-50 active:dbn-bg-gray-100 disabled:dbn-cursor-not-allowed disabled:dbn-opacity-50 dbn-border dbn-border-secondary dbn-rounded;
+}
+
+.headerBlock {
+  @apply dbn-flex dbn-items-center dbn-gap-4 dbn-w-full;
+}
+
+.headerBlockRight {
+  @apply dbn-justify-end dbn-border-r dbn-border-secondary dbn-px-4;
+}
+
+.metricName {
+  @apply dbn-font-semibold dbn-text-lg dbn-leading-none;
+}
+
+.iconButton {
+  @apply dbn-p-2 hover:dbn-bg-gray-200 dbn-rounded-md dbn-text-lg;
+}
+
+.body {
+  @apply dbn-flex dbn-flex-col dbn-gap-5 dbn-p-5 dbn-h-[90%];
+}
+
+.metric {
+  @apply dbn-border dbn-border-secondary dbn-h-[70vh] dbn-flex dbn-flex-col dbn-gap-5 dbn-relative dbn-rounded dbn-p-5;
+}
+
+.tableMetric {
+  @apply dbn-border-none dbn-h-full dbn-p-0 dbn-gap-0 dbn-min-h-[70vh];
+}
+
+.metricHeader {
+  @apply dbn-flex dbn-gap-5 dbn-h-[65px] dbn-justify-start dbn-items-center dbn-pb-5 dbn-flex-col;
+}
+
+.chartSettings {
+  @apply dbn-ml-auto;
+}
+.chartConfig {
+  @apply dbn-flex dbn-gap-2.5 dbn-items-center dbn-justify-end;
+}
+
+.metricFilters {
+  @apply dbn-flex dbn-w-full dbn-h-[50%] dbn-flex-wrap dbn-gap-2.5 dbn-items-center dbn-justify-start;
+}
+
+.chart {
+  @apply dbn-max-h-[55vh];
+}
+
+.popupMenu {
+  @apply dbn-p-1 dbn-w-32;
+}
+
+.csvPopup {
+  @apply -dbn-top-1;
+}
+
+.csvPopupIcon {
+  @apply -dbn-mt-0.5;
+}
+
+.popupItem {
+  @apply dbn-flex dbn-items-center dbn-gap-1 dbn-w-full;
+}
+
+.popupItemIcon {
+  @apply dbn-hidden;
+}
+
+.dynamicGroupFormat {
+  @apply dbn-w-fit dbn-max-w-[200px] dbn-min-w-[80px];
+}
+
+.dynamicGroupContainer {
+  @apply dbn-w-32;
+}
+.addFilterMenu {
+  @apply dbn-w-[200px] dbn-flex dbn-flex-col dbn-py-2;
+}
+
+.addfilter {
+  @apply dbn-border dbn-flex dbn-items-center dbn-gap-2 dbn-p-2 dbn-bg-gray-200 dbn-rounded-full;
+}
+.checkedOption {
+  @apply dbn-p-2 dbn-w-full dbn-text-primary hover:dbn-bg-[#E7EAED] dbn-text-sm dbn-font-bold dbn-flex dbn-items-center dbn-gap-3 dbn-justify-start;
+}
+
+.option {
+  @apply dbn-p-2 dbn-w-full hover:dbn-bg-[#E7EAED] dbn-text-sm dbn-flex dbn-items-center dbn-gap-3 dbn-justify-start;
+}
+
+.chartWrapper {
+  @apply dbn-relative dbn-h-[350px];
+}
+
+.tableChartWrapper {
+  @apply dbn-flex-[1_1_auto];
+}
+
+.filterOption {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-p-2;
+}

@@ -1,0 +1,69 @@
+/* unused css */
+
+/* .connection-container {
+  @apply dbn-absolute dbn-bg-slate-100 dbn-inset-0 dbn-flex dbn-items-center dbn-p-5 dbn-flex-col dbn-w-full dbn-h-full dbn-gap-5;
+}
+
+.connection-name {
+  @apply dbn-bg-blue-100 dbn-py-3 dbn-px-10 dbn-border dbn-border-blue-200 dbn-rounded-md dbn-text-center dbn-w-full dbn-overflow-hidden;
+}
+
+.connection-header {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-gap-10 dbn-p-5 dbn-rounded dbn-shadow dbn-w-full dbn-bg-white;
+}
+
+.connection-body {
+  @apply dbn-w-full dbn-h-full dbn-bg-white dbn-rounded dbn-shadow dbn-overflow-y-scroll;
+}
+
+.connection-body-head {
+  @apply dbn-flex dbn-justify-between dbn-p-5 dbn-items-center dbn-border-b-2 dbn-border-blue-200;
+}
+
+.connection-sync-button {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-gap-1;
+}
+
+.connection-back-btn {
+  @apply dbn-absolute dbn-left-5 dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.mapdata-table-container {
+  @apply dbn-border dbn-p-3 dbn-h-full dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.mapData-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.mapdata-table-wrapper {
+  @apply dbn-w-full dbn-border dbn-divide-solid;
+}
+
+.mapdata-table-head {
+  @apply dbn-w-full dbn-h-10 dbn-grid dbn-grid-cols-12 dbn-bg-[#EAEEFC];
+}
+
+.mapdata-table-body {
+  @apply dbn-w-full dbn-h-auto dbn-max-h-52 dbn-overflow-y-auto;
+}
+
+.mapdata-table-first-col {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-px-2 dbn-col-span-1;
+}
+
+.mapdata-table-main-col {
+  @apply dbn-flex dbn-items-center dbn-justify-start dbn-px-2 dbn-col-span-3;
+}
+
+.mapdata-table-col {
+  @apply dbn-flex dbn-items-center dbn-justify-start dbn-px-2 dbn-col-span-2;
+}
+
+.mapdata-table-body-wrapper {
+  @apply dbn-w-full dbn-h-12 dbn-grid dbn-grid-cols-12 dbn-border-b dbn-divide-solid;
+}
+
+.mapdata-schedule-container {
+  @apply dbn-flex dbn-items-center dbn-gap-5;
+} */

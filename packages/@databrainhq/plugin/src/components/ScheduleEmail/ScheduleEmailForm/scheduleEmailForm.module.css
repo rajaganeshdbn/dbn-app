@@ -1,0 +1,39 @@
+.form-wrapper {
+  @apply dbn-flex dbn-flex-col dbn-gap-[22px] dbn-p-5 dbn-h-[500px] dbn-w-[500px] dbn-overflow-y-auto;
+}
+
+.form-primary-text {
+  @apply dbn-flex dbn-gap-2 dbn-flex-wrap;
+}
+
+.week-days-container {
+  @apply dbn-flex dbn-items-center dbn-gap-1;
+}
+.main-label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize;
+}
+
+.time-element {
+  @apply dbn-flex dbn-gap-1 dbn-items-center;
+}
+.schedule-time {
+  @apply dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.cancel-btn {
+  @apply dbn-p-2 dbn-min-w-[60px] dbn-flex dbn-justify-center dbn-items-center dbn-bg-gray-100 dbn-text-sm dbn-rounded-md;
+}
+.delete-btn {
+  @apply dbn-p-2 dbn-min-w-[60px] dbn-flex dbn-justify-center dbn-items-center dbn-text-white dbn-text-sm dbn-bg-error dbn-rounded-md;
+}
+.field-width {
+  @apply dbn-w-32;
+}
+
+.timezone-field {
+  @apply dbn-w-40;
+}
+
+.success-text {
+  @apply dbn-text-success;
+}

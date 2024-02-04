@@ -1,0 +1,38 @@
+mutation SaveCompanySubset(
+  $companyId: uuid = ""
+  $tableList: jsonb = []
+  $isAllowMetricCreation: Boolean = false
+  $isAllowMetricDeletion: Boolean = false
+  $isAllowMetricUpdation: Boolean = false
+  $isAllowChangeLayout: Boolean = false
+  $isAllowEmailReports: Boolean = false
+  $workspaceId: uuid = ""
+) {
+  insert_companySubsetTables_one(
+    object: {
+      companyId: $companyId
+      tableList: $tableList
+      isAllowMetricCreation: $isAllowMetricCreation
+      isAllowMetricDeletion: $isAllowMetricDeletion
+      isAllowMetricUpdation: $isAllowMetricUpdation
+      isAllowChangeLayout: $isAllowChangeLayout
+      isAllowEmailReports: $isAllowEmailReports
+      workspaceId: $workspaceId
+    }
+    on_conflict: {
+      constraint: companySubsetTables_workspaceId_key
+      update_columns: [
+        tableList
+        isAllowMetricCreation
+        isAllowMetricDeletion
+        isAllowMetricUpdation
+        isAllowChangeLayout
+        isAllowEmailReports
+      ]
+    }
+  ) {
+    companyId
+    id
+    tableList
+  }
+}

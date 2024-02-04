@@ -1,0 +1,21 @@
+mutation SqlQuery(
+  $id: String = ""
+  $query: String = ""
+  $dbName: String = ""
+  $filters: json
+  $disableStringify: Boolean = true
+) {
+  sqlQuery(
+    input: {
+      id: $id
+      query: $query
+      dbName: $dbName
+      filters: $filters
+      disableStringify: $disableStringify
+    }
+  ) {
+    data
+    timeTaken
+    metaData
+  }
+}

@@ -1,0 +1,17 @@
+query GetThemes($companyId: uuid! = "") {
+  themes(where: { companyId: { _eq: $companyId } }) {
+    id
+    companyId
+    general
+    dashboard
+    cardTitle
+    cardDescription
+    cardCustomization
+    chartCustomization
+    chart
+    workspaceThemes {
+      workspaceId
+      themeId
+    }
+  }
+}

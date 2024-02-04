@@ -1,0 +1,9 @@
+query GetCompanyRoles($companyId: uuid! = "") {
+  companyRoles(where: { companyId: { _eq: $companyId } }) {
+    id
+    name
+    description
+    permissions
+    companyId
+  }
+}

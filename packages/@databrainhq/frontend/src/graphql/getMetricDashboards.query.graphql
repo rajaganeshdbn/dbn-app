@@ -1,0 +1,14 @@
+query GetMetricDashboards($metricId: uuid!) {
+  dashboardMetrics(where: { metricId: { _eq: $metricId } }) {
+    id
+    metricId
+    dashboard {
+      id
+      name
+    }
+    xAxis
+    yAxis
+    width
+    height
+  }
+}

@@ -1,0 +1,7 @@
+.connectionStepForm-container {
+  @apply dbn-w-full dbn-h-full;
+}
+
+.connectionStepForm-wrapper {
+  @apply dbn-w-full dbn-p-5 dbn-flex dbn-items-center dbn-flex-col dbn-gap-10;
+}

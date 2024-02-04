@@ -1,0 +1,32 @@
+.outlined {
+  @apply dbn-border dbn-border-secondary dbn-rounded dbn-flex dbn-items-center dbn-gap-1 dbn-p-1.5 dbn-shadow-sm dbn-truncate;
+}
+
+.normal {
+  @apply dbn-flex dbn-items-center dbn-gap-1 dbn-p-1.5 dbn-truncate;
+}
+
+.buttonText {
+  @apply dbn-text-sm;
+}
+
+.menu {
+  @apply dbn-p-2 dbn-flex dbn-flex-col dbn-overflow-y-auto dbn-max-h-[200px] dbn-gap-0.5;
+}
+
+.menuItem {
+  @apply hover:dbn-bg-gray-100 dbn-px-3 dbn-py-1.5 dbn-rounded dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.activeItem {
+  @apply dbn-bg-gray-50;
+}
+
+.menuItemLeftIcon,
+.menuItemRightIcon {
+  @apply dbn-w-[10%];
+}
+
+.menuItemText {
+  @apply dbn-w-[80%] dbn-inline-block;
+}

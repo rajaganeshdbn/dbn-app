@@ -1,0 +1,11 @@
+.deleteModal {
+  @apply dbn-w-[500px] dbn-max-h-[400px] dbn-text-error dbn-flex dbn-justify-center dbn-items-center dbn-gap-2 dbn-flex-col dbn-p-5;
+}
+
+.cancelBtn {
+  @apply dbn-text-center dbn-bg-gray-100 dbn-text-sm dbn-border;
+}
+
+.warningIcon {
+  @apply dbn-text-2xl;
+}

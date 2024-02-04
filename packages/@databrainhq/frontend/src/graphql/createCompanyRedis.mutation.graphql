@@ -1,0 +1,26 @@
+mutation CreateCompanyRedis(
+  $companyId: String = ""
+  $expire: Int = 86400
+  $host: String = ""
+  $password: String = ""
+  $port: Int = 6379
+  $workspaceId: String = ""
+  $isDatabrainCache: Boolean = false
+) {
+  createCompanyRedis(
+    input: {
+      companyId: $companyId
+      expire: $expire
+      host: $host
+      password: $password
+      port: $port
+      workspaceId: $workspaceId
+      isDatabrainCache: $isDatabrainCache
+    }
+  ) {
+    success
+    error {
+      message
+    }
+  }
+}

@@ -1,0 +1,38 @@
+query ExternalMetric($id: uuid = "") {
+  externalMetrics_by_pk(id: $id) {
+    chartOptions
+    companyId
+    companyIntegrationId
+    createdAt
+    description
+    id
+    inputFields
+    integrationName
+    metricId
+    metricQuery
+    name
+    outputColumns
+    query
+    updatedAt
+    createdBy
+    isLive
+    timeGrain
+    isCreatedByClient
+    clientId
+    externalDashboardMetrics {
+      externalDashboardId
+    }
+    isEnableGroupBy
+    selectedGroupBy
+    groupBy
+    joinFields
+    rlsConditions
+    clickActions
+    datasetMetricSettings
+    drillDownSettings
+    limit
+    dataSecuritySettings
+    currentVersion
+    latestVersion
+  }
+}

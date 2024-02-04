@@ -1,0 +1,12 @@
+query ConnectedRedis($workspaceId: uuid = "") {
+  companyRedis_by_pk(workspaceId: $workspaceId) {
+    expire
+    host
+    id
+    password
+    port
+    isEnabled
+    workspaceId
+    isDatabrainCache
+  }
+}

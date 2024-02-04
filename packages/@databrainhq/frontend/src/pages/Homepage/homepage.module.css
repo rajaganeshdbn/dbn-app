@@ -1,0 +1,111 @@
+.wrapper {
+  @apply dbn-w-full dbn-h-[92%] dbn-flex dbn-flex-row;
+}
+
+.container {
+  @apply dbn-w-[85%] dbn-h-full dbn-pt-6 dbn-flex dbn-flex-col dbn-gap-0 dbn-justify-between;
+}
+
+.header {
+  @apply dbn-flex dbn-justify-between dbn-px-8 dbn-items-center;
+}
+
+.title {
+  @apply dbn-text-2xl dbn-font-bold;
+}
+
+.createBtn {
+  @apply dbn-bg-white dbn-cursor-pointer dbn-flex dbn-gap-3 dbn-justify-center dbn-items-center dbn-rounded-md dbn-shadow-sm dbn-border dbn-border-secondary dbn-text-primary dbn-px-3 dbn-py-2;
+}
+
+.createBtn > span:first-child {
+  @apply dbn-border dbn-border-primary dbn-rounded-sm;
+}
+
+.content {
+  @apply dbn-h-full dbn-flex dbn-flex-col dbn-gap-3 dbn-mt-5;
+}
+
+.sidebar {
+  @apply dbn-w-[15%] dbn-h-full dbn-border-r dbn-border-secondary dbn-p-6 dbn-flex dbn-flex-col dbn-gap-4;
+}
+
+.listItem {
+  @apply dbn-w-full dbn-text-primary dbn-font-normal dbn-px-4 dbn-py-2 dbn-text-sm dbn-truncate dbn-cursor-pointer dbn-rounded-md;
+}
+
+/*  */
+
+.accordionFooterButton {
+  @apply dbn-flex dbn-pl-10 dbn-gap-2 dbn-relative;
+}
+
+.WorkspaceAccordionContent {
+  @apply dbn-flex dbn-pl-10;
+}
+
+.WorkspaceAccordionContent > * {
+  @apply dbn-flex dbn-grow dbn-items-center dbn-py-2;
+}
+
+.WorkspaceAccordionContent > *:first-child {
+  @apply dbn-flex dbn-justify-start dbn-gap-2 dbn-basis-[30%];
+}
+
+.WorkspaceAccordionContent > *:nth-child(2) {
+  @apply dbn-flex dbn-justify-start dbn-basis-1/5;
+}
+
+/* .WorkspaceAccordionContent > *:nth-child(3) {
+    @apply dbn-flex dbn-justify-center;
+  }
+  
+  .WorkspaceAccordionContent > *:nth-child(3) > * {
+    @apply dbn-bg-info dbn-w-6 dbn-h-6 dbn-rounded-full dbn-flex dbn-justify-center dbn-items-center !dbn-text-[10px];
+  }
+  
+  .WorkspaceAccordionContent > *:nth-child(3) > *:nth-child(2) {
+    @apply dbn-border dbn-border-white dbn-relative -dbn-left-1;
+  }
+  
+  .WorkspaceAccordionContent > *:nth-child(4) {
+    @apply dbn-flex dbn-justify-end dbn-mr-4 dbn-pr-4;
+  } */
+
+.WorkspaceAccordionContent > *:last-child {
+  @apply dbn-justify-end dbn-pr-5 dbn-flex-grow-0;
+}
+
+/*  */
+
+.workspace-settings-btn-wrapper {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-border-t dbn-divide-solid dbn-p-2;
+}
+
+.workspace-settings-modal {
+  @apply dbn-w-[514px] dbn-h-[355px] dbn-overflow-y-auto dbn-overflow-x-hidden dbn-p-5 dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+
+.workspace-settings-form {
+  @apply dbn-flex dbn-flex-col dbn-justify-between;
+}
+
+.setting-btn-container {
+  @apply dbn-w-full dbn-border-t dbn-divide-solid dbn-flex dbn-justify-end dbn-items-center dbn-gap-2 dbn-py-3 dbn-px-5;
+}
+
+.seeAll {
+  @apply dbn-flex dbn-justify-center dbn-mt-4;
+}
+
+.popoverMenuBtn {
+  @apply dbn-flex dbn-flex-col dbn-p-2;
+}
+
+.popoverMenuBtn > * {
+  @apply dbn-px-2 dbn-py-1.5;
+}
+
+.popoverMenuBtn > *:hover {
+  @apply dbn-bg-gray-100 dbn-rounded-sm;
+}

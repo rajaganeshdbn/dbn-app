@@ -1,0 +1,14 @@
+mutation UpdateExternalDashboardTheme(
+  $id: uuid!
+  $name: String!
+  $colors: jsonb!
+) {
+  update_externalDashboardThemes_by_pk(
+    pk_columns: { id: $id }
+    _set: { name: $name, colors: $colors }
+  ) {
+    id
+    name
+    colors
+  }
+}

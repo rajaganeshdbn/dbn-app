@@ -1,0 +1,8 @@
+mutation UpdateOrganization($id: uuid!, $set: organizations_set_input!) {
+  update_organizations_by_pk(pk_columns: { id: $id }, _set: $set) {
+    id
+    tableName
+    tablePrimaryKeyColumn
+    tableClientNameColumn
+  }
+}

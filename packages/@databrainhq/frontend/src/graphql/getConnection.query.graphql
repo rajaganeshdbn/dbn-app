@@ -1,0 +1,5 @@
+query GetConnection($connectionId: String = "") {
+  getConnection(input: { connectionId: $connectionId }) {
+    data
+  }
+}

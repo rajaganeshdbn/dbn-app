@@ -1,0 +1,120 @@
+.container {
+  @apply dbn-relative;
+}
+
+.popover,
+.popupContainer {
+  @apply dbn-absolute dbn-z-50 dbn-w-52 dbn-h-12;
+}
+
+.button {
+  @apply dbn-outline-none;
+}
+
+.buttonOpen {
+  @apply dbn-opacity-60;
+}
+
+.menu {
+  @apply dbn-shadow-primary dbn-bg-background dbn-w-full dbn-rounded dbn-ring-1 dbn-ring-black dbn-ring-opacity-5;
+}
+
+.enter {
+  @apply dbn-transition dbn-ease-out dbn-duration-200;
+}
+
+.enterFrom {
+  @apply dbn-opacity-0 dbn-translate-y-1;
+}
+
+.enterTo {
+  @apply dbn-opacity-100 dbn-translate-y-0;
+}
+
+.leave {
+  @apply dbn-transition dbn-ease-in dbn-duration-150;
+}
+
+.leaveFrom {
+  @apply dbn-opacity-100 dbn-translate-y-0;
+}
+
+.leaveTo {
+  @apply dbn-opacity-0 dbn-translate-y-1;
+}
+
+.center {
+  @apply dbn-left-1/2 dbn-top-1/2 -dbn-translate-x-1/2 -dbn-translate-y-1/2;
+}
+
+.top {
+  @apply dbn-left-1/2 dbn-top-0 -dbn-translate-x-1/2 -dbn-translate-y-[105%];
+}
+
+.bottom {
+  @apply dbn-left-1/2 dbn-bottom-0 -dbn-translate-x-1/2 dbn-translate-y-[105%];
+}
+
+.left {
+  @apply dbn-left-0 dbn-top-1/2 -dbn-translate-x-[105%] -dbn-translate-y-1/2;
+}
+
+.right {
+  @apply dbn-right-0 dbn-top-1/2 dbn-translate-x-[105%] -dbn-translate-y-1/2;
+}
+
+.left-top-end {
+  @apply dbn-left-0 dbn-top-0 -dbn-translate-x-[105%] -dbn-translate-y-[105%];
+}
+
+.right-top-end {
+  @apply dbn-right-0 dbn-top-0 dbn-translate-x-[105%] dbn-translate-y-[105%];
+}
+
+.left-bottom-end {
+  @apply dbn-left-0 dbn-bottom-0 -dbn-translate-x-[105%];
+}
+
+.right-bottom-end {
+  @apply dbn-right-0 dbn-bottom-0 dbn-translate-x-[105%];
+}
+
+.top-left {
+  @apply dbn-left-0 dbn-top-0 -dbn-translate-y-[105%];
+}
+
+.top-right {
+  @apply dbn-right-0 dbn-top-0 -dbn-translate-y-[105%];
+}
+
+.bottom-left {
+  @apply dbn-left-0 dbn-bottom-0 dbn-translate-y-[105%];
+}
+
+.bottom-right {
+  @apply dbn-right-0 dbn-bottom-0 dbn-translate-y-[105%];
+}
+
+.left-top {
+  @apply dbn-left-0 dbn-top-0 -dbn-translate-x-[105%];
+}
+
+.left-bottom {
+  @apply dbn-left-0 dbn-bottom-0 -dbn-translate-x-[105%] -dbn-translate-y-[105%];
+}
+
+.right-top {
+  @apply dbn-right-0 dbn-top-0 dbn-translate-x-[105%];
+}
+
+.right-bottom {
+  @apply dbn-right-0 dbn-bottom-0 dbn-translate-x-[105%] dbn-translate-y-[105%];
+}
+
+.chartOptionBtn {
+  @apply dbn-flex dbn-gap-2 hover:dbn-bg-background-light dbn-rounded-md dbn-p-1;
+}
+
+.chartpopup {
+  @apply dbn-p-2 dbn-flex dbn-flex-col dbn-rounded-md dbn-w-52;
+}

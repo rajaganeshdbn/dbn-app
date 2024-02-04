@@ -1,0 +1,14 @@
+.dataset-header {
+  @apply dbn-w-full dbn-h-16 dbn-px-5 dbn-flex dbn-justify-end dbn-border-b dbn-divide-solid dbn-items-center;
+}
+.tableDiv {
+  @apply dbn-w-full dbn-border dbn-divide-solid  dbn-rounded-lg dbn-my-4;
+}
+
+.table {
+  @apply dbn-w-full;
+}
+
+.tableHead {
+  @apply dbn-bg-[#F9FAFB] dbn-h-10;
+}

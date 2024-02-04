@@ -1,0 +1,19 @@
+.sidebarContainer {
+  @apply dbn-bg-[#182C60] dbn-h-screen dbn-font-lato dbn-z-50 dbn-border-r dbn-text-white dbn-relative dbn-flex dbn-flex-col;
+}
+
+.active {
+  @apply dbn-bg-blue-h4 dbn-font-medium;
+}
+
+.link {
+  @apply hover:dbn-bg-blue-h5 dbn-text-white dbn-font-light dbn-flex dbn-items-center dbn-p-2 dbn-rounded dbn-text-sm dbn-gap-2 dbn-transition-all dbn-duration-200;
+}
+
+.text {
+  @apply dbn-leading-[1.063rem] dbn-tracking-ls-1 dbn-flex dbn-items-center dbn-w-full;
+}
+
+.collapseButton {
+  @apply dbn-absolute -dbn-right-3.5 dbn-w-7 dbn-h-7 dbn-flex dbn-justify-center dbn-text-[#182C60] dbn-items-center dbn-top-5 dbn-rounded-full dbn-z-[60] dbn-transition-all dbn-duration-200;
+}

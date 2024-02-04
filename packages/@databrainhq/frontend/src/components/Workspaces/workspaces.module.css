@@ -1,0 +1,126 @@
+/* dropdown container */
+.dropDown-container {
+  @apply dbn-flex dbn-items-center dbn-justify-between dbn-px-2 dbn-border dbn-rounded-md dbn-w-52 dbn-h-[48px] dbn-bg-[#fff]/[10%] dbn-text-white dbn-divide-solid;
+}
+
+.dropDown-active {
+  @apply dbn-bg-blue-h4 dbn-border-blue-h4;
+}
+
+.dropDown-notActive {
+  @apply dbn-bg-blue-h2 dbn-border-blue-h4;
+}
+
+/* workspace profile */
+.profile-container {
+  @apply dbn-h-[1.625rem] dbn-w-[1.625rem] dbn-flex dbn-justify-center dbn-items-center dbn-rounded dbn-not-italic dbn-font-medium dbn-text-xxs dbn-tracking-ls-1 dbn-leading-[0.688rem];
+}
+
+.profile-active {
+  @apply dbn-bg-blue-h6 dbn-text-white;
+}
+
+.profile-notActive {
+  @apply dbn-bg-blue-h3 dbn-text-blue-h4;
+}
+
+/* workspace label */
+.workspace-label {
+  @apply dbn-not-italic dbn-text-xxs dbn-tracking-ls-1 dbn-leading-[0.688rem];
+}
+
+.label-active {
+  @apply dbn-text-white;
+}
+
+.label-notActive {
+  @apply dbn-text-blue-h5;
+}
+
+/* workspace name */
+.workspace-info {
+  @apply dbn-not-italic dbn-font-normal dbn-text-xs dbn-tracking-ls-1 dbn-leading-[0.938rem];
+}
+
+.info-active {
+  @apply dbn-text-white;
+}
+
+.info-notActive {
+  @apply dbn-text-blue-h4;
+}
+
+/* icon */
+.dropDown-main-icon {
+  @apply dbn-w-[26px] dbn-h-[26px] dbn-rounded-md dbn-bg-[#fff]/[20%] dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.icon-active {
+  @apply dbn-text-white;
+}
+
+.icon-notActive {
+  @apply dbn-text-blue-h4;
+}
+
+/* dropDown menu */
+
+.menu-container {
+  @apply dbn-absolute dbn-top-12 dbn-left-4 dbn-w-60 dbn-bg-white dbn-h-auto dbn-rounded dbn-shadow-bs-1 dbn-mt-1;
+}
+
+.menu {
+  @apply dbn-w-full dbn-h-9 dbn-p-2 dbn-pl-3 dbn-flex dbn-justify-start dbn-bg-white hover:dbn-bg-blue-h8 dbn-not-italic dbn-font-normal dbn-text-sm dbn-leading-5 dbn-text-blue-h7 hover:dbn-text-blue-h4;
+}
+
+.create-container {
+  @apply dbn-w-full dbn-flex dbn-justify-center dbn-border-t dbn-border-blue-h1 dbn-p-3;
+}
+
+.create-workspace {
+  @apply dbn-w-[13.5rem] dbn-h-10 dbn-rounded-md dbn-bg-blue-h4 dbn-text-white dbn-not-italic dbn-font-medium dbn-text-sm dbn-leading-[1.063rem] dbn-tracking-ls-1;
+}
+
+.space-text {
+  @apply dbn-text-white dbn-text-[12px] dbn-text-left;
+}
+
+.label-text {
+  @apply dbn-text-[#849DE9] dbn-text-[9px] dbn-text-left;
+}
+
+.dropDown-text {
+  @apply dbn-flex dbn-flex-col dbn-justify-start;
+}
+
+.workspace-settings-btn-wrapper {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-border-t dbn-divide-solid dbn-p-2;
+}
+
+.workspace-settings-modal {
+  @apply dbn-w-[514px] dbn-h-[355px] dbn-overflow-y-auto dbn-overflow-x-hidden dbn-p-5 dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+
+.workspace-settings-form {
+  @apply dbn-flex dbn-flex-col dbn-justify-between;
+}
+
+.setting-btn-container {
+  @apply dbn-w-full dbn-border-t dbn-divide-solid dbn-flex dbn-justify-end dbn-items-center dbn-gap-2 dbn-py-3 dbn-px-5;
+}
+
+.workspace-container {
+  @apply dbn-absolute dbn-left-[105%] dbn-h-auto dbn-w-52 dbn-top-16 dbn-bg-white dbn-rounded-md dbn-shadow-lg dbn-flex dbn-flex-col dbn-border dbn-border-[#EAEEFC];
+}
+
+.workspace-option-btn {
+  @apply dbn-pl-[15px] dbn-text-black dbn-flex dbn-items-center dbn-py-[10px] dbn-justify-start dbn-text-[14px] hover:dbn-bg-[#5865F6]/[10%];
+}
+
+.workspace-settings-btn {
+  @apply dbn-text-[#5865F6] dbn-bg-[#F9FBFE] dbn-flex dbn-gap-1 dbn-items-center dbn-rounded-md dbn-border dbn-border-dashed dbn-border-[#5865F6] dbn-p-1 dbn-text-[14px] hover:dbn-bg-[#5865F6] hover:dbn-border-none hover:dbn-text-white;
+}
+
+.cancel-btn {
+  @apply !dbn-bg-[#EAEEFC] dbn-not-italic dbn-font-medium dbn-text-sm dbn-leading-[1.063rem] dbn-text-black dbn-rounded-md dbn-w-[5.938rem] dbn-h-[2.25rem];
+}

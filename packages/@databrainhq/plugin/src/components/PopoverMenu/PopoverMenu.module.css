@@ -1,0 +1,63 @@
+@import url('../../utils/getTextColor.css');
+
+.container {
+  @apply dbn-relative;
+}
+
+.popover {
+  @apply dbn-absolute dbn-z-overlay;
+}
+
+.button {
+  @apply dbn-outline-none dbn-relative dbn-select-none;
+}
+
+.buttonOpen {
+  @apply dbn-opacity-60;
+}
+
+.menu {
+  @apply dbn-shadow-bs-6 dbn-bg-background dbn-w-full dbn-rounded  dbn-ring-opacity-5 dbn-flex dbn-flex-col;
+}
+
+/* Story popover style */
+.barButtonContainer {
+  @apply dbn-w-[312px] dbn-flex dbn-justify-between dbn-items-center dbn-bg-gray-3 dbn-rounded-md dbn-p-2;
+}
+
+.barButtonWrapper {
+  @apply dbn-w-auto dbn-flex dbn-justify-start dbn-items-center dbn-gap-2 dbn-text-base dbn-font-lato dbn-font-normal dbn-text-gray-900;
+}
+
+.searchDiv {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center dbn-px-3 dbn-py-2;
+}
+
+.popButton {
+  @apply dbn-w-full dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.popButton2 {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-border-gray-300 dbn-flex dbn-items-center dbn-justify-center dbn-rounded-sm;
+}
+
+.popContainer {
+  @apply dbn-w-full dbn-flex dbn-gap-48 dbn-items-center dbn-justify-start;
+}
+
+.popOption {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-items-center dbn-justify-between hover:dbn-bg-gray-3 dbn-font-lato dbn-font-normal dbn-text-base dbn-text-gray-700;
+}
+
+.popOption2 {
+  @apply dbn-w-full dbn-h-full dbn-p-2 dbn-flex dbn-items-center dbn-justify-start hover:dbn-bg-gray-3 dbn-gap-2 dbn-font-lato dbn-font-normal dbn-text-base dbn-text-gray-700;
+}
+
+.tabsContainer {
+  @apply dbn-p-3;
+}
+
+#popperMenu[data-popper-reference-hidden='true'] {
+  visibility: hidden;
+  pointer-events: none;
+}

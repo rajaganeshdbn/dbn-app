@@ -1,0 +1,21 @@
+.container {
+  @apply dbn-relative dbn-w-full dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.textarea {
+  @apply dbn-w-full dbn-border dbn-border-gray-300 dbn-rounded dbn-box-border focus:dbn-outline-focus dbn-not-italic dbn-font-normal dbn-text-sm dbn-leading-5 placeholder:dbn-capitalize placeholder:dbn-text-text-placeholder dbn-p-2 dbn-text-text-primary-color;
+}
+
+.resizable {
+  resize: none;
+}
+.error {
+  @apply focus:dbn-outline-alert;
+}
+.noError {
+  @apply dbn-border-secondary;
+}

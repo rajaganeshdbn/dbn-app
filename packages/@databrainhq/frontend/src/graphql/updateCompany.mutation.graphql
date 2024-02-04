@@ -1,0 +1,13 @@
+mutation UpdateCompany(
+  $id: uuid = ""
+  $website: String = ""
+  $name: String = ""
+) {
+  update_companies_by_pk(
+    pk_columns: { id: $id }
+    _set: { website: $website, name: $name }
+  ) {
+    website
+    name
+  }
+}

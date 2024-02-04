@@ -1,0 +1,9 @@
+mutation CreateDashboardMetrics ($objects: [dashboardMetrics_insert_input!]!) {
+  insert_dashboardMetrics (objects: $objects) {
+    returning {
+      id
+      dashboardId
+      metricId
+    }
+  }
+}

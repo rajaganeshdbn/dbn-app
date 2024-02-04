@@ -1,0 +1,15 @@
+.embedDashboard-conatiner {
+  @apply dbn-w-screen dbn-h-screen dbn-overflow-hidden dbn-mx-auto dbn-flex dbn-flex-col dbn-overflow-y-auto;
+}
+
+.embedDashboard-header {
+  @apply dbn-w-full dbn-py-3 dbn-flex dbn-px-5 dbn-items-center dbn-justify-end dbn-border-b;
+}
+
+.embedDashboard-wrapper {
+  @apply dbn-w-screen dbn-overflow-hidden dbn-p-5 dbn-mx-auto dbn-flex dbn-flex-col dbn-overflow-y-auto;
+}
+
+.alt-container {
+  @apply dbn-w-full dbn-h-[88vh] dbn-flex dbn-flex-col dbn-items-center dbn-justify-center;
+}

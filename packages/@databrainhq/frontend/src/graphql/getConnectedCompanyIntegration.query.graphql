@@ -1,0 +1,41 @@
+query ConnectedCompanyIntegration(
+  $companyId: uuid = ""
+  $integrationId: uuid = ""
+  $workspaceId: uuid = ""
+) {
+  companyIntegrations(
+    where: {
+      companyId: { _eq: $companyId }
+      integrationId: { _eq: $integrationId }
+      workspaceId: { _eq: $workspaceId }
+    }
+  ) {
+    companyId
+    name: credentials(path: "$.name")
+    host: credentials(path: "$.host")
+    role: credentials(path: "$.role")
+    warehouse: credentials(path: "$.warehouse")
+    database: credentials(path: "$.database")
+    schema: credentials(path: "$.schema")
+    username: credentials(path: "$.username")
+    port: credentials(path: "$.port")
+    project_id: credentials(path: "$.project_id")
+    dataset_location: credentials(path: "$.dataset_location")
+    dataset_id: credentials(path: "$.dataset_id")
+    user: credentials(path: "$.user")
+    cloud_id: credentials(path: "$.cloud_id")
+    schemas: credentials(path: "$.schemas")
+    httpPath: credentials(path: "$.httpPath")
+    serverHostname: credentials(path: "$.serverHostname")
+    sshTunnel: credentials(path: "$.sshTunnel")
+    sshHost: credentials(path: "$.sshHost")
+    sshPort: credentials(path: "$.sshPort")
+    sshUsername: credentials(path: "$.sshUsername")
+    sslMode: credentials(path: "$.sslMode")
+    id
+    integrationId
+    dbName: name
+    isEncrypted
+    isAuthenticated
+  }
+}

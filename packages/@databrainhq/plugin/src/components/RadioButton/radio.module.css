@@ -1,0 +1,7 @@
+.radioField {
+  @apply dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.radioLabel {
+  @apply dbn-not-italic dbn-text-sm dbn-font-lato dbn-font-normal dbn-flex dbn-gap-2 dbn-flex-row dbn-justify-between dbn-items-center dbn-text-gray-900;
+}

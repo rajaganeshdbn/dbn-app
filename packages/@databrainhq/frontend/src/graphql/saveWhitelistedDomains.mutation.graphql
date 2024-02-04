@@ -1,0 +1,12 @@
+mutation SaveWhitelistedDomains($companyId: uuid!, $domains: jsonb) {
+  insert_whitelistedDomains_one(
+    object: { companyId: $companyId, domains: $domains }
+    on_conflict: {
+      constraint: whitelistedDomains_pkey
+      update_columns: [domains]
+    }
+  ) {
+    companyId
+    domains
+  }
+}

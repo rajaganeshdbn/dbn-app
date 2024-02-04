@@ -1,0 +1,8 @@
+query GetOrganization($workspaceId: uuid = "") {
+  organizations(where: { workspaceId: { _eq: $workspaceId } }, limit: 1) {
+    id
+    tableName
+    tablePrimaryKeyColumn
+    tableClientNameColumn
+  }
+}

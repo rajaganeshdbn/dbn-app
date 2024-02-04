@@ -1,0 +1,34 @@
+.dataModels-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col;
+}
+
+.dataModels-btn {
+  @apply dbn-w-full dbn-h-16 dbn-p-5 dbn-flex dbn-justify-end dbn-border-b dbn-border-[#EAEEFC] dbn-items-center;
+}
+
+.dataModels-alt-container {
+  @apply dbn-w-full dbn-h-[600px] dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+.dataModels-alt-wrapper {
+  @apply dbn-w-80 dbn-h-40 dbn-flex dbn-flex-col dbn-gap-3 dbn-text-center;
+}
+
+.dataModels-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.dataModels-list-container {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-start dbn-flex-col dbn-relative dbn-border dbn-divide-solid;
+}
+
+.dataModels-list-header {
+  @apply dbn-w-full dbn-h-10 dbn-grid dbn-grid-cols-3 dbn-bg-[#F9FAFB] dbn-text-left dbn-items-center dbn-px-5;
+}
+
+.dataModels-list-item {
+  @apply dbn-w-full dbn-h-10 dbn-grid dbn-grid-cols-3 dbn-text-left dbn-items-center dbn-px-5 dbn-border-t;
+}
+
+.dataModel-loader-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-overflow-hidden;
+}

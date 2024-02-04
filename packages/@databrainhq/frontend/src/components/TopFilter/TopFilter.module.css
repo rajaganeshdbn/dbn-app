@@ -1,0 +1,15 @@
+.main-container {
+  @apply dbn-flex dbn-justify-between dbn-flex-shrink-0 dbn-px-4 dbn-border-b dbn-border-gray-200 dbn-h-14 lg:dbn-px-9;
+}
+
+.right-btn {
+  @apply dbn-p-2 dbn-rounded hover:dbn-bg-gray-100 dbn-flex dbn-gap-1 dbn-justify-center dbn-items-center dbn-ml-2;
+}
+
+.rightList {
+  @apply dbn-outline dbn-outline-1 dbn-outline-gray-300 dbn-py-1 dbn-px-2 dbn-rounded dbn-mr-2;
+}
+
+.rightEqual {
+  @apply dbn-flex dbn-items-center dbn-text-gray-800 dbn-outline dbn-outline-1 dbn-outline-gray-300 dbn-py-0.5 dbn-px-2 dbn-rounded;
+}

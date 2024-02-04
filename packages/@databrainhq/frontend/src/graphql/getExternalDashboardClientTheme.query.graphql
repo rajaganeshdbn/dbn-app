@@ -1,0 +1,14 @@
+query GetExternalDashboardClientTheme($companyId: uuid!, $clientId: String!) {
+  externalDashboardThemes(
+    where: {
+      companyId: { _eq: $companyId }
+      externalDashboardThemeClients: { clientId: { _eq: $clientId } }
+    }
+    limit: 1
+  ) {
+    colors
+    createdAt
+    id
+    name
+  }
+}

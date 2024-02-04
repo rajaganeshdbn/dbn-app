@@ -1,0 +1,23 @@
+mutation CreateExternalDatset(
+  $clientColumn: String = ""
+  $columns: jsonb = ""
+  $companyId: uuid = ""
+  $tableName: String = ""
+  $type: String = ""
+  $query: String = ""
+  $workspaceId: uuid = ""
+) {
+  insert_externalDatasets_one(
+    object: {
+      clientColumn: $clientColumn
+      columns: $columns
+      companyId: $companyId
+      tableName: $tableName
+      type: $type
+      query: $query
+      workpspaceId: $workspaceId
+    }
+  ) {
+    id
+  }
+}

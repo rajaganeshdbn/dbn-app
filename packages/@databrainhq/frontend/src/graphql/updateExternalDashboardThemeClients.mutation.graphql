@@ -1,0 +1,17 @@
+mutation UpdateExternalDashboardThemeClients(
+  $idsToDelete: [uuid!]!
+  $themeClients: [externalDashboardThemeClients_insert_input!]!
+) {
+  delete_externalDashboardThemeClients(where: { id: { _in: $idsToDelete } }) {
+    returning {
+      id
+    }
+  }
+  insert_externalDashboardThemeClients(objects: $themeClients) {
+    returning {
+      id
+      clientId
+      clientName
+    }
+  }
+}

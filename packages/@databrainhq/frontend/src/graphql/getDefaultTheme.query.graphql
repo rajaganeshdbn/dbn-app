@@ -1,0 +1,5 @@
+query GetDefaultTheme($companyId: uuid!) {
+  companies_by_pk(id: $companyId) {
+    defaultTheme
+  }
+}

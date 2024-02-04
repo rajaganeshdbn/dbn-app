@@ -1,0 +1,13 @@
+mutation DeleteIntegrationBasedData($workspaceId: uuid = "") {
+  delete_organizations(
+    where: { _and: { workspaceId: { _eq: $workspaceId } } }
+  ) {
+    affected_rows
+  }
+  delete_companySubsetTables(where: { workspaceId: { _eq: $workspaceId } }) {
+    affected_rows
+  }
+  delete_companyCacheSchemas(where: { workspaceId: { _eq: $workspaceId } }) {
+    affected_rows
+  }
+}

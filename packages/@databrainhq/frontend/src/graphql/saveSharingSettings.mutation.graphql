@@ -1,0 +1,45 @@
+mutation SaveSharingSettings(
+  $companyId: uuid = ""
+  $fromAddress: String = ""
+  $host: String = ""
+  $password: String = ""
+  $port: Int = 10
+  $replyToAddress: String = ""
+  $secure: Boolean = false
+  $username: String = ""
+) {
+  insert_sharingSettings_one(
+    object: {
+      companyId: $companyId
+      fromAddress: $fromAddress
+      host: $host
+      password: $password
+      port: $port
+      replyToAddress: $replyToAddress
+      secure: $secure
+      username: $username
+    }
+    on_conflict: {
+      constraint: sharingSettings_companyId_key
+      update_columns: [
+        fromAddress
+        host
+        password
+        port
+        replyToAddress
+        secure
+        username
+      ]
+    }
+  ) {
+    companyId
+    fromAddress
+    host
+    id
+    password
+    port
+    replyToAddress
+    secure
+    username
+  }
+}

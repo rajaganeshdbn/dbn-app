@@ -1,0 +1,15 @@
+mutation UpdateDashboardMetrics(
+  $metricId: uuid!
+  $objects: [dashboardMetrics_insert_input!]!
+) {
+  delete_dashboardMetrics(where: { metricId: { _eq: $metricId } }) {
+    returning {
+      id
+    }
+  }
+  insert_dashboardMetrics(objects: $objects) {
+    returning {
+      id
+    }
+  }
+}

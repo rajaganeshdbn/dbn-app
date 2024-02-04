@@ -1,0 +1,44 @@
+.container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col;
+}
+
+.header {
+  @apply dbn-w-full dbn-flex dbn-border dbn-items-center dbn-justify-between dbn-divide-solid;
+}
+
+.text-container {
+  @apply dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.btn-container {
+  @apply dbn-flex dbn-rounded-md dbn-overflow-hidden dbn-w-full;
+}
+.tabButton {
+  @apply dbn-text-center dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-w-28 dbn-p-2;
+}
+.selectedTab {
+  @apply dbn-h-full dbn-border-b-2 dbn-bg-gray-200;
+}
+
+.activeTab {
+  @apply dbn-border-b-2 dbn-border-b-primary;
+}
+.metricChartEmpty {
+  @apply dbn-w-full dbn-h-[400px] dbn-flex dbn-flex-col dbn-items-center dbn-justify-center;
+}
+
+.table {
+  @apply dbn-w-full dbn-h-full dbn-p-5 dbn-overflow-hidden;
+}
+
+.sql-btn {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-gap-2 dbn-ml-auto dbn-mr-5 dbn-text-primary dbn-cursor-pointer;
+}
+
+.sql-btn-disabled {
+  @apply dbn-text-secondary !dbn-cursor-not-allowed;
+}
+
+.save-btn-icon {
+  @apply dbn-text-white dbn-w-5 dbn-h-5;
+}

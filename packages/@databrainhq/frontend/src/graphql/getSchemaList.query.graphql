@@ -1,0 +1,8 @@
+query GetSchemaList($workspaceId: uuid = "") {
+  companyCacheSchemas(where: { workspaceId: { _eq: $workspaceId } }) {
+    companyId
+    schema
+    id
+    workspaceId
+  }
+}

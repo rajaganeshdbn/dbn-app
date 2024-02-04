@@ -1,0 +1,13 @@
+mutation DeleteTheme($id: uuid = "") {
+  delete_themes_by_pk(id: $id) {
+    cardCustomization
+    chartCustomization
+    cardDescription
+    cardTitle
+    chart
+    companyId
+    dashboard
+    general
+    id
+  }
+}

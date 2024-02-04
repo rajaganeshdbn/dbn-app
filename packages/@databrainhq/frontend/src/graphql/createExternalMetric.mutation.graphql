@@ -1,0 +1,67 @@
+mutation CreateExternalMetric(
+  $chartOptions: jsonb = ""
+  $companyId: uuid = ""
+  $companyIntegrationId: uuid = ""
+  $description: String = ""
+  $inputFields: jsonb = ""
+  $integrationName: String = ""
+  $metricId: String = ""
+  $metricQuery: String = ""
+  $name: String = ""
+  $outputColumns: String = ""
+  $query: String = ""
+  $isLive: Boolean
+  $clientId: String = ""
+  $isCreatedByClient: Boolean = false
+  $createdBy: String = ""
+  $timeGrain: String = ""
+  $externalDashboardIds: [externalDashboardMetrics_insert_input!] = {}
+  $selectedGroupBy: jsonb = []
+  $isEnableGroupBy: Boolean = false
+  $groupBy: jsonb = {}
+  $joinFields: json = []
+  $rlsConditions: jsonb = []
+  $datasetMetricSettings: jsonb = ""
+  $limit: Int = 100
+  $drillDownSettings: jsonb = ""
+  $dataSecuritySettings: jsonb = ""
+  $clickActions: json = ""
+) {
+  insert_externalMetrics_one(
+    object: {
+      chartOptions: $chartOptions
+      companyId: $companyId
+      companyIntegrationId: $companyIntegrationId
+      description: $description
+      inputFields: $inputFields
+      integrationName: $integrationName
+      metricId: $metricId
+      metricQuery: $metricQuery
+      name: $name
+      outputColumns: $outputColumns
+      query: $query
+      isLive: $isLive
+      clientId: $clientId
+      isCreatedByClient: $isCreatedByClient
+      createdBy: $createdBy
+      timeGrain: $timeGrain
+      externalDashboardMetrics: { data: $externalDashboardIds }
+      selectedGroupBy: $selectedGroupBy
+      isEnableGroupBy: $isEnableGroupBy
+      groupBy: $groupBy
+      joinFields: $joinFields
+      rlsConditions: $rlsConditions
+      datasetMetricSettings: $datasetMetricSettings
+      limit: $limit
+      drillDownSettings: $drillDownSettings
+      dataSecuritySettings: $dataSecuritySettings
+      clickActions: $clickActions
+    }
+  ) {
+    id
+    externalDashboardMetrics {
+      externalDashboardId
+    }
+    drillDownSettings
+  }
+}

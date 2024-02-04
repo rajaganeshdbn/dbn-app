@@ -1,0 +1,13 @@
+mutation ManageDashboardMetrics(
+  $dashboardId: uuid!
+  $metricIds: [uuid!]!
+) {
+  delete_dashboardMetrics(
+    where: {
+      dashboardId: { _eq: $dashboardId }
+      metricId: { _nin: $metricIds }
+    }
+  ) {
+    affected_rows
+  }
+}

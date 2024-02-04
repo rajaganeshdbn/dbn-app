@@ -1,0 +1,6 @@
+mutation ReInviteUser($id: String = "", $appUrl: String = "") {
+  reInviteUser(input: { id: $id, appUrl: $appUrl }) {
+    error
+    success
+  }
+}

@@ -1,0 +1,19 @@
+mutation UpdateCompanyIntegrationCreds(
+  $credentials: jsonb = ""
+  $id: uuid = ""
+  $isEncrypted: Boolean = true
+  $updatedAt: timestamptz = "now()"
+  $isAuthenticated: Boolean = true
+) {
+  update_companyIntegrations_by_pk(
+    pk_columns: { id: $id }
+    _set: {
+      credentials: $credentials
+      isEncrypted: $isEncrypted
+      updatedAt: $updatedAt
+      isAuthenticated: $isAuthenticated
+    }
+  ) {
+    id
+  }
+}

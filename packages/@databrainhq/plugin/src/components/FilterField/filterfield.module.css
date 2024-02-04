@@ -1,0 +1,21 @@
+.button {
+  @apply dbn-flex dbn-border dbn-rounded-md dbn-px-2 dbn-py-1.5 dbn-items-center dbn-justify-between dbn-w-44;
+}
+.menu {
+  @apply dbn-p-3 dbn-w-full;
+}
+.menuContainer {
+  @apply dbn-w-60;
+}
+.buttonText {
+  @apply dbn-truncate dbn-flex dbn-items-center dbn-gap-2;
+}
+.buttonIcon {
+  @apply dbn-text-lg dbn-text-gray-400;
+}
+.filterName {
+  @apply dbn-mb-3;
+}
+.filterDropdown {
+  @apply dbn-mt-3;
+}

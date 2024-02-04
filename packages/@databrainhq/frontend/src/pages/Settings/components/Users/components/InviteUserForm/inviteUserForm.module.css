@@ -1,0 +1,11 @@
+.InviteUserForm-container {
+  @apply dbn-p-5 dbn-w-full dbn-flex dbn-flex-col dbn-justify-between dbn-h-full dbn-gap-5;
+}
+
+.button-container {
+  @apply dbn-flex dbn-flex-col dbn-gap-3 dbn-mt-auto;
+}
+
+.error-container {
+  @apply dbn-mt-3 dbn-bg-red-100 dbn-p-2 dbn-border-2 dbn-border-red-200;
+}

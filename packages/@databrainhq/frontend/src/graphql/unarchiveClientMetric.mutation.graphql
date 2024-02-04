@@ -1,0 +1,10 @@
+mutation UnarchiveClientMetric($id: uuid!, $clientId: String!) {
+  delete_clientDeletedMetrics(
+    where: { externalMetricId: { _eq: $id }, clientId: { _eq: $clientId } }
+  ) {
+    returning {
+      clientId
+      externalMetricId
+    }
+  }
+}

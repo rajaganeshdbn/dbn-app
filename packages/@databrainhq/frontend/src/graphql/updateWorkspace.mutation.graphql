@@ -1,0 +1,13 @@
+mutation UpdateWorkspace($id: uuid = "", $set: companyWorkspaces_set_input) {
+  update_companyWorkspaces_by_pk(_set: $set, pk_columns: { id: $id }) {
+    companyId
+    description
+    id
+    name
+    tenancyLevel
+    creatorMode
+    companyIntegrations {
+      id
+    }
+  }
+}

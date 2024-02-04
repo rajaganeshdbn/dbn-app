@@ -1,0 +1,11 @@
+.settings-container {
+  @apply dbn-h-screen dbn-w-full dbn-flex dbn-overflow-hidden;
+}
+
+.settings-content {
+  @apply dbn-w-full dbn-relative dbn-h-[calc(100vh-104px)] dbn-overflow-y-auto dbn-m-5 dbn-rounded-lg dbn-border dbn-border-secondary dbn-bg-white;
+}
+
+.settings-body {
+  @apply dbn-w-full;
+}

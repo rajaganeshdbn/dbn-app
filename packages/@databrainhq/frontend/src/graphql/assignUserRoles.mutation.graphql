@@ -1,0 +1,14 @@
+mutation assignUserRoles($userRoleObjects: [userRoles_insert_input!]!) {
+  insert_userRoles(objects: $userRoleObjects) {
+    returning {
+      id
+      applyOn
+      workspaces
+      companyRole {
+        name
+        id
+        permissions
+      }
+    }
+  }
+}

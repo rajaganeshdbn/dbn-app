@@ -1,0 +1,11 @@
+mutation UpdateDrillDownSettings(
+  $id: uuid = ""
+  $drillDownSettings: jsonb = ""
+) {
+  update_externalMetrics_by_pk(
+    pk_columns: { id: $id }
+    _set: { drillDownSettings: $drillDownSettings }
+  ) {
+    id
+  }
+}

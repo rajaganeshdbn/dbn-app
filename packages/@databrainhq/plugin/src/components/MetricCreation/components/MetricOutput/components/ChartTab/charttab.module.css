@@ -1,0 +1,99 @@
+.searchCommand {
+  @apply dbn-fixed dbn-inset-0 dbn-bg-gray-500 dbn-bg-opacity-50 dbn-z-10 dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.chartTab-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-p-5;
+}
+
+.chartText {
+  @apply dbn-w-full dbn-h-[13%] dbn-p-2 dbn-pl-10 dbn-border-b dbn-divide-solid;
+}
+
+.chartSettingButton {
+  @apply dbn-bg-transparent hover:dbn-bg-transparent dbn-border dbn-px-3 !dbn-border-gray-300 !important;
+}
+
+.chartSettingMenu {
+  @apply dbn-h-96 !important;
+}
+
+.charts {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-pb-7;
+}
+
+.metricChart {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col dbn-gap-3 dbn-relative dbn-justify-between;
+}
+
+.metricChartHeader {
+  @apply dbn-h-[10%] dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.metricChartEmpty {
+  @apply dbn-w-full dbn-h-[400px] dbn-flex dbn-flex-col dbn-items-center dbn-justify-center;
+}
+
+.chartTab-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-rounded dbn-divide-solid dbn-relative;
+}
+
+.chartTab-wrapper-head {
+  @apply dbn-p-3 dbn-w-full dbn-h-[10%] dbn-flex dbn-items-center dbn-justify-end;
+}
+
+.fullQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border-primary dbn-text-primary dbn-rounded dbn-flex dbn-items-center dbn-justify-center hover:dbn-cursor-pointer;
+}
+
+.fullQueryIcon {
+  @apply dbn-w-4 dbn-h-4;
+}
+
+.noQuery {
+  @apply dbn-w-6 dbn-h-6 dbn-border dbn-divide-solid dbn-rounded dbn-flex dbn-items-center dbn-justify-center hover:dbn-cursor-not-allowed;
+}
+
+.tableTab-header {
+  @apply dbn-border-b dbn-divide-solid dbn-flex dbn-flex-col dbn-w-full dbn-px-6 dbn-relative dbn-py-4;
+}
+
+.chartButton-header {
+  @apply dbn-flex dbn-flex-row dbn-w-full dbn-h-11 dbn-mb-4 dbn-border-b dbn-divide-solid dbn-bg-gray-200 dbn-items-center dbn-px-4 dbn-relative;
+}
+
+.chartButtonContainer {
+  @apply dbn-flex dbn-flex-col dbn-items-center dbn-w-full dbn-h-full dbn-border dbn-divide-solid dbn-overflow-y-auto;
+}
+
+.searchWrapper {
+  @apply dbn-w-14 dbn-h-14 dbn-mb-4;
+}
+
+.searchIcon {
+  @apply dbn-w-full dbn-h-full dbn-text-primary-light;
+}
+
+.chartConfigure {
+  @apply dbn-absolute dbn-right-0 -dbn-top-10 dbn-bg-white dbn-z-10 dbn-w-[340px] dbn-h-[410px] dbn-shadow-xl;
+}
+
+.chartSettings {
+  @apply dbn-absolute dbn-right-0 dbn-top-0 dbn-bg-white dbn-z-10 dbn-overflow-y-auto dbn-w-[326px] dbn-h-full dbn-shadow-xl;
+}
+
+.labels {
+  @apply dbn-p-5 dbn-w-full dbn-h-[90%] dbn-relative;
+}
+
+.chartButtons {
+  @apply dbn-flex dbn-items-center dbn-gap-5;
+}
+
+.chartButton {
+  @apply dbn-text-primary;
+}
+
+.loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}

@@ -1,0 +1,101 @@
+.form-container {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-h-full dbn-p-2 dbn-pb-2 dbn-overflow-y-auto;
+}
+
+.field-container {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.field-label {
+  @apply dbn-text-text-primary-color dbn-uppercase dbn-text-sm dbn-flex dbn-gap-2 dbn-items-center dbn-relative;
+}
+
+.field-wrapper {
+  @apply dbn-p-2 dbn-border dbn-rounded dbn-divide-solid;
+}
+
+.field-inner-container {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.field-value {
+  @apply dbn-p-1 dbn-w-fit dbn-h-fit dbn-bg-primary-light dbn-rounded dbn-text-xs  dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.fieldValueIcon {
+  @apply dbn-w-4 dbn-h-4;
+}
+
+.field-add-btn {
+  @apply dbn-text-xs dbn-border-2 dbn-border-dashed dbn-flex dbn-flex-row dbn-items-center dbn-justify-center dbn-gap-1 hover:dbn-text-primary hover:dbn-bg-primary-light hover:dbn-bg-opacity-10 hover:dbn-border-primary;
+}
+
+.fieldAddBtnIcon {
+  @apply dbn-w-4 dbn-h-4;
+}
+
+.field-value-container {
+  @apply dbn-w-full dbn-flex dbn-gap-1 dbn-items-center dbn-flex-wrap;
+}
+
+.field-prompt {
+  @apply dbn-bg-dark dbn-hidden group-hover:dbn-inline-block dbn-bg-opacity-70 dbn-text-white dbn-text-xs dbn-rounded dbn-px-2 dbn-py-0.5 dbn-absolute dbn-top-4 dbn-left-1/2 -dbn-translate-x-1/2 dbn-z-50 dbn-text-center dbn-w-[250px] dbn-lowercase;
+}
+
+.tooltipWrapper {
+  @apply dbn-cursor-pointer;
+}
+
+.tooltip {
+  @apply dbn-bg-dark dbn-hidden dbn-bg-opacity-70 dbn-text-white dbn-text-xs dbn-rounded dbn-px-2 dbn-py-0.5 dbn-absolute dbn-top-4 dbn-left-1/2 -dbn-translate-x-1/2 dbn-z-50 dbn-text-center dbn-w-[250px] dbn-lowercase;
+}
+
+.tooltipWrapper:hover .tooltip {
+  @apply dbn-inline-block;
+}
+
+.dropdown {
+  @apply dbn-w-80 dbn-flex dbn-flex-col dbn-gap-4 dbn-p-5;
+}
+
+.filterDropdown {
+  @apply dbn-w-96 dbn-flex dbn-flex-col dbn-gap-4 dbn-p-5;
+}
+
+.filterValues {
+  @apply dbn-h-8 dbn-w-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.columnText {
+  @apply dbn-w-full dbn-flex dbn-flex-row dbn-items-center dbn-gap-2;
+}
+
+.disabled {
+  @apply disabled:dbn-cursor-not-allowed;
+}
+
+.checkIcon {
+  @apply dbn-text-primary;
+}
+.generateButtonContainer {
+  @apply dbn-py-4 dbn-border-t dbn-flex dbn-justify-center dbn-items-center;
+}
+.generateButton {
+  @apply dbn-p-2 dbn-w-52 disabled:dbn-cursor-not-allowed;
+}
+
+.modal-container {
+  @apply dbn-w-96 dbn-h-80 dbn-flex dbn-flex-col dbn-p-5 dbn-gap-[22px] dbn-overflow-y-auto;
+}
+
+.filter-dropdown {
+  @apply dbn-h-8 dbn-w-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.editor-field {
+  @apply dbn-w-full dbn-h-40 dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.tab-border {
+  @apply dbn-border-b dbn-divide-solid;
+}

@@ -1,0 +1,19 @@
+.playGroundContainer {
+  @apply dbn-flex dbn-flex-col dbn-min-h-screen;
+}
+
+.navbar {
+  @apply dbn-w-full dbn-sticky dbn-top-0 dbn-z-20 dbn-flex dbn-items-center dbn-gap-4 dbn-border-b dbn-border-secondary dbn-shadow dbn-px-4 dbn-py-4 dbn-bg-white;
+}
+
+.metricContainer {
+  @apply dbn-grow dbn-flex dbn-flex-col;
+}
+
+.switchColorPalettes {
+  @apply dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.paletteItem {
+  @apply dbn-cursor-pointer dbn-rounded-full;
+}

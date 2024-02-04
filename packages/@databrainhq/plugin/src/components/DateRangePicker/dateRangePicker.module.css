@@ -1,0 +1,157 @@
+.datePickerContainer {
+  @apply !dbn-flex dbn-divide-solid dbn-rounded;
+}
+
+.buttonWrapper {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-border-2 dbn-border-gray-300 dbn-rounded dbn-py-[7px] dbn-justify-between disabled:dbn-cursor-not-allowed dbn-px-2 focus:dbn-outline-1 focus:dbn-ring-1 focus:dbn-ring-primary focus:dbn-outline-primary focus:dbn-border-primary dbn-truncate;
+}
+
+.datePickerCalendarWrapper {
+  @apply dbn-flex dbn-relative dbn-rounded;
+}
+
+.label {
+  @apply dbn-text-text-primary-color dbn-capitalize dbn-text-left dbn-text-xs;
+}
+
+.selectedLabel {
+  @apply dbn-absolute !dbn-bg-white dbn-px-1 dbn-py-0 dbn-left-[6px] dbn-text-text-primary-color -dbn-top-2.5 dbn-truncate dbn-max-w-[90%] dbn-opacity-100;
+}
+
+.text {
+  @apply dbn-text-sm dbn-truncate dbn-text-primary;
+}
+
+.staticText {
+  @apply !dbn-text-xs dbn-truncate dbn-opacity-80;
+}
+
+.floatingText {
+  @apply dbn-w-full dbn-text-left;
+}
+
+.button {
+  @apply dbn-w-full dbn-relative dbn-flex;
+}
+
+.datePickerCalContainer {
+  @apply dbn-flex dbn-rounded dbn-flex-col dbn-justify-between dbn-bg-white;
+}
+
+/* .datePickerCalContainer .saveBtn {
+  @apply !dbn-bg-[#353535] dbn-text-white dbn-text-sm dbn-rounded dbn-px-4 dbn-py-1
+} dbn-*/
+
+.datePickerOptionsWrapper {
+  @apply dbn-w-[140px] dbn-rounded-l dbn-flex dbn-flex-col dbn-border-r dbn-border-secondary dbn-divide-solid dbn-bg-white;
+}
+
+.datePickerOption {
+  @apply dbn-p-2 dbn-w-full dbn-rounded hover:dbn-rounded-none hover:dbn-bg-primary hover:dbn-text-white dbn-text-xs dbn-flex dbn-gap-3 dbn-justify-start;
+}
+
+.datePickerCalendar {
+  @apply dbn-flex dbn-border-none dbn-w-full dbn-rounded-none dbn-mb-3;
+}
+
+.checkedOption {
+  @apply dbn-p-2 dbn-w-full dbn-rounded-none !dbn-bg-dark dbn-text-white hover:dbn-text-white dbn-text-xs dbn-font-bold dbn-flex  dbn-gap-3 dbn-justify-start;
+}
+
+.datePickerCalFooter {
+  @apply dbn-w-full dbn-flex dbn-border-t dbn-border-secondary dbn-divide-solid dbn-p-2;
+}
+
+.dayClassName {
+  @apply dbn-bg-none;
+}
+
+.datePickerSelectedWrapper {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-grow;
+}
+
+.datePickerSelectedDate {
+  @apply !dbn-text-gray-500 dbn-flex !dbn-text-xs dbn-justify-center dbn-gap-1 dbn-p-2 dbn-px-2;
+}
+
+.clearDateBtn {
+  @apply dbn-flex dbn-gap-3 dbn-border dbn-rounded dbn-bg-primary !dbn-text-white dbn-relative -dbn-top-2.5 dbn-left-0.5;
+}
+
+/* Date picker styling overide */
+
+.datePickerCalendar [class*='react-datepicker__header'] {
+  @apply dbn-bg-white !dbn-rounded-none !dbn-border-none;
+}
+
+.datePickerCalendar [class*='react-datepicker__navigation'] {
+  @apply dbn-top-[3.5px];
+}
+
+.datePickerCalendar [class*='react-datepicker__day'] {
+  @apply dbn-font-normal dbn-mx-0 !dbn-px-[0.166rem] dbn-border-none dbn-relative;
+  z-index: 1;
+}
+
+/* [class*='react-datepicker__day--today'] {
+  @apply !dbn-bg-gray-200 dbn-rounded-none;
+} */
+
+.datePickerCalendar
+  [class*='react-datepicker__day']:hover:not(
+    [class*='react-datepicker__day-name']
+  ) {
+  @apply dbn-bg-gray-200 dbn-rounded-none;
+}
+
+.datePickerCalendar [class*='react-datepicker__day--in-selecting-range'],
+.datePickerCalendar [class*='react-datepicker__day--in-range'] {
+  @apply dbn-bg-gray-100 dbn-text-black dbn-rounded-none;
+}
+
+.datePickerCalendar [class*='react-datepicker__day--range-start'],
+.datePickerCalendar [class*='react-datepicker__day--range-end'],
+.datePickerCalendar [aria-selected='true'] {
+  @apply dbn-bg-dark !dbn-text-white !dbn-rounded-full dbn-relative;
+}
+
+.datePickerCalendar [aria-selected='true']::before,
+.datePickerCalendar [class*='react-datepicker__day--range-start']::before {
+  @apply dbn-content-[""] dbn-w-[50%] dbn-h-[100%] dbn-right-0 dbn-top-0 dbn-absolute -dbn-z-20 dbn-bg-gray-100;
+}
+
+.datePickerCalendar [aria-selected='true']::after,
+.datePickerCalendar [class*='react-datepicker__day--range-start']::after {
+  @apply dbn-content-[""] dbn-w-[100%] dbn-h-[100%] dbn-left-0 dbn-top-0 dbn-rounded-full dbn-absolute -dbn-z-10 dbn-bg-[#252525];
+}
+
+.datePickerCalendar [class*='react-datepicker__day--range-end']::before {
+  @apply dbn-content-[""] dbn-w-[50%] dbn-h-[100%] dbn-left-0 dbn-top-0 dbn-absolute -dbn-z-20 dbn-bg-gray-100;
+}
+
+.datePickerCalendar [class*='react-datepicker__day--range-end']::after {
+  @apply dbn-content-[""] dbn-w-[100%] dbn-h-[100%] dbn-left-0 dbn-top-0 dbn-rounded-full dbn-absolute -dbn-z-10 dbn-bg-[#252525];
+}
+
+.datePickerCalendar
+  [class*='react-datepicker__day--keyboard-selected']:not(
+    [class*='react-datepicker__day--in-range']
+  ),
+.datePickerCalendar
+  [class*='react-datepicker__day--keyboard-selected react-datepicker__day--weekend'] {
+  @apply dbn-bg-white dbn-text-black;
+}
+
+.datePickerCalendar
+  [class*='react-datepicker__day--today'][class*='react-datepicker__day'][class*='react-datepicker__day--keyboard-selected'] {
+  @apply dbn-bg-white dbn-text-black dbn-font-normal;
+}
+
+.datePickerCalendar
+  [class*='react-datepicker__day--today'][class*='react-datepicker__day'][class*='react-datepicker__day--keyboard-selected']:hover {
+  @apply dbn-bg-gray-200;
+}
+
+.innerContainer {
+  @apply dbn-grow dbn-w-[80%] dbn-flex dbn-flex-col dbn-justify-center;
+}

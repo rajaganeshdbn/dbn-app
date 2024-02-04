@@ -1,0 +1,5 @@
+mutation GetLineageData($sqlQuery: String = "") {
+  getLineageData(input: { sqlQuery: $sqlQuery }) {
+    result
+  }
+}

@@ -1,0 +1,3 @@
+.popOption {
+  @apply dbn-w-full dbn-p-2 dbn-flex dbn-items-center dbn-justify-between hover:dbn-bg-gray-3 dbn-font-lato dbn-font-normal dbn-text-base dbn-text-gray-700;
+}

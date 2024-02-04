@@ -1,0 +1,42 @@
+mutation UpdateMetric(
+  $id: uuid = ""
+  $chartOption: jsonb = ""
+  $description: String = ""
+  $name: String = ""
+  $publishType: String = ""
+  $query: String = ""
+  $updatedAt: timestamptz = "now()"
+  $companyId: uuid = ""
+  $trackLineage: Boolean = false
+  $lock: Boolean = false
+  $verify: Boolean = false
+  $actorId: uuid = ""
+  $dbName: String = ""
+  $metricQuery: String = ""
+  $inputFields: jsonb = ""
+  $outputColumns: String = ""
+) {
+  update_metrics_by_pk(
+    pk_columns: { id: $id }
+    _set: {
+      chartOption: $chartOption
+      description: $description
+      lock: $lock
+      name: $name
+      publishType: $publishType
+      query: $query
+      trackLineage: $trackLineage
+      updatedAt: $updatedAt
+      verify: $verify
+      actorId: $actorId
+      companyId: $companyId
+      dbName: $dbName
+      inputFields: $inputFields
+      metricQuery: $metricQuery
+      outputColumns: $outputColumns
+    }
+  ) {
+    id
+    updatedAt
+  }
+}

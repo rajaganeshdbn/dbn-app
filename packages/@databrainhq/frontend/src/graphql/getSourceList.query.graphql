@@ -1,0 +1,5 @@
+query GetSourceList($workspaceId: String = "") {
+  getSourceList(input: { workspaceId: $workspaceId }) {
+    data
+  }
+}

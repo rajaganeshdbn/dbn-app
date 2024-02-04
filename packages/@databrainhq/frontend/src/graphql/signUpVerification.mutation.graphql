@@ -1,0 +1,24 @@
+mutation SignUpVerification($token: String = "") {
+  signUpVerification(input: { token: $token }) {
+    companyId
+    companyName
+    email
+    error {
+      code
+      message
+    }
+    firstName
+    id
+    lastName
+    token
+    workspaceId
+    userRoles {
+      id
+      companyRole {
+        id
+        name
+        permissions
+      }
+    }
+  }
+}

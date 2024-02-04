@@ -1,0 +1,35 @@
+.outputTable-container {
+  @apply dbn-w-full dbn-h-[100%] dbn-flex dbn-flex-col dbn-pb-5 dbn-gap-2;
+}
+
+.ouputTable-header {
+  @apply dbn-w-full dbn-flex dbn-h-16 dbn-justify-between dbn-items-center dbn-px-5 dbn-py-1;
+}
+
+.ouputTable-header-features {
+  @apply dbn-flex dbn-gap-2 dbn-justify-between dbn-items-center  dbn-w-full;
+}
+
+.outputTable-body {
+  @apply dbn-w-full dbn-h-[calc(100%-4rem)] dbn-items-center dbn-justify-center dbn-overflow-hidden dbn-px-5;
+}
+
+.table-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.ouputTable-no-data {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-gap-4 dbn-items-center dbn-justify-center dbn-flex-col;
+}
+
+.ouputTable-no-data-text {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-w-full dbn-flex-col dbn-gap-1;
+}
+
+.ouputTable-error {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-justify-center dbn-items-center dbn-p-5;
+}
+
+.outputTable-table-container {
+  @apply dbn-w-full dbn-h-[100%] dbn-overflow-auto;
+}

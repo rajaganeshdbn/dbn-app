@@ -1,0 +1,3 @@
+.timeline-wrapper {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-fixed dbn-pt-3 dbn-top-0 dbn-z-10;
+}

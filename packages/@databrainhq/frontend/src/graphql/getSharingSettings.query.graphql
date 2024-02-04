@@ -1,0 +1,13 @@
+query SharingSettings($companyId: uuid = "") {
+  sharingSettings(where: { companyId: { _eq: $companyId } }) {
+    companyId
+    fromAddress
+    host
+    id
+    password
+    port
+    secure
+    username
+    replyToAddress
+  }
+}

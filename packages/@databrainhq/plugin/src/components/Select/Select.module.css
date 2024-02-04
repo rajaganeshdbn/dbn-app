@@ -1,0 +1,118 @@
+.listbox {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-relative;
+}
+
+.listBox-label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize;
+}
+
+.listBox-labelFloating {
+  @apply dbn-absolute dbn-left-2 dbn-top-1 dbn-text-xs;
+}
+
+.listBoxButton-container {
+  @apply dbn-relative dbn-w-full dbn-h-10 dbn-border dbn-border-gray-300 dbn-rounded dbn-flex dbn-px-2 dbn-items-center dbn-text-left focus:dbn-outline-none focus:dbn-ring-1 focus:dbn-ring-primary dbn-cursor-pointer focus:dbn-border-primary sm:dbn-text-sm;
+}
+
+.listBoxButton-containerFloating {
+  @apply dbn-pt-3;
+}
+
+.listBoxButton {
+  @apply dbn-absolute dbn-inset-y-0 dbn-right-0 dbn-flex dbn-items-center dbn-pr-2 dbn-pointer-events-none;
+}
+
+.listBox-options {
+  @apply dbn-absolute dbn-z-overlay dbn-mt-1 dbn-w-full dbn-bg-white dbn-shadow-lg dbn-max-h-60 dbn-rounded dbn-py-1 dbn-text-base dbn-ring-1 dbn-ring-black dbn-ring-opacity-5 dbn-overflow-auto focus:dbn-outline-none sm:dbn-text-sm dbn-overflow-x-hidden;
+}
+
+.selectedOptionText {
+  @apply dbn-block dbn-truncate dbn-text-sm;
+}
+
+.transitionDiv {
+  @apply dbn-transition dbn-ease-in dbn-duration-100;
+}
+
+.listboxButtonWrapper {
+  @apply dbn-relative;
+}
+.arrowicon {
+  @apply dbn-h-5 dbn-w-5 dbn-text-gray-400;
+}
+.leave {
+  @apply dbn-transition dbn-ease-in dbn-duration-100;
+}
+.leaveFrom {
+  @apply dbn-opacity-100;
+}
+.leaveTo {
+  @apply dbn-opacity-0;
+}
+.notAvailable {
+  @apply dbn-relative dbn-select-none dbn-py-2 dbn-px-4 dbn-text-gray-700;
+}
+.option {
+  @apply dbn-select-none dbn-relative dbn-mx-2 dbn-p-0.5 dbn-cursor-pointer dbn-flex dbn-gap-2 dbn-items-center dbn-w-full hover:dbn-bg-gray-3 dbn-rounded-md hover:dbn-text-white !important;
+}
+.activeOption {
+  @apply dbn-text-primary hover:dbn-bg-primary hover:dbn-text-white;
+}
+.optionSelected {
+  @apply dbn-bg-primary-light !important;
+}
+.inactiveOption {
+  @apply dbn-text-gray-900;
+}
+.optionLabel {
+  @apply dbn-block dbn-truncate;
+}
+.optionSubLabel {
+  @apply dbn-text-xs dbn-text-secondary;
+}
+.selectedLabel {
+  @apply dbn-font-semibold dbn-text-primary hover:dbn-text-white;
+}
+.nonselectedLabel {
+  @apply dbn-font-normal;
+}
+.check {
+  @apply dbn-flex dbn-items-center;
+}
+.checkActive {
+  @apply dbn-text-white;
+}
+.checkInactive {
+  @apply dbn-text-primary;
+}
+.checkIcon {
+  @apply dbn-h-5 dbn-w-5;
+}
+.checkIconSelected {
+  @apply dbn-w-5 dbn-h-5 dbn-border-2 dbn-border-gray-200 dbn-rounded-md dbn-flex dbn-justify-center dbn-items-center dbn-bg-primary;
+}
+.checkIconUnselected {
+  @apply dbn-w-5 dbn-h-5 dbn-border-2 dbn-border-gray-200 dbn-rounded-md;
+}
+.loadMore {
+  @apply dbn-w-full dbn-text-primary dbn-flex dbn-justify-center dbn-items-center dbn-gap-2;
+}
+.loadMoreIcon {
+  @apply -dbn-rotate-90 dbn-w-4 dbn-h-4;
+}
+.selectedList {
+  @apply dbn-mt-2 dbn-flex dbn-flex-row dbn-flex-wrap;
+}
+.selectedListItem {
+  @apply dbn-py-1 dbn-px-2 dbn-mr-1 dbn-inline dbn-rounded dbn-bg-gray-50 dbn-text-xs dbn-mb-1;
+}
+.label {
+  @apply dbn-block dbn-font-normal dbn-not-italic dbn-leading-[1.125rem] dbn-text-text-primary-color dbn-capitalize;
+}
+.search {
+  @apply dbn-p-2 dbn-mb-3;
+}
+
+.searchDiv {
+  @apply dbn-w-full dbn-flex dbn-gap-2;
+}

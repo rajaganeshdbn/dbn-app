@@ -1,0 +1,39 @@
+query GetExternalMetricsList(
+  $where: externalMetrics_bool_exp
+  $workspaceId: uuid = ""
+) {
+  externalMetrics(where: $where) {
+    chartOptions
+    companyId
+    companyIntegrationId
+    createdAt
+    description
+    id
+    inputFields
+    integrationName
+    metricId
+    metricQuery
+    name
+    outputColumns
+    query
+    updatedAt
+    createdBy
+    isLive
+    isCreatedByClient
+    clientId
+    timeGrain
+    isEnableGroupBy
+    selectedGroupBy
+    groupBy
+    rlsConditions
+    externalDashboardMetrics(
+      where: { externalDashboard: { workspaceId: { _eq: $workspaceId } } }
+    ) {
+      externalDashboard {
+        id
+        name
+      }
+    }
+    limit
+  }
+}

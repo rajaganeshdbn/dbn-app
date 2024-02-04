@@ -1,0 +1,135 @@
+.accordion {
+  @apply dbn-select-none dbn-border-b dbn-border-b-secondary dbn-py-3 dbn-px-4 dbn-bg-white;
+}
+
+.accordionHeader {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-cursor-pointer;
+}
+
+.headerContent {
+  @apply dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.accordionContent {
+  @apply dbn-mt-5 dbn-flex dbn-flex-col dbn-gap-4;
+}
+
+.chevronUp {
+  @apply -dbn-rotate-180 dbn-transition-transform;
+}
+
+.chevronDown {
+  @apply dbn-transition-transform;
+}
+
+/* styles for accordion v2 */
+
+.accordionV2 {
+  @apply dbn-border dbn-border-secondary dbn-rounded-[8px] dbn-select-none dbn-bg-white;
+}
+
+.headerContentV2 {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-p-5;
+}
+
+.headerButtons {
+  @apply dbn-flex dbn-items-center dbn-gap-4 dbn-pr-5;
+}
+
+.AccordionExpanded {
+  @apply dbn-border-b dbn-border-secondary;
+}
+
+.accordionContentV2 {
+  @apply dbn-py-3 dbn-select-text;
+}
+
+.accordionFooter {
+  @apply dbn-py-3 dbn-border-t dbn-border-secondary;
+}
+
+.footerContent {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-cursor-pointer;
+}
+
+/* styles for storybook */
+
+.AccordionsContainer {
+  @apply dbn-flex dbn-gap-10;
+}
+
+.contentPadding {
+  @apply dbn-px-10;
+}
+
+.accordionItem {
+  @apply dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.accordionV2Badge {
+  @apply dbn-bg-[#1BA239]/20 dbn-text-[#1BA239] dbn-text-sm dbn-rounded-2xl dbn-px-2.5 dbn-py-0.5;
+}
+
+.accordionFooterButton {
+  @apply dbn-flex dbn-pl-10 dbn-gap-2 dbn-relative;
+}
+
+.footerStyling {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-justify-between dbn-cursor-pointer dbn-grow dbn-px-10;
+}
+
+.WorkspaceAccordionContent {
+  @apply dbn-flex dbn-pl-10;
+}
+
+.WorkspaceAccordionContent > * {
+  @apply dbn-flex dbn-grow dbn-items-center dbn-py-4;
+}
+
+.WorkspaceAccordionContent > *:first-child {
+  @apply dbn-flex dbn-justify-start  dbn-gap-2 dbn-basis-40;
+}
+
+.WorkspaceAccordionContent > *:nth-child(2) {
+  @apply dbn-flex dbn-justify-center;
+}
+
+.WorkspaceAccordionContent > *:nth-child(3) {
+  @apply dbn-flex dbn-justify-center;
+}
+
+.WorkspaceAccordionContent > *:nth-child(3) > * {
+  @apply dbn-bg-info dbn-w-6 dbn-h-6 dbn-rounded-full dbn-flex dbn-justify-center dbn-items-center !dbn-text-[10px];
+}
+
+.WorkspaceAccordionContent > *:nth-child(3) > *:nth-child(2) {
+  @apply dbn-border dbn-border-white dbn-relative -dbn-left-1;
+}
+
+.WorkspaceAccordionContent > *:nth-child(4) {
+  @apply dbn-flex dbn-justify-end dbn-mr-4 dbn-pr-4;
+}
+
+.WorkspaceAccordionContent > *:last-child {
+  @apply dbn-justify-end dbn-pr-5 dbn-flex-grow-0;
+}
+
+.headerContentV3 {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-px-5 dbn-py-2 dbn-w-full;
+}
+
+.accordionHeaderV3 {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-cursor-pointer dbn-w-full;
+}
+
+.accordionV3 {
+  @apply dbn-border-b dbn-border-secondary dbn-select-none dbn-bg-white dbn-w-full;
+}
+
+.accordionExpandedV3 {
+  @apply dbn-select-none dbn-bg-white dbn-w-full;
+}
+
+.accordionContentV3 {
+  @apply dbn-py-3 dbn-select-text dbn-flex dbn-items-center dbn-justify-center;
+}

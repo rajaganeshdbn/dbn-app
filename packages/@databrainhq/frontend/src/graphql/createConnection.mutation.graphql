@@ -1,0 +1,5 @@
+mutation CreateConnection($body: json = "") {
+  createConnection(input: { body: $body }) {
+    data
+  }
+}

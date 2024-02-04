@@ -1,0 +1,120 @@
+.downloadCsv {
+  @apply dbn-w-[550px] dbn-flex dbn-justify-between dbn-flex-col;
+}
+
+.downloadCsvWrapper {
+  @apply dbn-p-5 dbn-flex-col dbn-flex dbn-gap-4 dbn-min-h-[200px];
+}
+
+.downloadCsvHeader {
+  @apply dbn-w-full dbn-flex dbn-justify-start dbn-border dbn-border-b dbn-divide-solid dbn-px-5 dbn-py-2;
+}
+
+.downloadCsvFooter {
+  @apply dbn-w-full dbn-flex dbn-justify-end dbn-border dbn-border-t dbn-divide-solid dbn-px-5 dbn-py-2 dbn-gap-2;
+}
+
+.downloadCsvCancelBtn {
+  @apply dbn-p-2 dbn-min-w-[60px] dbn-border dbn-flex dbn-justify-center dbn-items-center dbn-bg-gray-100 dbn-text-sm;
+}
+.downloadCsvDisableBtn {
+  @apply dbn-p-2 dbn-min-w-[60px]  dbn-flex dbn-justify-center dbn-items-center !dbn-bg-secondary-light dbn-text-sm disabled:dbn-cursor-not-allowed hover:dbn-bg-secondary-light;
+}
+.downloadCsvNote {
+  @apply dbn-bg-background-light dbn-p-2 dbn-rounded-md dbn-border dbn-border-primary dbn-flex dbn-gap-1;
+}
+
+.downloadCsvExpiredNote {
+  @apply dbn-bg-error-light dbn-p-2 dbn-rounded-md dbn-border dbn-border-error dbn-flex dbn-gap-1;
+}
+.downloadCsvNoteText {
+  @apply dbn-flex dbn-flex-col;
+}
+.downloadCsvSuccessNote {
+  @apply dbn-text-center;
+}
+.downloadCsvSuccessText {
+  @apply dbn-text-green-500;
+}
+.tab-border-bottom {
+  @apply dbn-border-b dbn-divide-solid;
+}
+
+.download-info-text {
+  @apply dbn-text-sm dbn-font-normal dbn-px-5;
+}
+
+.downloadUrlTimeline {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-mx-auto;
+}
+
+.timeLineItem {
+  @apply dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.timeLineActiveIcon {
+  @apply dbn-rounded-full dbn-bg-primary dbn-p-1 dbn-px-3 dbn-flex dbn-items-center dbn-justify-between dbn-text-white;
+}
+
+.timeLineIcon {
+  @apply dbn-rounded-full dbn-bg-background-light dbn-p-1 dbn-px-3 dbn-flex dbn-items-center dbn-justify-between dbn-text-black;
+}
+
+.timeLineItemline {
+  @apply dbn-w-14 dbn-h-[1px] dbn-bg-background-light;
+}
+
+.downloadCsvLoading {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-mx-auto;
+}
+
+.downloadCsvLoadingIcon {
+  @apply dbn-w-10 dbn-h-10 dbn-text-primary;
+}
+
+.downloadCsvLoadingText {
+  @apply dbn-text-primary;
+}
+
+.timeLineCheckedIcon {
+  @apply dbn-w-5 dbn-h-5;
+}
+
+.timeLineCheckedIconWrapper {
+  @apply dbn-rounded-full dbn-bg-primary dbn-p-2 dbn-px-2 dbn-flex dbn-items-center dbn-justify-between dbn-text-white;
+}
+
+.downloadCsvBackBtnWrapper {
+  @apply dbn-w-full dbn-justify-start;
+}
+
+.downloadCsvBackBtnText {
+  @apply dbn-w-fit;
+}
+.downloadCsvBackBtnText {
+  @apply dbn-flex dbn-gap-1 dbn-items-center;
+}
+
+.downloadCsvHeader {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-w-full -dbn-m-3 dbn-border-0 dbn-pb-0;
+}
+
+.downloadCsvHeaderText {
+  @apply dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.downloadCsvTabContainer {
+  @apply dbn-flex dbn-gap-2;
+}
+
+.downloadCsvActiveTab {
+  @apply dbn-border-b-2 dbn-border-primary dbn-text-primary dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.downloadCsvTab {
+  @apply dbn-flex dbn-items-center dbn-gap-2;
+}
+
+.downloadCsvActiveTabText {
+  @apply dbn-text-primary dbn-capitalize;
+}

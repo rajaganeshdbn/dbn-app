@@ -1,0 +1,34 @@
+.label {
+  @apply dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.5rem] dbn-text-text-primary-color dbn-font-lato dbn-flex dbn-gap-2 dbn-items-center;
+}
+.inputField-container {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-start dbn-relative;
+}
+.upperContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-items-start;
+}
+.input {
+  @apply dbn-w-full dbn-px-3 dbn-py-2 dbn-border dbn-border-secondary dbn-font-lato dbn-rounded dbn-box-border focus:dbn-shadow-bs-12 focus:dbn-bg-white focus:dbn-outline-focus dbn-shadow-bs-5 dbn-not-italic dbn-font-normal dbn-text-sm dbn-leading-5 placeholder:dbn-text-secondary-dark dbn-text-text-primary-color;
+}
+.inputWrapper {
+  @apply dbn-w-full dbn-flex dbn-gap-1 dbn-items-center dbn-justify-between;
+}
+.supportText {
+  @apply dbn-text-sm dbn-font-lato dbn-font-normal dbn-not-italic dbn-text-dark-silver;
+}
+.error {
+  @apply focus:dbn-outline-alert;
+}
+.noError {
+  @apply dbn-border-secondary;
+}
+.inputContainer {
+  @apply dbn-w-full dbn-flex dbn-gap-0 dbn-flex-row dbn-items-center dbn-justify-center;
+}
+.errorIcon {
+  @apply dbn-border-y dbn-border-alert dbn-border-r dbn-px-3 dbn-py-2 dbn-rounded-md dbn-rounded-l-none;
+}
+
+.floatingLabel {
+  @apply dbn-flex dbn-gap-2 dbn-absolute dbn-text-[12px] dbn-text-primary !dbn-bg-white dbn-px-1 dbn-py-0 dbn-left-[11px] -dbn-top-2.5 dbn-truncate dbn-max-w-[90%];
+}

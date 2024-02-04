@@ -1,0 +1,6 @@
+.csvlink {
+  @apply dbn-cursor-pointer dbn-z-50 dbn-text-lg dbn-text-gray-500 hover:dbn-text-primary;
+}
+.noChart {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-center dbn-h-80;
+}

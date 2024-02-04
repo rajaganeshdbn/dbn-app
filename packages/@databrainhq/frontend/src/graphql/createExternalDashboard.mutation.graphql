@@ -1,0 +1,31 @@
+mutation CreateExternalDashboard(
+  $companyId: uuid = ""
+  $externalDashboardId: String = ""
+  $name: String = ""
+  $filters: jsonb = []
+  $workspaceId: uuid = ""
+) {
+  insert_externalDashboards_one(
+    object: {
+      companyId: $companyId
+      externalDashboardId: $externalDashboardId
+      name: $name
+      filters: $filters
+      workspaceId: $workspaceId
+    }
+  ) {
+    companyId
+    externalDashboardId
+    id
+    name
+    filters
+    workspaceId
+    layout
+    companyWorkspace {
+      companyIntegrations {
+        id
+        name
+      }
+    }
+  }
+}

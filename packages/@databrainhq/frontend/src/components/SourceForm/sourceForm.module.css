@@ -1,0 +1,11 @@
+.source-container {
+  @apply dbn-w-[657px] dbn-h-full dbn-rounded dbn-border-[#E4E4E4] dbn-border-2 dbn-relative;
+}
+
+.source-header {
+  @apply dbn-sticky dbn-w-full dbn-h-10  dbn-bg-blue-100 dbn-px-5 dbn-flex dbn-items-center;
+}
+
+.source-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center;
+}

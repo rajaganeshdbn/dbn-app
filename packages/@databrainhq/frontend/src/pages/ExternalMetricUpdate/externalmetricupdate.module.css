@@ -1,0 +1,22 @@
+.main-container {
+  @apply dbn-w-full dbn-h-screen dbn-overflow-hidden dbn-bg-white dbn-flex dbn-flex-col;
+}
+
+.main-wrapper {
+  @apply dbn-w-full dbn-h-[90%] dbn-flex;
+}
+
+.loader-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-overflow-hidden;
+}
+
+.alt-container {
+  @apply dbn-w-full dbn-h-screen dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+.alt-wrapper {
+  @apply dbn-w-96 dbn-h-40 dbn-flex dbn-flex-col dbn-gap-5 dbn-text-center;
+}
+
+.collapseButton {
+  @apply dbn-absolute -dbn-right-3 dbn-w-7 dbn-h-7 dbn-flex dbn-justify-center dbn-items-center dbn-top-5 dbn-rounded-full dbn-z-10 dbn-transition-all dbn-duration-200;
+}

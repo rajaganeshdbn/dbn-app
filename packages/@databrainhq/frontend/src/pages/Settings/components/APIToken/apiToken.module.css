@@ -1,0 +1,35 @@
+.settings-container {
+  @apply dbn-w-full dbn-h-full dbn-p-10 dbn-flex dbn-flex-col dbn-gap-5;
+}
+
+.token-container {
+  @apply dbn-w-full dbn-p-10;
+}
+
+.token-alt-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-p-5;
+}
+
+.token-alt-wrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-3 dbn-items-center;
+}
+
+.buttons-container {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-border-t dbn-divide-solid dbn-py-2 dbn-mt-4 dbn-h-16;
+}
+
+.tokenModal-body {
+  @apply dbn-w-full dbn-overflow-y-auto dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+
+.tableDiv {
+  @apply dbn-w-full dbn-border dbn-divide-solid dbn-rounded-lg;
+}
+
+.table {
+  @apply dbn-w-full;
+}
+
+.tableHead {
+  @apply dbn-bg-[#F9FAFB] dbn-h-10;
+}

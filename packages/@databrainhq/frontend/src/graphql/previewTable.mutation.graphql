@@ -1,0 +1,24 @@
+mutation PreviewTable(
+  $tableName: String = ""
+  $limit: Int = 10
+  $integrationId: String = ""
+  $integrationName: String = ""
+) {
+  previewTable(
+    input: {
+      tableName: $tableName
+      limit: $limit
+      integrationId: $integrationId
+      integrationName: $integrationName
+    }
+  ) {
+    data {
+      data
+      isError
+      name
+    }
+    error {
+      message
+    }
+  }
+}

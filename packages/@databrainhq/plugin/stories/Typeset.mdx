@@ -1,0 +1,124 @@
+import React from "react";
+import { Meta, Typeset } from '@storybook/blocks';
+import { linkTo } from '@storybook/addon-links';
+
+<Meta title="Elements/Typography" />
+
+export const typography = {
+  type: {
+    primary: 'Inter',
+  },
+  weight: {
+    normal: '400',
+    medium: '500',
+    semibold: '600',
+    bold: '700',
+    extraBold: '800',
+  },
+  size: {
+    xs: 12,
+    sm: 14,
+    md: 16,
+    lg: 18,
+    xl: 22,
+    '2xl': 28,
+    '3xl': 32,
+    '4xl': 36,
+  },
+};
+
+export const SampleText =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** Inter
+
+**Weights:** 400(regular), 500(medium), 600(semibold), 700(bold), 800(extrabold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.xs),
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+    Number(typography.size.xl),
+    Number(typography.size['2xl']),
+    Number(typography.size['3xl']),
+    Number(typography.size['4xl']),
+  ]}
+  fontWeight={typography.weight.normal}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Font Weight: 400(normal)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+  ]}
+  fontWeight={typography.weight.normal}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Font Weight: 500(medium)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+  ]}
+  fontWeight={typography.weight.medium}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Font Weight: 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+  ]}
+  fontWeight={typography.weight.semibold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Font Weight: 700(bold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Font Weight: 800(extrabold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.sm),
+    Number(typography.size.md),
+    Number(typography.size.lg),
+  ]}
+  fontWeight={typography.weight.extraBold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Usage
+
+Checkout the <span style={{color: 'blue', cursor: 'pointer'}} onClick={linkTo('components/Text')}>Text component</span> for more info.
+
+##

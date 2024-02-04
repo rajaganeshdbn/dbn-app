@@ -1,0 +1,3 @@
+.heading {
+  @apply dbn-flex dbn-justify-between dbn-gap-5 dbn-m-2 dbn-bg-gray-100 dbn-p-2 -dbn-mt-2;
+}

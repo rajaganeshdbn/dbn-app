@@ -1,0 +1,197 @@
+.table-loader-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-items-center dbn-justify-center dbn-overflow-hidden;
+}
+.tableData {
+  @apply dbn-w-[100%] dbn-h-full dbn-overflow-hidden dbn-border-b dbn-border-secondary;
+}
+.tableScroll {
+  @apply dbn-w-full dbn-h-full dbn-overflow-auto;
+}
+.tableHeadCol {
+  @apply dbn-w-64 !dbn-min-w-[32px] dbn-py-3 dbn-px-2 dbn-text-gray-500 dbn-bg-white dbn-truncate dbn-relative dbn-text-xs !dbn-font-bold hover:dbn-bg-gray;
+}
+.tableHeadCol:hover > .resizer {
+  @apply dbn-bg-secondary;
+}
+.resizer {
+  @apply dbn-absolute dbn-right-0 dbn-top-0 dbn-h-full dbn-w-1 dbn-bg-transparent dbn-cursor-col-resize dbn-select-none dbn-touch-none;
+}
+.resizing {
+  @apply dbn-bg-gray-300;
+}
+.tableRowCol {
+  @apply dbn-w-64 !dbn-min-w-[32px] dbn-h-full dbn-truncate dbn-py-4 dbn-px-2 dbn-font-semibold dbn-text-text-primary-color;
+}
+.tableBorderRight {
+  @apply dbn-border-r dbn-border-secondary;
+}
+.tableBorderRight:last-child {
+  @apply dbn-border-r-0;
+}
+
+.tableBorderBottom {
+  @apply dbn-border-b dbn-border-secondary;
+}
+.truncateText {
+  @apply dbn-truncate;
+}
+
+.row {
+  @apply dbn-sticky dbn-top-0 dbn-bg-gray-50 dbn-overflow-hidden dbn-border-b dbn-border-secondary;
+}
+.container {
+  @apply dbn-h-full dbn-shadow dbn-relative dbn-flex dbn-border dbn-border-secondary dbn-rounded dbn-overflow-hidden;
+}
+.table {
+  @apply dbn-w-full dbn-table-fixed dbn-visible;
+}
+.previewTable {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-flex-col;
+}
+.preview {
+  @apply dbn-w-full dbn-flex dbn-justify-between dbn-items-center dbn-py-2.5 dbn-px-5 dbn-border-b dbn-border-secondary;
+}
+.searchButton {
+  @apply dbn-w-full dbn-flex dbn-items-center dbn-justify-end dbn-p-5;
+}
+.previewText {
+  @apply dbn-text-base;
+}
+.noData {
+  @apply dbn-w-full dbn-h-[450px] dbn-flex dbn-flex-col dbn-items-center dbn-justify-center dbn-p-5 -dbn-mt-32;
+}
+.error {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-h-[300px] dbn-w-full;
+}
+.errorMsg {
+  @apply dbn-text-error;
+}
+.tableIcon {
+  @apply dbn-text-primary-light dbn-mb-3;
+}
+.stripedRow {
+  @apply dbn-bg-gray-50;
+}
+.rowHover {
+  @apply hover:dbn-bg-gray-100 dbn-transition-all dbn-duration-200;
+}
+.searchContainer {
+  @apply dbn-flex dbn-space-x-2;
+}
+.sortButton {
+  @apply dbn-w-full dbn-cursor-pointer dbn-select-none dbn-flex dbn-flex-row dbn-justify-center dbn-items-center;
+}
+.searchTab {
+  @apply dbn-relative dbn-h-8;
+}
+.searchTabInput {
+  @apply dbn-w-56 dbn-h-full dbn-border dbn-border-secondary dbn-p-2 dbn-text-base dbn-rounded focus:dbn-outline-none;
+}
+.searchTabIcon {
+  @apply dbn-absolute dbn-top-1/2 -dbn-translate-y-1/2 dbn-right-2 dbn-text-gray-200;
+}
+.noDataHead {
+  @apply dbn-mb-2 -dbn-mt-28;
+}
+.noDataBody {
+  @apply dbn-w-96 dbn-text-center;
+}
+.showSort {
+  @apply dbn-block;
+}
+.sortIcon {
+  @apply dbn-text-2xl;
+}
+.noSort {
+  @apply dbn-hidden;
+}
+.pagination {
+  @apply dbn-flex dbn-items-center dbn-gap-2 dbn-justify-between dbn-py-2.5 dbn-px-4;
+}
+.rowStyle {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+.rowText {
+  @apply dbn-text-xs dbn-w-24 dbn-flex dbn-flex-col dbn-text-client-text;
+}
+.rowsDropdown {
+  @apply dbn-h-8;
+}
+.pageStyle {
+  @apply dbn-flex dbn-items-center dbn-gap-1 dbn-text-xs;
+}
+.buttonContainer {
+  @apply dbn-flex dbn-gap-1 dbn-select-none;
+}
+.button,
+.fullScreenBtn {
+  @apply dbn-flex dbn-items-center dbn-justify-center dbn-text-client-text dbn-text-xs disabled:dbn-cursor-not-allowed disabled:dbn-opacity-50 dbn-border dbn-border-secondary;
+}
+
+.btnHover {
+  @apply dbn-w-10 dbn-h-10 dbn-rounded dbn-border dbn-border-secondary hover:dbn-bg-gray-50 active:dbn-bg-gray-100;
+}
+
+.fullScreenBtn {
+  @apply dbn-px-2 dbn-py-[9px] dbn-rounded !dbn-bg-white;
+}
+
+.button:first-child {
+  @apply dbn-rounded dbn-rounded-r-none;
+}
+
+.button:first-child > :nth-child(2) {
+  @apply dbn-border-l dbn-border-secondary;
+}
+
+.button:last-child {
+  @apply dbn-rounded dbn-rounded-l-none;
+}
+
+.button:last-child > :nth-child(2) {
+  @apply dbn-border-l dbn-border-secondary;
+}
+
+.button > * {
+  @apply dbn-px-2 dbn-py-2.5;
+}
+.paginationWrapper {
+  @apply dbn-list-none dbn-flex;
+}
+.current {
+  @apply dbn-absolute -dbn-m-px dbn-h-px dbn-w-px dbn-overflow-hidden dbn-whitespace-nowrap dbn-border-0 dbn-p-0 [clip:dbn-rect(0,0,0,0)];
+}
+.textTruncate {
+  @apply dbn-truncate;
+}
+.badge {
+  @apply dbn-border dbn-border-secondary dbn-bg-gray-100 dbn-rounded-lg dbn-my-1 dbn-px-2 dbn-mr-1;
+}
+.list {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-1;
+}
+.badgeDiv {
+  @apply dbn-w-full dbn-flex dbn-gap-1;
+}
+.listItem {
+  @apply dbn-w-2 dbn-h-2 dbn-rounded-full dbn-bg-black;
+}
+.listItemDiv {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+.truncateIcon {
+  @apply dbn-h-3 dbn-w-4 dbn-text-gray-600 dbn-border dbn-border-gray-400 dbn-rounded-md dbn-ml-4 dbn-flex dbn-items-center dbn-justify-center;
+}
+.loadMore {
+  @apply dbn-w-full dbn-text-primary dbn-flex dbn-justify-center dbn-items-center dbn-gap-2 !important;
+}
+.loadMoreIcon {
+  @apply -dbn-rotate-90 dbn-w-4 dbn-h-4;
+}
+.listVal {
+  @apply dbn-flex dbn-flex-wrap dbn-break-all dbn-whitespace-pre-line;
+}
+
+.isFullScreenEnabled {
+  @apply dbn-w-[38px] dbn-h-[40px];
+}

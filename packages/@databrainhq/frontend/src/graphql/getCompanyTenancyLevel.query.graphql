@@ -1,0 +1,5 @@
+query CompanyTenancyLevel($id: uuid = "") {
+  companies_by_pk(id: $id) {
+    tenancyLevel
+  }
+}

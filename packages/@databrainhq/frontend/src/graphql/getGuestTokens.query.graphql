@@ -1,0 +1,14 @@
+query GetGuestTokens($companyId: uuid!, $clientId: String!) {
+  guestTokens(
+    where: {
+      companyId: { _eq: $companyId }
+      clientId: { _eq: $clientId }
+      expire: { _is_null: true }
+    }
+  ) {
+    id
+    clientId
+    companyId
+    params
+  }
+}

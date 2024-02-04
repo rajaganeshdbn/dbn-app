@@ -1,0 +1,17 @@
+mutation DatasetMetricCreation(
+  $cId: String = ""
+  $configuration: json = ""
+  $id: String = ""
+) {
+  datasetMetricCreation(
+    input: { configuration: $configuration, id: $id, cId: $cId }
+  ) {
+    data
+    error {
+      message
+    }
+    metaData
+    query
+    timeTaken
+  }
+}

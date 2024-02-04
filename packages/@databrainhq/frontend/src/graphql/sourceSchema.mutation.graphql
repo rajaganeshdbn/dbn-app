@@ -1,0 +1,5 @@
+query SourceSchema($sourceId: String = "") {
+  sourceSchema(input: { sourceId: $sourceId }) {
+    data
+  }
+}

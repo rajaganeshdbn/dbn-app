@@ -1,0 +1,21 @@
+query MetricsList($id: uuid = "") {
+  metrics(where: { companyId: { _eq: $id } }) {
+    actorId
+    createdAt
+    description
+    id
+    lock
+    name
+    publishType
+    query
+    trackLineage
+    updatedAt
+    companyId
+    verify
+    chartOption
+    dbName
+    inputFields
+    metricQuery
+    outputColumns
+  }
+}

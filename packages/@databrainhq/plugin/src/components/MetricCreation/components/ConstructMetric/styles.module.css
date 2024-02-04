@@ -1,0 +1,13 @@
+.container {
+  @apply dbn-w-[25%] dbn-h-full dbn-border-r dbn-divide-solid dbn-flex dbn-flex-col dbn-overflow-hidden;
+}
+
+.header {
+  @apply dbn-w-full dbn-h-[8%] dbn-flex dbn-gap-1 dbn-items-center dbn-text-lg dbn-p-3 dbn-border-b dbn-divide-solid dbn-justify-between;
+}
+.enableGroupBy {
+  @apply dbn-text-primary;
+}
+.enableGroupButton {
+  @apply dbn-text-sm;
+}

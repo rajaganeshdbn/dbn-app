@@ -1,0 +1,7 @@
+mutation updateExternalMetric($id: uuid = "", $set: externalMetrics_set_input) {
+  update_externalMetrics_by_pk(pk_columns: { id: $id }, _set: $set) {
+    id
+    updatedAt
+    name
+  }
+}

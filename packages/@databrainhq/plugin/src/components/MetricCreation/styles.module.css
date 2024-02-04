@@ -1,0 +1,19 @@
+.create-btn {
+  @apply dbn-p-2 dbn-border dbn-rounded-md dbn-text-lg hover:dbn-bg-gray-100 active:dbn-bg-transparent;
+}
+
+.metricCreateModalHeader {
+  @apply dbn-h-[9%] dbn-px-5 dbn-border-b dbn-border-b-secondary dbn-flex dbn-items-center;
+}
+
+.metricCreateModalContent {
+  @apply dbn-w-full dbn-h-[91%] dbn-flex;
+}
+
+.isShowMetricCreateModal {
+  @apply dbn-fixed dbn-top-0 dbn-left-0 dbn-w-full dbn-h-full dbn-z-[999] dbn-bg-white;
+}
+
+.query-modal {
+  @apply dbn-w-[400px] dbn-h-80 dbn-p-5 dbn-overflow-y-auto;
+}

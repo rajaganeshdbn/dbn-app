@@ -1,0 +1,42 @@
+.createGlobalFilterContainer {
+  @apply dbn-overflow-y-hidden dbn-w-[600px] dbn-max-h-[500px] dbn-min-h-[200px] dbn-flex dbn-flex-col dbn-gap-[22px];
+}
+
+.configOptionContainer {
+  @apply dbn-gap-2 dbn-overflow-y-auto dbn-p-5 dbn-max-h-[380px];
+}
+.configDropdownWrapper {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.configClientColumnContainer {
+  @apply dbn-w-full dbn-flex dbn-gap-4;
+}
+
+.configClientColumnWrapper {
+  @apply dbn-w-1/2 dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.configManualOptionContainer {
+  @apply dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.configManualOptionWrapper {
+  @apply dbn-flex dbn-gap-2 dbn-items-center;
+}
+
+.configRemoveManualOptionBtn {
+  @apply dbn-flex hover:dbn-bg-gray dbn-text-blue-700 dbn-items-center dbn-ml-auto dbn-w-fit dbn-text-sm;
+}
+
+.configAddOptionBtnContainer {
+  @apply dbn-w-full dbn-flex dbn-justify-end;
+}
+
+.configLabelContainer {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-1;
+}
+
+.applyOnContainer {
+  @apply dbn-gap-2 dbn-overflow-y-auto dbn-px-5 dbn-py-4 dbn-h-[380px];
+}

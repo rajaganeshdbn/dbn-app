@@ -1,0 +1,8 @@
+query GuestTokenParams($id: uuid = "") {
+  guestTokens_by_pk(id: $id) {
+    clientId
+    companyId
+    id
+    params
+  }
+}

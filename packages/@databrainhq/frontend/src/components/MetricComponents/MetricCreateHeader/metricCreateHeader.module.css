@@ -1,0 +1,39 @@
+.metricCreateHeader-container {
+  @apply dbn-w-full dbn-flex-[0_0_64px] dbn-px-4 dbn-flex dbn-items-center dbn-justify-between dbn-border-b dbn-border-secondary;
+}
+
+.metricCreateHeader-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.metricCreateHeader-alt-wrapper {
+  @apply dbn-w-[25%] dbn-h-full dbn-flex dbn-items-center dbn-gap-5;
+}
+
+.back-btn-container {
+  @apply dbn-flex dbn-gap-2 dbn-items-center dbn-h-10 dbn-px-3 dbn-rounded-md;
+}
+
+.save-btn {
+  @apply disabled:dbn-cursor-not-allowed dbn-px-2 dbn-flex dbn-gap-2 dbn-items-center dbn-justify-center;
+}
+
+.popup {
+  @apply dbn-rounded dbn-p-1 dbn-text-blue-h4 hover:dbn-bg-gray-200;
+}
+
+.popupIcon {
+  @apply dbn-w-6 dbn-h-6;
+}
+
+.popupMenu {
+  @apply dbn-p-1 dbn-w-36 dbn-flex dbn-flex-col;
+}
+
+.popupItem {
+  @apply dbn-p-2 dbn-w-36 dbn-flex dbn-gap-1 dbn-items-center dbn-text-xs dbn-text-blue-h7 dbn-font-normal hover:dbn-bg-gray-200 dbn-rounded;
+}
+
+.headerIconBtn {
+  @apply dbn-border dbn-border-secondary dbn-p-2 dbn-rounded-md;
+}

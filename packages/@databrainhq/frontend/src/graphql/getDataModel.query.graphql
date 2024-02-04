@@ -1,0 +1,15 @@
+query getDataModel($id: uuid = "") {
+  dataModels_by_pk(id: $id) {
+    companyId
+    createdAt
+    description
+    destinationId
+    id
+    lineageData
+    modelType
+    name
+    query
+    dbName
+    databaseName
+  }
+}

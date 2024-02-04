@@ -1,0 +1,7 @@
+.schema-container {
+  @apply dbn-w-60 dbn-h-full dbn-flex dbn-flex-col  dbn-border dbn-divide-solid dbn-rounded-lg;
+}
+
+.schema-tree-container {
+  @apply dbn-bg-white dbn-border-blue-h1 dbn-shadow-bs-2 dbn-rounded-lg dbn-border dbn-mb-2;
+}

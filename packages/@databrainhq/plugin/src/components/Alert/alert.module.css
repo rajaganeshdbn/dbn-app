@@ -1,0 +1,35 @@
+.alert {
+  @apply dbn-flex dbn-items-center dbn-justify-between dbn-p-2 dbn-rounded dbn-gap-1;
+}
+
+.primary {
+  @apply dbn-border-primary dbn-bg-primary-light !important;
+}
+
+.warning {
+  @apply dbn-border-warning dbn-bg-warning-light !important;
+}
+
+.error {
+  @apply dbn-border-error dbn-bg-error-light !important;
+}
+
+.info {
+  @apply dbn-text-infoAlert dbn-bg-infoAlertLight;
+}
+
+.success {
+  @apply dbn-border-success dbn-bg-success-light !important;
+}
+
+.alertTextContent {
+  @apply dbn-px-1 dbn-flex dbn-items-center dbn-w-full dbn-gap-2 dbn-text-xs dbn-font-sans;
+}
+
+.alertText {
+  @apply dbn-w-full dbn-font-normal;
+}
+
+.alertButtons {
+  @apply dbn-flex dbn-justify-between dbn-items-center dbn-gap-2;
+}

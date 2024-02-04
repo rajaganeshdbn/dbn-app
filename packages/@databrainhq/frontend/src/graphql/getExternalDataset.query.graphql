@@ -1,0 +1,13 @@
+query ExternalDataset($id: uuid = "") {
+  externalDatasets_by_pk(id: $id) {
+    clientColumn
+    columns
+    companyId
+    createdAt
+    id
+    tableName
+    type
+    updatedAt
+    query
+  }
+}

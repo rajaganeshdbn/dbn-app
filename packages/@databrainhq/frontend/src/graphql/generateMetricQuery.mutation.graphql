@@ -1,0 +1,5 @@
+mutation GenerateMetricQuery($inputData: json = "") {
+  generateMetricQuery(input: { inputData: $inputData }) {
+    query
+  }
+}

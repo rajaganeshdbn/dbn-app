@@ -1,0 +1,130 @@
+.outputTab-container {
+  @apply dbn-w-full dbn-h-[100%] dbn-overflow-auto dbn-flex dbn-flex-col;
+}
+
+.outputTab-header-container {
+  @apply dbn-w-full dbn-h-[9%] dbn-flex dbn-justify-between dbn-items-center;
+}
+
+.outputTab-header-tabs {
+  @apply dbn-flex dbn-items-center dbn-w-[75%] dbn-h-full;
+}
+
+.outputTab-header-features {
+  @apply dbn-flex dbn-items-center dbn-w-[25%] dbn-h-full dbn-justify-end;
+}
+
+.time-container {
+  @apply dbn-flex dbn-flex-row dbn-items-center dbn-gap-1;
+}
+
+.outputTab-body {
+  @apply dbn-h-[90%] dbn-w-full dbn-flex dbn-border dbn-divide-solid;
+}
+.searchCommand {
+  @apply dbn-fixed dbn-inset-0 dbn-bg-slate-500/50 dbn-z-10 dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.metricFilter {
+  @apply dbn-w-60;
+}
+
+.visualization-tab {
+  @apply dbn-h-[70%] dbn-w-full dbn-flex dbn-flex-col dbn-gap-3;
+}
+
+.visualization-tab-collapsed {
+  @apply dbn-hidden;
+}
+
+.table-tab {
+  @apply dbn-h-[500px] dbn-w-full;
+}
+
+.table-tab-expanded {
+  @apply dbn-h-full;
+}
+
+.seriesFloatingDropdown {
+  @apply dbn-w-32;
+}
+
+.buttonContainer {
+  @apply dbn-w-full dbn-h-[68px] dbn-py-4 dbn-flex dbn-flex-row dbn-justify-between dbn-items-center dbn-px-6;
+}
+.buttonWrapper {
+  @apply dbn-flex dbn-gap-4 dbn-items-center;
+}
+
+.selectionContainer {
+  @apply dbn-w-full dbn-border-b dbn-border-secondary dbn-pr-2 dbn-flex dbn-h-16 dbn-relative;
+}
+
+.selectionContainer:first-child {
+  @apply dbn-z-foreground;
+}
+
+.selectedCol {
+  @apply dbn-w-[120px] dbn-shrink-0 dbn-flex dbn-justify-center dbn-border-r dbn-border-secondary dbn-items-center;
+}
+
+.listVal {
+  @apply dbn-w-auto dbn-px-2 dbn-py-1 dbn-flex dbn-gap-0.5 dbn-items-center dbn-justify-center dbn-font-semibold dbn-bg-gray dbn-rounded-lg dbn-text-xs;
+}
+
+.dragPreview {
+  @apply dbn-max-w-[60px] dbn-truncate dbn-px-2 dbn-py-0.5 dbn-inline-block dbn-font-semibold dbn-bg-gray dbn-rounded-lg dbn-text-xs;
+}
+
+.removeColumn {
+  @apply dbn-text-xxs dbn-ml-2 dbn-hidden;
+}
+
+.listVal:hover .removeColumn {
+  @apply dbn-inline-block;
+}
+.listContainer {
+  @apply dbn-flex dbn-w-full dbn-flex-wrap dbn-items-center dbn-gap-4 dbn-gap-y-5 dbn-px-4 dbn-py-4 dbn-bg-white;
+  transition: margin 150ms ease-in-out, height 150ms ease-in-out,
+    width 150ms ease-in-out;
+}
+
+.DroppableZone {
+  @apply dbn-flex dbn-w-[calc(100%-120px)] dbn-gap-4 dbn-justify-between;
+}
+.customConfigEditor {
+  @apply dbn-w-full dbn-h-[150px] dbn-overflow-y-auto;
+}
+
+.createSqlTab {
+  @apply dbn-flex dbn-flex-col dbn-gap-[10px];
+}
+.sqlModal {
+  @apply dbn-flex dbn-p-4 dbn-rounded-md dbn-bg-gray dbn-border dbn-border-secondary dbn-flex-col dbn-gap-3;
+}
+
+.collapseButton {
+  @apply dbn-bg-white dbn-z-overlay dbn-cursor-pointer dbn-border dbn-border-secondary dbn-absolute dbn-rounded -dbn-bottom-2.5 dbn-left-1/2 -dbn-translate-x-1/2;
+}
+
+.sqlHoverBtn {
+  @apply dbn-flex dbn-items-center dbn-relative dbn-w-[68px] dbn-h-16;
+}
+
+.subValue {
+  @apply dbn-text-sm dbn-font-lato dbn-font-normal dbn-text-subValue;
+}
+
+.chartFilterContent {
+  @apply dbn-w-[500px] dbn-max-h-[550px] dbn-overflow-hidden dbn-pb-2;
+}
+
+.accordionContent {
+  @apply dbn-flex-col dbn-w-full dbn-flex dbn-items-center dbn-gap-2 dbn-p-6;
+}
+.manualOptionSwitch {
+  @apply dbn-flex dbn-gap-2 dbn-w-full dbn-items-center dbn-justify-between;
+}
+.manualOptionSwitchOne {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-justify-end;
+}

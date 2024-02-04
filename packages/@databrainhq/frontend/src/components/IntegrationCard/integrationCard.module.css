@@ -1,0 +1,23 @@
+.integrationCard-container {
+  @apply dbn-w-[130px] dbn-h-[130px] dbn-bg-white hover:dbn-shadow-bs-13 dbn-rounded-md dbn-border dbn-p-5 dbn-border-secondary dbn-shadow-bs-7 dbn-flex dbn-flex-col dbn-justify-center dbn-cursor-pointer;
+}
+
+.integrationCard-inner-container {
+  @apply dbn-w-full dbn-h-full dbn-flex dbn-py-2 dbn-flex-col dbn-items-center dbn-justify-center;
+}
+
+.integration-filter-container {
+  @apply dbn-absolute dbn-top-[83px] dbn-right-64;
+}
+
+.integration-filter-btn {
+  @apply dbn-border dbn-border-[#EAEEFC] dbn-rounded dbn-relative dbn-flex dbn-items-center dbn-justify-center;
+}
+
+.integration-search-container {
+  @apply dbn-absolute dbn-top-[77px] dbn-right-5;
+}
+
+.integration-filter-warapper {
+  @apply dbn-absolute dbn-right-0 dbn-bg-white dbn-p-2 dbn-w-52 dbn-rounded dbn-flex dbn-flex-col dbn-shadow-md;
+}

@@ -1,0 +1,9 @@
+mutation DeleteExternalMetricRlsFilters($metricId: uuid!) {
+  delete_externalMetricsRlsFilters(
+    where: { externalMetricId: { _eq: $metricId } }
+  ) {
+    returning {
+      id
+    }
+  }
+}

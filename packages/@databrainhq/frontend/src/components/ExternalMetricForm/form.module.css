@@ -1,0 +1,6 @@
+.wrapper {
+  @apply dbn-w-[500px] dbn-h-[400px] dbn-p-5 dbn-flex dbn-flex-col dbn-gap-[22px] dbn-overflow-y-auto;
+}
+.buttons-container{
+  @apply dbn-flex dbn-items-center dbn-gap-5 dbn-justify-end dbn-border-t dbn-border-slate-300 dbn-px-5 dbn-py-3 dbn-mt-4;
+}

@@ -1,0 +1,27 @@
+mutation AddOrganization(
+  $companyId: uuid!
+  $tableName: String!
+  $tablePrimaryKeyColumn: String!
+  $tableClientNameColumn: String!
+  $workspaceId: uuid = ""
+) {
+  insert_organizations_one(
+    object: {
+      companyId: $companyId
+      tableName: $tableName
+      tablePrimaryKeyColumn: $tablePrimaryKeyColumn
+      tableClientNameColumn: $tableClientNameColumn
+      workspaceId: $workspaceId
+    }
+    on_conflict: {
+      constraint: organizations_workspaceId_key
+      update_columns: [tableName, tableClientNameColumn, tablePrimaryKeyColumn]
+    }
+  ) {
+    id
+    tableName
+    tablePrimaryKeyColumn
+    tableClientNameColumn
+    workspaceId
+  }
+}

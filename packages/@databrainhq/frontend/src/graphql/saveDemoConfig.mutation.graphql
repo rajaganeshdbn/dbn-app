@@ -1,0 +1,27 @@
+mutation SaveDemoConfig($object: demoTheme_insert_input!) {
+  insert_demoTheme_one(
+    object: $object
+    on_conflict: {
+      constraint: demoTheme_companyId_key
+      update_columns: [
+        dashboardTitle
+        primaryColor
+        logoUrl
+        textColor
+        navbarColor
+        highlightColor
+        settings
+      ]
+    }
+  ) {
+    id
+    companyId
+    primaryColor
+    dashboardTitle
+    textColor
+    logoUrl
+    navbarColor
+    highlightColor
+    settings
+  }
+}

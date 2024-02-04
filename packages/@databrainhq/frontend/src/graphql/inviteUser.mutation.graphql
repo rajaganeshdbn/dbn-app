@@ -1,0 +1,25 @@
+mutation InviteUser(
+  $companyId: String = ""
+  $email: String = ""
+  $firstName: String = ""
+  $lastName: String = ""
+  $invitedBy: String = ""
+  $isAdmin: Boolean = false
+  $appUrl: String = ""
+) {
+  inviteUser(
+    input: {
+      companyId: $companyId
+      email: $email
+      firstName: $firstName
+      lastName: $lastName
+      invitedBy: $invitedBy
+      isAdmin: $isAdmin
+      appUrl: $appUrl
+    }
+  ) {
+    error
+    success
+    id
+  }
+}

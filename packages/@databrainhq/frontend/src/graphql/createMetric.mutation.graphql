@@ -1,0 +1,53 @@
+mutation CreateMetric(
+  $actorId: uuid = ""
+  $chartOption: jsonb = ""
+  $description: String = ""
+  $lock: Boolean = false
+  $name: String = ""
+  $publishType: String = ""
+  $query: String = ""
+  $trackLineage: Boolean = false
+  $companyId: uuid = ""
+  $verify: Boolean = false
+  $dbName: String = ""
+  $inputFields: jsonb = ""
+  $metricQuery: String = ""
+  $outputColumns: String = ""
+) {
+  insert_metrics_one(
+    object: {
+      actorId: $actorId
+      chartOption: $chartOption
+      description: $description
+      lock: $lock
+      name: $name
+      publishType: $publishType
+      query: $query
+      trackLineage: $trackLineage
+      companyId: $companyId
+      verify: $verify
+      dbName: $dbName
+      inputFields: $inputFields
+      metricQuery: $metricQuery
+      outputColumns: $outputColumns
+    }
+  ) {
+    actorId
+    chartOption
+    description
+    id
+    name
+    query
+    companyId
+    verify
+    updatedAt
+    trackLineage
+    publishType
+    lock
+    createdAt
+    dbName
+    inputFields
+    metricQuery
+    outputColumns
+  }
+}

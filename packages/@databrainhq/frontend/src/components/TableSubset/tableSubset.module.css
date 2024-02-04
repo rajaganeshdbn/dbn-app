@@ -1,0 +1,48 @@
+.table {
+  @apply dbn-w-full;
+}
+
+.tableHead {
+  @apply dbn-sticky dbn-top-0 dbn-bg-[#F9FAFB] dbn-h-10 dbn-w-full;
+}
+
+.data {
+  @apply dbn-w-full dbn-h-14 hover:dbn-bg-gray dbn-border-t dbn-border-[#EAEEFC];
+}
+
+.columnTab-container {
+  @apply dbn-gap-1 dbn-flex dbn-items-center dbn-w-full;
+}
+
+.tableDiv {
+  @apply dbn-w-full dbn-max-h-[380px] dbn-border dbn-border-secondary dbn-rounded-lg dbn-rounded-b-none dbn-overflow-auto;
+}
+
+.tableTab-container {
+  @apply dbn-flex dbn-w-full dbn-items-center dbn-gap-2;
+}
+
+.columnTab-container {
+  @apply dbn-gap-1 dbn-flex dbn-items-center dbn-w-full;
+}
+.dataset-header {
+  @apply dbn-w-full dbn-py-2 dbn-px-4 dbn-rounded-lg dbn-rounded-t-none dbn-flex dbn-justify-between dbn-border dbn-border-t-0 dbn-border-secondary dbn-items-center;
+}
+.search {
+  @apply dbn-w-1/2;
+}
+.createButton {
+  @apply dbn-border-2 dbn-divide-solid dbn-h-10 dbn-flex dbn-gap-1 dbn-items-center dbn-justify-center dbn-px-4 dbn-rounded;
+}
+
+.popoverMenuBtn {
+  @apply dbn-flex dbn-flex-col dbn-p-2;
+}
+
+.popoverMenuBtn > * {
+  @apply dbn-px-2 dbn-py-1.5;
+}
+
+.popoverMenuBtn > *:hover {
+  @apply dbn-bg-gray-100 dbn-rounded-sm;
+}

@@ -1,0 +1,8 @@
+mutation UpdateClickActions($id: uuid = "", $clickActions: json = "") {
+  update_externalMetrics_by_pk(
+    pk_columns: { id: $id }
+    _set: { clickActions: $clickActions }
+  ) {
+    id
+  }
+}

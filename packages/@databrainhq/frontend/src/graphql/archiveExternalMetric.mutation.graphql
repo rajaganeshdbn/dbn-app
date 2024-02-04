@@ -1,0 +1,14 @@
+mutation ArchiveExternalMetric(
+  $id: uuid!
+  $updatedAt: timestamptz = "now()"
+  $isArchived: Boolean!
+) {
+  update_externalMetrics_by_pk(
+    pk_columns: { id: $id }
+    _set: { isArchived: $isArchived, updatedAt: $updatedAt }
+  ) {
+    id
+    isArchived
+    updatedAt
+  }
+}

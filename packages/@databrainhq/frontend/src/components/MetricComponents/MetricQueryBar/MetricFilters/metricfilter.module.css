@@ -1,0 +1,13 @@
+.addButton {
+  @apply dbn-text-base dbn-h-10 dbn-border-2 dbn-py-2 dbn-px-16 dbn-border-dashed dbn-rounded dbn-flex dbn-items-center dbn-justify-center dbn-gap-1 hover:dbn-text-[#5865F6] hover:dbn-bg-[#5865F6] hover:dbn-bg-opacity-[0.15] hover:dbn-border-[#5865F6];
+}
+.checkboxTooltip {
+  @apply dbn-absolute dbn-right-0 dbn-top-1.5;
+}
+.checkboxTooltipWrapper {
+  @apply dbn-relative dbn-w-full;
+}
+
+.appFilterCheckBox {
+  @apply dbn-w-32 dbn-flex dbn-gap-2;
+}

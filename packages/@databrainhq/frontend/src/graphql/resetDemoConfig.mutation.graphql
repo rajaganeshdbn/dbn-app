@@ -1,0 +1,5 @@
+mutation ResetDemoConfig($id: uuid!) {
+  delete_demoTheme_by_pk(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,13 @@
+mutation UpdateExternalDashboardFilters($id: uuid = "", $filters: jsonb = []) {
+  update_externalDashboards_by_pk(
+    pk_columns: { id: $id }
+    _set: { filters: $filters }
+  ) {
+    id
+    filters
+    name
+    externalDashboardId
+    companyId
+    defaultClientId
+  }
+}

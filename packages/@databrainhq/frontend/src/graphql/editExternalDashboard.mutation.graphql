@@ -1,0 +1,15 @@
+mutation EditExternalDashboard(
+  $id: uuid! = ""
+  $set: externalDashboards_set_input!
+) {
+  update_externalDashboards_by_pk(pk_columns: { id: $id }, _set: $set) {
+    id
+    name
+    externalDashboardId
+    companyId
+    filters
+    defaultClientId
+    workspaceId
+    layout
+  }
+}

@@ -1,0 +1,21 @@
+overwrite: true
+schema:
+  - '${SCHEMA_PATH}':
+      headers:
+        x-hasura-admin-secret: '${SECRET_KEY}'
+        x-hasura-role: 'user'
+
+documents: 'src/graphql/*.graphql'
+generates:
+  src/utils/generated/graphql.ts:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-query'
+    config:
+      fetcher:
+        func: 'utils/fetcher#useFetcher'
+        isReactHook: true
+  ./graphql.schema.json:
+    plugins:
+      - 'introspection'

@@ -1,0 +1,39 @@
+.metricQueryBar-container {
+  @apply dbn-w-[25%] dbn-relative dbn-h-full dbn-overflow-y-hidden dbn-border-r dbn-divide-solid  dbn-overflow-x-hidden dbn-ml-[20%];
+}
+
+.metricQueryBar-header {
+  @apply dbn-h-16 dbn-border-b dbn-divide-solid dbn-flex dbn-items-center dbn-px-4 dbn-py-5 dbn-w-full dbn-justify-evenly;
+}
+
+.inputField-header {
+  @apply dbn-h-8 dbn-divide-solid dbn-flex dbn-items-center dbn-pl-5 dbn-w-full dbn-not-italic dbn-font-semibold dbn-text-sm dbn-leading-[1.125rem] dbn-text-blue-h7 dbn-capitalize;
+}
+
+.metricQueryBar-wrapper {
+  @apply dbn-w-full dbn-h-[90%] dbn-flex dbn-flex-col;
+}
+
+.query-tab {
+  @apply dbn-px-5 dbn-py-6 dbn-border-b dbn-divide-solid;
+}
+
+.tableTab-container {
+  @apply dbn-flex dbn-pl-2 dbn-w-full dbn-items-center dbn-gap-1;
+}
+
+.columnTab-container {
+  @apply dbn-flex dbn-pl-2 dbn-w-full dbn-items-center dbn-gap-2;
+}
+
+.selectedTableTab {
+  @apply dbn-w-[90%] dbn-p-2 dbn-flex dbn-flex-row dbn-bg-[#5865F61A] dbn-m-3 dbn-rounded-md;
+}
+
+.main-container {
+  @apply dbn-w-full dbn-relative dbn-h-full dbn-flex dbn-flex-col dbn-overflow-hidden;
+}
+
+.addButton {
+  @apply dbn-text-xs dbn-h-10 dbn-border-2 dbn-border-dashed dbn-flex dbn-items-center dbn-justify-center dbn-gap-1 hover:dbn-text-[#5865F6] hover:dbn-bg-[#5865F6] hover:dbn-bg-opacity-10 hover:dbn-border-[#5865F6] dbn-mb-2;
+}

@@ -1,0 +1,47 @@
+.addOrgTable-container {
+  @apply dbn-flex dbn-h-full dbn-pl-16;
+}
+
+.addOrgTable-desc {
+  @apply dbn-pb-20 dbn-pt-[120px] dbn-flex dbn-flex-col dbn-gap-6 dbn-overflow-auto dbn-justify-center 2xl:dbn-py-20;
+}
+
+.addOrgTable-table {
+  @apply dbn-w-full dbn-h-full dbn-pb-5 dbn-pt-10 dbn-px-16;
+}
+
+.addOrgTable-wrapper {
+  @apply dbn-w-full dbn-h-full dbn-border dbn-divide-solid dbn-py-10 dbn-px-10 dbn-border-t-2 dbn-border-t-blue-600 dbn-flex dbn-flex-col  dbn-gap-1;
+}
+
+.tl-dropdown {
+  @apply dbn-w-full dbn-mt-5;
+}
+
+.addOrgTable-selectedTableInfo {
+  @apply dbn-h-32 dbn-mt-5 dbn-p-1 dbn-flex dbn-flex-col dbn-gap-2;
+}
+
+.addOrgTable-tableNotSelected {
+  @apply dbn-mt-5 dbn-w-96;
+}
+
+.addOrgTable-tableNotSelected > div {
+  @apply dbn-m-0;
+}
+
+/*  */
+
+.tableSettings {
+  @apply dbn-w-[50%] dbn-flex dbn-items-center dbn-justify-center dbn-pb-16 dbn-sticky dbn-top-0 dbn-h-screen;
+}
+
+.selectTableInfo {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-pl-10 dbn-pr-10 dbn-justify-center dbn-relative;
+}
+.backArrow {
+  @apply dbn-bg-white dbn-flex dbn-justify-center dbn-p-2 dbn-cursor-pointer dbn-border dbn-border-secondary dbn-rounded-full;
+}
+.collapseButton {
+  @apply dbn-w-7 dbn-h-7 dbn-absolute dbn-z-40 dbn-top-10 -dbn-left-10 dbn-cursor-pointer dbn-bg-white dbn-rounded-full dbn-border dbn-border-secondary dbn-flex dbn-items-center dbn-justify-center dbn-shadow-bs-7;
+}

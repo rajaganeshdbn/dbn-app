@@ -1,0 +1,5 @@
+mutation UpdateCompanyRole($id: uuid! = "", $set: companyRoles_set_input!) {
+  update_companyRoles_by_pk(pk_columns: { id: $id }, _set: $set) {
+    id
+  }
+}

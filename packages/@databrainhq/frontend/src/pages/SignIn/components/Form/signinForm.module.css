@@ -1,0 +1,18 @@
+.signin-container {
+  @apply sm:dbn-w-[448px] dbn-shadow-bs-8 dbn-border dbn-flex dbn-flex-col dbn-gap-6 dbn-border-gray-300 dbn-rounded-lg dbn-h-auto;
+}
+
+.signup-error-container{
+  @apply dbn-bg-red-100 dbn-p-2 dbn-border-2 dbn-border-red-200 dbn-flex dbn-gap-1 dbn-items-center dbn-justify-start dbn-px-6;
+}
+
+.forgot-password-text {
+  @apply dbn-not-italic dbn-text-sm dbn-leading-[1.063rem] dbn-py-2 dbn-w-full dbn-text-right dbn-font-lato dbn-font-semibold dbn-text-black dbn-opacity-50 dbn-no-underline;
+}
+
+.formLabel {
+  @apply dbn-w-full dbn-flex dbn-flex-col dbn-gap-2 dbn-items-center dbn-justify-center dbn-px-8 dbn-pt-8;
+}
+.formLabelWrapper {
+  @apply dbn-w-full dbn-h-5 dbn-flex dbn-flex-row dbn-gap-1 dbn-items-center dbn-justify-center;
+}

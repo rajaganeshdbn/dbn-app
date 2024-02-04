@@ -1,0 +1,41 @@
+mutation CreateDataset(
+  $query: String = ""
+  $dbName: String = ""
+  $companyId: uuid = ""
+  $databaseName: String = ""
+  $description: String = ""
+  $destinationId: String = ""
+  $lineageData: jsonb = ""
+  $modelType: String = ""
+  $name: String = ""
+  $workspaceId: uuid = ""
+) {
+  insert_dataModels_one(
+    object: {
+      companyId: $companyId
+      createdAt: "now()"
+      databaseName: $databaseName
+      dbName: $dbName
+      description: $description
+      destinationId: $destinationId
+      lineageData: $lineageData
+      modelType: $modelType
+      name: $name
+      query: $query
+      workspaceId: $workspaceId
+    }
+  ) {
+    companyId
+    createdAt
+    databaseName
+    dbName
+    description
+    id
+    lineageData
+    destinationId
+    modelType
+    name
+    query
+    workspaceId
+  }
+}

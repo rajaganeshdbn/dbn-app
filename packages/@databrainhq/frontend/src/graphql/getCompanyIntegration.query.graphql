@@ -1,0 +1,13 @@
+query CompanyIntegration($workspaceId: uuid = "") {
+  companyIntegrations(
+    where: {
+      workspaceId: { _eq: $workspaceId }
+      _and: { isAuthenticated: { _eq: true } }
+    }
+  ) {
+    companyId
+    id
+    integrationId
+    name
+  }
+}
