@@ -1,0 +1,44 @@
+name: Push App to Azure Container Registry
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+    # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Specify the Node.js version
+
+      # Install dependencies and build the React app
+      - name: Install Dependencies and Build
+        env:
+          VITE_IS_SELFHOSTED: false
+          # TODO: move encryption mutations in backend
+          #VITE_ENCRYPT_SECRET_KEY: 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6'
+        run: |
+          npm ci 
+          npm run build:app:staging
+          npm run build:demo
+          
+      - name: Login to Azure Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.AZ_UAT_ACR_REGISTRY }}.azurecr.io
+          username: ${{ secrets.AZ_UAT_ACR_USERNAME }}
+          password: ${{ secrets.AZ_UAT_ACR_PASSWORD }}
+
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.AZ_UAT_ACR_REGISTRY }}.azurecr.io/uat-app:latest .
+
+      - name: Push Docker image to Azure Container Registry
+        run: |
+            docker push ${{ secrets.AZ_UAT_ACR_REGISTRY }}.azurecr.io/uat-app:latest
